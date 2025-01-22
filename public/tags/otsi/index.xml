@@ -14,8 +14,18 @@
       <pubDate>Tue, 03 Dec 2024 00:00:00 +0000</pubDate>
       
       <guid>//localhost:1313/projects/1733255278396-otsi_mk2/</guid>
-      <description>This is an article dedicated to host all Otsi&amp;rsquo;s project logs. This project is too masive to keep it as one article so I decided to brake it into logs. Each project log is gonna be focused on a milestone.</description>
+      <description>&lt;p&gt;This is an article dedicated to host all Otsi&amp;rsquo;s project-logs. Otsi is too massive to keep her as one article so I decided to break it into individual logs. Each project-log is gonna be focused on a specific milestone.&lt;/p&gt;</description>
       <media:content xmlns:media="http://search.yahoo.com/mrss/" url="//localhost:1313/projects/1733255278396-otsi_mk2/featured.jpg" />
+    </item>
+    
+    <item>
+      <title>Otsi&#39;s PCB</title>
+      <link>//localhost:1313/otsi_mk2/1733255304617-otsi_pcb/</link>
+      <pubDate>Tue, 03 Dec 2024 00:00:00 +0000</pubDate>
+      
+      <guid>//localhost:1313/otsi_mk2/1733255304617-otsi_pcb/</guid>
+      <description>&lt;p&gt;This is first project-log of Otsi-mk2. Here I am going to focus on schematic and PCB. As well as try to explain to you how everything is supposed to work.&lt;/p&gt;</description>
+      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="//localhost:1313/otsi_mk2/1733255304617-otsi_pcb/featured.jpg" />
     </item>
     
     <item>
@@ -24,7 +34,7 @@
       <pubDate>Thu, 25 Jan 2024 00:00:00 +0000</pubDate>
       
       <guid>//localhost:1313/projects/1724773813548-otsi/</guid>
-      <description>Otsi is a winning design of a cyberpet made for Cyberdeck Cafe&amp;rsquo;s contest. Main objective of this contest was to build your personal companion that would need to be taken care of and would serve a real life purpose like helping you with everyday tasks.</description>
+      <description>&lt;p&gt;Otsi is a winning design of a cyberpet made for Cyberdeck Cafe&amp;rsquo;s contest. Main objective of this contest was to build your personal companion that would need to be taken care of and would serve a real life purpose like helping you with everyday tasks.&lt;/p&gt;</description>
       <media:content xmlns:media="http://search.yahoo.com/mrss/" url="//localhost:1313/projects/1724773813548-otsi/featured.jpg" />
     </item>
     

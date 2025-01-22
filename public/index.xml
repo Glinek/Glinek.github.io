@@ -14,7 +14,7 @@
       <pubDate>Tue, 03 Dec 2024 00:00:00 +0000</pubDate>
       
       <guid>//localhost:1313/projects/1733255278396-otsi_mk2/</guid>
-      <description>This is an article dedicated to host all Otsi&amp;rsquo;s project-logs. Otsi is too massive to keep her as one article so I decided to break it into individual logs. Each project-log is gonna be focused on a specific milestone.</description>
+      <description>&lt;p&gt;This is an article dedicated to host all Otsi&amp;rsquo;s project-logs. Otsi is too massive to keep her as one article so I decided to break it into individual logs. Each project-log is gonna be focused on a specific milestone.&lt;/p&gt;</description>
       <media:content xmlns:media="http://search.yahoo.com/mrss/" url="//localhost:1313/projects/1733255278396-otsi_mk2/featured.jpg" />
     </item>
     
@@ -24,7 +24,7 @@
       <pubDate>Tue, 03 Dec 2024 00:00:00 +0000</pubDate>
       
       <guid>//localhost:1313/otsi_mk2/1733255304617-otsi_pcb/</guid>
-      <description>This is first project-log of Otsi-mk2. Here I am going to focus on schematic and PCB. As well as try to explain to you how everything is supposed to work.</description>
+      <description>&lt;p&gt;This is first project-log of Otsi-mk2. Here I am going to focus on schematic and PCB. As well as try to explain to you how everything is supposed to work.&lt;/p&gt;</description>
       <media:content xmlns:media="http://search.yahoo.com/mrss/" url="//localhost:1313/otsi_mk2/1733255304617-otsi_pcb/featured.jpg" />
     </item>
     
@@ -34,7 +34,7 @@
       <pubDate>Sun, 20 Oct 2024 00:00:00 +0000</pubDate>
       
       <guid>//localhost:1313/projects/1729534794174-veytoy-desktop-timer/</guid>
-      <description>This is one of my one day projects. Created to help me keep focus without my phone or computer. It&amp;rsquo;s a simple timer that can also tell time. For maximum accuracy it syncs with wifi.</description>
+      <description>&lt;p&gt;This is one of my one day projects. Created to help me keep focus without my phone or computer. It&amp;rsquo;s a simple timer that can also tell time. For maximum accuracy it syncs with wifi.&lt;/p&gt;</description>
       <media:content xmlns:media="http://search.yahoo.com/mrss/" url="//localhost:1313/projects/1729534794174-veytoy-desktop-timer/featured.jpg" />
     </item>
     
@@ -44,7 +44,8 @@
       <pubDate>Sun, 29 Sep 2024 00:00:00 +0000</pubDate>
       
       <guid>//localhost:1313/projects/1727616024277-chloe---hackyeah2024/</guid>
-      <description>This is a project made in 24h during HackYeah2024 aka. Hackathon. Unfortunately She didn&amp;rsquo;t win but I&amp;rsquo;m sure that with a little bit of tweaking and better preparation next time, there is a huge chance to win.</description>
+      <description>&lt;p&gt;This is a project made in 24h during HackYeah2024 aka. Hackathon. Unfortunately She didn&amp;rsquo;t win but I&amp;rsquo;m sure that with a little bit of tweaking and better
+preparation next time, there is a huge chance to win.&lt;/p&gt;</description>
       <media:content xmlns:media="http://search.yahoo.com/mrss/" url="//localhost:1313/projects/1727616024277-chloe---hackyeah2024/featured.png" />
     </item>
     
@@ -54,7 +55,7 @@
       <pubDate>Tue, 30 Jul 2024 00:00:00 +0000</pubDate>
       
       <guid>//localhost:1313/projects/1725473865525-pelican-case-workstation/</guid>
-      <description>This is a 15kg pelican case that houses lab bench power supply, ethernet switch, second screen, charger for my laptop and much more. Also It&amp;rsquo;s incredible durable thanks to using a gun hard case.</description>
+      <description>&lt;p&gt;This is a 15kg pelican case that houses lab bench power supply, ethernet switch, second screen, charger for my laptop and much more. Also It&amp;rsquo;s incredible durable thanks to using a gun hard case.&lt;/p&gt;</description>
       <media:content xmlns:media="http://search.yahoo.com/mrss/" url="//localhost:1313/projects/1725473865525-pelican-case-workstation/featured.jpg" />
     </item>
     
@@ -64,7 +65,7 @@
       <pubDate>Sat, 15 Jun 2024 00:00:00 +0000</pubDate>
       
       <guid>//localhost:1313/projects/1725473930445-rc-car-mode/</guid>
-      <description>A mod for RC. Completely new remote based on LoRa, new and stronger battery, better H-Bridge. All of those improvements make it more pleasurable to drive. And don&amp;rsquo;t worry, with a little persistence It should be possible to mod any RC like that.</description>
+      <description>&lt;p&gt;A mod for RC. Completely new remote based on LoRa, new and stronger battery, better H-Bridge. All of those improvements make it more pleasurable to drive. And don&amp;rsquo;t worry, with a little persistence It should be possible to mod any RC like that.&lt;/p&gt;</description>
       <media:content xmlns:media="http://search.yahoo.com/mrss/" url="//localhost:1313/projects/1725473930445-rc-car-mode/featured.png" />
     </item>
     
@@ -74,7 +75,7 @@
       <pubDate>Sat, 30 Mar 2024 00:00:00 +0000</pubDate>
       
       <guid>//localhost:1313/projects/1724831487281-obsium-mk2/</guid>
-      <description>Obsium mk2 is an upgraded version of my beloved Obsium. New version comes with Raspberry Pi 5, 512GB SSD and much more. But those upgrades came at a cost of some functionalities of the previous version.</description>
+      <description>&lt;p&gt;Obsium mk2 is an upgraded version of my beloved Obsium. New version comes with Raspberry Pi 5, 512GB SSD and much more. But those upgrades came at a cost of some functionalities of the previous version.&lt;/p&gt;</description>
       <media:content xmlns:media="http://search.yahoo.com/mrss/" url="//localhost:1313/projects/1724831487281-obsium-mk2/featured.jpg" />
     </item>
     
@@ -84,7 +85,7 @@
       <pubDate>Thu, 25 Jan 2024 00:00:00 +0000</pubDate>
       
       <guid>//localhost:1313/projects/1724773813548-otsi/</guid>
-      <description>Otsi is a winning design of a cyberpet made for Cyberdeck Cafe&amp;rsquo;s contest. Main objective of this contest was to build your personal companion that would need to be taken care of and would serve a real life purpose like helping you with everyday tasks.</description>
+      <description>&lt;p&gt;Otsi is a winning design of a cyberpet made for Cyberdeck Cafe&amp;rsquo;s contest. Main objective of this contest was to build your personal companion that would need to be taken care of and would serve a real life purpose like helping you with everyday tasks.&lt;/p&gt;</description>
       <media:content xmlns:media="http://search.yahoo.com/mrss/" url="//localhost:1313/projects/1724773813548-otsi/featured.jpg" />
     </item>
     
@@ -94,7 +95,7 @@
       <pubDate>Fri, 15 Dec 2023 00:00:00 +0000</pubDate>
       
       <guid>//localhost:1313/projects/1725463418726-atrovel-calculator/</guid>
-      <description>Atrovel calculator is a project that originated from one of my schools lessons. We were learning how to use 4x4 button matrix and bored Simon decided that it would be a great idea to make a simple calculator.</description>
+      <description>&lt;p&gt;Atrovel calculator is a project that originated from one of my schools lessons. We were learning how to use 4x4 button matrix and bored Simon decided that it would be a great idea to make a simple calculator.&lt;/p&gt;</description>
       <media:content xmlns:media="http://search.yahoo.com/mrss/" url="//localhost:1313/projects/1725463418726-atrovel-calculator/featured.jpg" />
     </item>
     
@@ -104,7 +105,7 @@
       <pubDate>Tue, 01 Aug 2023 00:00:00 +0000</pubDate>
       
       <guid>//localhost:1313/projects/1724773805509-obsium/</guid>
-      <description>Cyberdecks serve a different purpose for everybody. Some create it purely for fun others try to make a perfect „laptop” like device to fulfil all of their needs. For me it is both.</description>
+      <description>&lt;p&gt;Cyberdecks serve a different purpose for everybody. Some create it purely for fun others try to make a perfect „laptop” like device to fulfil all of their needs. For me it is both.&lt;/p&gt;</description>
       <media:content xmlns:media="http://search.yahoo.com/mrss/" url="//localhost:1313/projects/1724773805509-obsium/featured.jpg" />
     </item>
     
@@ -114,7 +115,7 @@
       <pubDate>Mon, 20 Feb 2023 00:00:00 +0000</pubDate>
       
       <guid>//localhost:1313/projects/1725463405247-one-key-keyboard/</guid>
-      <description>This is yet another project made for a contest hosted by Cyberdeck Cafe. The objective was to create a keyboard that, as the name suggests, has only one button. Everything else was up to you.</description>
+      <description>&lt;p&gt;This is yet another project made for a contest hosted by Cyberdeck Cafe. The objective was to create a keyboard that, as the name suggests, has only one button. Everything else was up to you.&lt;/p&gt;</description>
       <media:content xmlns:media="http://search.yahoo.com/mrss/" url="//localhost:1313/projects/1725463405247-one-key-keyboard/featured.jpg" />
     </item>
     
@@ -124,7 +125,17 @@
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>//localhost:1313/about/</guid>
-      <description>Hi, I&amp;rsquo;m Simon #I&amp;rsquo;m an 18yo robotics engineering student. In school I mainly program PLCs (we have siemens s7-1200s) and industrial robots (in labs there are two kuka&amp;rsquo;s KR 4 R600, one kuka KR16 and three ABB collaborative robots).</description>
+      <description>&lt;h2 class=&#34;relative group&#34;&gt;Hi, I&amp;rsquo;m Simon 
+    &lt;div id=&#34;hi-im-simon&#34; class=&#34;anchor&#34;&gt;&lt;/div&gt;
+    
+    &lt;span
+        class=&#34;absolute top-0 w-6 transition-opacity opacity-0 ltr:-left-6 rtl:-right-6 not-prose group-hover:opacity-100&#34;&gt;
+        &lt;a class=&#34;group-hover:text-primary-300 dark:group-hover:text-neutral-700&#34;
+            style=&#34;text-decoration-line: none !important;&#34; href=&#34;#hi-im-simon&#34; aria-label=&#34;Anchor&#34;&gt;#&lt;/a&gt;
+    &lt;/span&gt;        
+    
+&lt;/h2&gt;
+&lt;p&gt;I&amp;rsquo;m an 18yo robotics engineering student. In school I mainly program PLCs (we have siemens s7-1200s) and industrial robots (in labs there are two kuka&amp;rsquo;s KR 4 R600, one kuka KR16 and three ABB collaborative robots). At home I love programming Arduinos/ESPs/RaspberryPis, 3D printing (my current 3d printer is Ender-3 S1 Pro). In general just making stuff. Besides projects for myself I am designing PCBs for my classmate and making smaller projects for friends and fixing stuff for my family.&lt;/p&gt;</description>
       
     </item>
     
@@ -134,7 +145,17 @@
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>//localhost:1313/anulab/</guid>
-      <description>What is ANUlab? #Anulab (or ANU for short) is an organization of mine. For now I use it only as a place to post projects (I just prefere when my projects are made under some brand, It just looks more professional).</description>
+      <description>&lt;h2 class=&#34;relative group&#34;&gt;What is ANUlab? 
+    &lt;div id=&#34;what-is-anulab&#34; class=&#34;anchor&#34;&gt;&lt;/div&gt;
+    
+    &lt;span
+        class=&#34;absolute top-0 w-6 transition-opacity opacity-0 ltr:-left-6 rtl:-right-6 not-prose group-hover:opacity-100&#34;&gt;
+        &lt;a class=&#34;group-hover:text-primary-300 dark:group-hover:text-neutral-700&#34;
+            style=&#34;text-decoration-line: none !important;&#34; href=&#34;#what-is-anulab&#34; aria-label=&#34;Anchor&#34;&gt;#&lt;/a&gt;
+    &lt;/span&gt;        
+    
+&lt;/h2&gt;
+&lt;p&gt;Anulab (or ANU for short) is an organization of mine. For now I use it only as a place to post projects (I just prefere when my projects are made under some brand, It just looks more professional). Also, It&amp;rsquo;s perfect place for my friends and me to work on projects together.&lt;/p&gt;</description>
       
     </item>
     
@@ -144,7 +165,7 @@
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>//localhost:1313/contact/</guid>
-      <description>Due to my overuse of computer and phone, even though it is important for what I do. There are two ways to contact me, either via Discord @glinek_tronic or via email simon@glinek.</description>
+      <description>&lt;p&gt;Due to my overuse of computer and phone, even though it is important for what I do. There are two ways to contact me, either via &lt;a href=&#34;https://discord.com/&#34; target=&#34;_blank&#34;&gt;Discord&lt;/a&gt; &lt;strong&gt;@glinek_tronic&lt;/strong&gt; or via email &lt;strong&gt;&lt;a href=&#34;mailto:simon@glinek.tech&#34;&gt;simon@glinek.tech&lt;/a&gt;&lt;/strong&gt;&lt;/p&gt;</description>
       
     </item>
     
@@ -154,7 +175,19 @@
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>//localhost:1313/tnst/</guid>
-      <description>Totally Not Suspicious Team or TNST for short #Is a team of my friends and me that was originaly created as a joke during one contest but then became something more serious.</description>
+      <description>&lt;h3 class=&#34;relative group&#34;&gt;Totally Not Suspicious Team or TNST for short 
+    &lt;div id=&#34;totally-not-suspicious-team-or-tnst-for-short&#34; class=&#34;anchor&#34;&gt;&lt;/div&gt;
+    
+    &lt;span
+        class=&#34;absolute top-0 w-6 transition-opacity opacity-0 ltr:-left-6 rtl:-right-6 not-prose group-hover:opacity-100&#34;&gt;
+        &lt;a class=&#34;group-hover:text-primary-300 dark:group-hover:text-neutral-700&#34;
+            style=&#34;text-decoration-line: none !important;&#34; href=&#34;#totally-not-suspicious-team-or-tnst-for-short&#34; aria-label=&#34;Anchor&#34;&gt;#&lt;/a&gt;
+    &lt;/span&gt;        
+    
+&lt;/h3&gt;
+&lt;p&gt;Is a team of my friends and me that was originaly created as a joke during one contest but then became something more serious. Right now we, as a team, have participated in one hackathon and are looking forward to new experience and new people. Currently hosted as a team under the hood of ANUlab&lt;br&gt;
+&lt;strong&gt;Stay creative and find a team&lt;/strong&gt;&lt;br&gt;
+&lt;strong&gt;~TNST&lt;/strong&gt;&lt;/p&gt;</description>
       
     </item>
     
