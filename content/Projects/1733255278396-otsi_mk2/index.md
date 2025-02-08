@@ -1,6 +1,6 @@
 ---
 title: "Otsi mk2"
-date: 2025-12-03
+date: 2025-02-01
 draft: false
 description: "Another version of everyones beloved Otsi Cyberpet"
 tags: ["Otsi", "mk2"]

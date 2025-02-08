@@ -14,7 +14,7 @@
       <pubDate>Sat, 08 Feb 2025 00:00:00 +0000</pubDate>
       
       <guid>//localhost:1313/projects/1739046827340-arduino-photoframe/</guid>
-      <description>&lt;p&gt;testing testing&lt;/p&gt;</description>
+      <description>&lt;p&gt;An Arduino Photo-Frame based on Raspberry Pi Pico W and ILI9341 3.2inch SPI display. Made for my girlfriend&amp;rsquo;s birthday. Equipped with additional temperature and humidity sensor (dht11) for extra features.&lt;/p&gt;</description>
       <media:content xmlns:media="http://search.yahoo.com/mrss/" url="//localhost:1313/projects/1739046827340-arduino-photoframe/featured.jpg" />
     </item>
     
