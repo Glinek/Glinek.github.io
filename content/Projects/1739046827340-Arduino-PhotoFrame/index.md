@@ -1,6 +1,6 @@
 ---
 title: "Arduino Photo-Frame"
-date: 2025-02-08
+date: 2025-02-09
 draft: false
 description: "Arduino Photo-frame basend on Pico"
 tags: ["Arduino", "Pi Pico"]
