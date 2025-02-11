@@ -21,7 +21,7 @@
     <item>
       <title>Arduino Photo-Frame</title>
       <link>//localhost:1313/projects/1739046827340-arduino-photoframe/</link>
-      <pubDate>Sat, 08 Feb 2025 00:00:00 +0000</pubDate>
+      <pubDate>Sun, 09 Feb 2025 00:00:00 +0000</pubDate>
       
       <guid>//localhost:1313/projects/1739046827340-arduino-photoframe/</guid>
       <description>&lt;p&gt;An Arduino Photo-Frame based on Raspberry Pi Pico W and ILI9341 3.2inch SPI display. Made for my girlfriend&amp;rsquo;s birthday. Equipped with additional temperature and humidity sensor (dht11) for extra features.&lt;/p&gt;</description>
@@ -137,48 +137,6 @@ preparation next time, there is a huge chance to win.&lt;/p&gt;</description>
       <guid>//localhost:1313/projects/1725463405247-one-key-keyboard/</guid>
       <description>&lt;p&gt;This is yet another project made for a contest hosted by Cyberdeck Cafe. The objective was to create a keyboard that, as the name suggests, has only one button. Everything else was up to you.&lt;/p&gt;</description>
       <media:content xmlns:media="http://search.yahoo.com/mrss/" url="//localhost:1313/projects/1725463405247-one-key-keyboard/featured.jpg" />
-    </item>
-    
-    <item>
-      <title>ANUlab</title>
-      <link>//localhost:1313/anulab/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>//localhost:1313/anulab/</guid>
-      <description>&lt;h2 class=&#34;relative group&#34;&gt;What is ANUlab? 
-    &lt;div id=&#34;what-is-anulab&#34; class=&#34;anchor&#34;&gt;&lt;/div&gt;
-    
-    &lt;span
-        class=&#34;absolute top-0 w-6 transition-opacity opacity-0 ltr:-left-6 rtl:-right-6 not-prose group-hover:opacity-100&#34;&gt;
-        &lt;a class=&#34;group-hover:text-primary-300 dark:group-hover:text-neutral-700&#34;
-            style=&#34;text-decoration-line: none !important;&#34; href=&#34;#what-is-anulab&#34; aria-label=&#34;Anchor&#34;&gt;#&lt;/a&gt;
-    &lt;/span&gt;        
-    
-&lt;/h2&gt;
-&lt;p&gt;Anulab (or ANU for short) is an organization of mine. For now I use it only as a place to post projects (I just prefere when my projects are made under some brand, It just looks more professional). Also, It&amp;rsquo;s perfect place for my friends and me to work on projects together.&lt;/p&gt;</description>
-      
-    </item>
-    
-    <item>
-      <title>Totally Not Suspicious Team</title>
-      <link>//localhost:1313/tnst/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>//localhost:1313/tnst/</guid>
-      <description>&lt;h3 class=&#34;relative group&#34;&gt;Totally Not Suspicious Team or TNST for short 
-    &lt;div id=&#34;totally-not-suspicious-team-or-tnst-for-short&#34; class=&#34;anchor&#34;&gt;&lt;/div&gt;
-    
-    &lt;span
-        class=&#34;absolute top-0 w-6 transition-opacity opacity-0 ltr:-left-6 rtl:-right-6 not-prose group-hover:opacity-100&#34;&gt;
-        &lt;a class=&#34;group-hover:text-primary-300 dark:group-hover:text-neutral-700&#34;
-            style=&#34;text-decoration-line: none !important;&#34; href=&#34;#totally-not-suspicious-team-or-tnst-for-short&#34; aria-label=&#34;Anchor&#34;&gt;#&lt;/a&gt;
-    &lt;/span&gt;        
-    
-&lt;/h3&gt;
-&lt;p&gt;Is a team of my friends and me that was originaly created as a joke during one contest but then became something more serious. Right now we, as a team, have participated in one hackathon and are looking forward to new experience and new people. Currently hosted as a team under the hood of ANUlab&lt;br&gt;
-&lt;strong&gt;Stay creative and find a team&lt;/strong&gt;&lt;br&gt;
-&lt;strong&gt;~TNST&lt;/strong&gt;&lt;/p&gt;</description>
-      
     </item>
     
   </channel>
