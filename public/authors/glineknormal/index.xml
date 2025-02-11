@@ -7,7 +7,17 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
     <copyright>© 2024 Szymon Glinka | This website does NOT use any cookies for tracking.</copyright>
-    <lastBuildDate>Sat, 08 Feb 2025 00:00:00 +0000</lastBuildDate><atom:link href="//localhost:1313/authors/glineknormal/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Tue, 11 Feb 2025 00:00:00 +0000</lastBuildDate><atom:link href="//localhost:1313/authors/glineknormal/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Otsi - PCBs rev2</title>
+      <link>//localhost:1313/otsi_mk2/1739279004146-otsi-pcb-rev2/</link>
+      <pubDate>Tue, 11 Feb 2025 00:00:00 +0000</pubDate>
+      
+      <guid>//localhost:1313/otsi_mk2/1739279004146-otsi-pcb-rev2/</guid>
+      <description>&lt;p&gt;Second project log for Otsi mk2. Here I am going to focuse on yet another revision of PCBs for my cyberpet. Hopefully this time it goes better and Otsi actually works.&lt;/p&gt;</description>
+      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="//localhost:1313/otsi_mk2/1739279004146-otsi-pcb-rev2/featured.png" />
+    </item>
+    
     <item>
       <title>Arduino Photo-Frame</title>
       <link>//localhost:1313/projects/1739046827340-arduino-photoframe/</link>
@@ -29,12 +39,12 @@
     </item>
     
     <item>
-      <title>Otsi&#39;s PCB rev1</title>
+      <title>Otsi -  PCB rev1</title>
       <link>//localhost:1313/otsi_mk2/1733255304617-otsi_pcb/</link>
-      <pubDate>Tue, 03 Dec 2024 00:00:00 +0000</pubDate>
+      <pubDate>Fri, 03 Jan 2025 00:00:00 +0000</pubDate>
       
       <guid>//localhost:1313/otsi_mk2/1733255304617-otsi_pcb/</guid>
-      <description>&lt;p&gt;This is first project-log of Otsi-mk2. Here I am going to focus on schematic and PCB. As well as try to explain to you how everything is supposed to work.&lt;/p&gt;</description>
+      <description>&lt;p&gt;This is the first project-log of Otsi-mk2. Here I am going to focus on schematic and PCB. As well as try to explain to you how everything is supposed to work.&lt;/p&gt;</description>
       <media:content xmlns:media="http://search.yahoo.com/mrss/" url="//localhost:1313/otsi_mk2/1733255304617-otsi_pcb/featured.jpg" />
     </item>
     

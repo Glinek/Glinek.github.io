@@ -4,7 +4,61 @@
 
   <url>
     <loc>//localhost:1313/authors/anulab/</loc>
-    <lastmod>2025-02-08T00:00:00+00:00</lastmod>
+    <lastmod>2025-02-11T00:00:00+00:00</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>//localhost:1313/authors/</loc>
+    <lastmod>2025-02-11T00:00:00+00:00</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>//localhost:1313/</loc>
+    <lastmod>2025-02-11T00:00:00+00:00</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>//localhost:1313/authors/glineknormal/</loc>
+    <lastmod>2025-02-11T00:00:00+00:00</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>//localhost:1313/tags/mk2/</loc>
+    <lastmod>2025-02-11T00:00:00+00:00</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>//localhost:1313/tags/otsi/</loc>
+    <lastmod>2025-02-11T00:00:00+00:00</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>//localhost:1313/otsi_mk2/1739279004146-otsi-pcb-rev2/</loc>
+    <lastmod>2025-02-11T00:00:00+00:00</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>//localhost:1313/otsi_mk2/</loc>
+    <lastmod>2025-02-11T00:00:00+00:00</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>//localhost:1313/tags/pcb/</loc>
+    <lastmod>2025-02-11T00:00:00+00:00</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>//localhost:1313/tags/</loc>
+    <lastmod>2025-02-11T00:00:00+00:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
@@ -16,24 +70,6 @@
   </url>
   <url>
     <loc>//localhost:1313/projects/1739046827340-arduino-photoframe/</loc>
-    <lastmod>2025-02-08T00:00:00+00:00</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>0.5</priority>
-  </url>
-  <url>
-    <loc>//localhost:1313/authors/</loc>
-    <lastmod>2025-02-08T00:00:00+00:00</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>0.5</priority>
-  </url>
-  <url>
-    <loc>//localhost:1313/</loc>
-    <lastmod>2025-02-08T00:00:00+00:00</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>0.5</priority>
-  </url>
-  <url>
-    <loc>//localhost:1313/authors/glineknormal/</loc>
     <lastmod>2025-02-08T00:00:00+00:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
@@ -51,44 +87,14 @@
     <priority>0.5</priority>
   </url>
   <url>
-    <loc>//localhost:1313/tags/</loc>
-    <lastmod>2025-02-08T00:00:00+00:00</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>0.5</priority>
-  </url>
-  <url>
-    <loc>//localhost:1313/tags/mk2/</loc>
-    <lastmod>2025-02-01T00:00:00+00:00</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>0.5</priority>
-  </url>
-  <url>
-    <loc>//localhost:1313/tags/otsi/</loc>
-    <lastmod>2025-02-01T00:00:00+00:00</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>0.5</priority>
-  </url>
-  <url>
     <loc>//localhost:1313/projects/1733255278396-otsi_mk2/</loc>
     <lastmod>2025-02-01T00:00:00+00:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
-    <loc>//localhost:1313/otsi_mk2/</loc>
-    <lastmod>2024-12-03T00:00:00+00:00</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>0.5</priority>
-  </url>
-  <url>
     <loc>//localhost:1313/otsi_mk2/1733255304617-otsi_pcb/</loc>
-    <lastmod>2024-12-03T00:00:00+00:00</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>0.5</priority>
-  </url>
-  <url>
-    <loc>//localhost:1313/tags/pcb/</loc>
-    <lastmod>2024-12-03T00:00:00+00:00</lastmod>
+    <lastmod>2025-01-03T00:00:00+00:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>

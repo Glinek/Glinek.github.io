@@ -7,7 +7,37 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
     <copyright>© 2024 Szymon Glinka | This website does NOT use any cookies for tracking.</copyright>
-    <lastBuildDate>Sat, 08 Feb 2025 00:00:00 +0000</lastBuildDate><atom:link href="//localhost:1313/tags/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Tue, 11 Feb 2025 00:00:00 +0000</lastBuildDate><atom:link href="//localhost:1313/tags/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Mk2</title>
+      <link>//localhost:1313/tags/mk2/</link>
+      <pubDate>Tue, 11 Feb 2025 00:00:00 +0000</pubDate>
+      
+      <guid>//localhost:1313/tags/mk2/</guid>
+      <description></description>
+      
+    </item>
+    
+    <item>
+      <title>Otsi</title>
+      <link>//localhost:1313/tags/otsi/</link>
+      <pubDate>Tue, 11 Feb 2025 00:00:00 +0000</pubDate>
+      
+      <guid>//localhost:1313/tags/otsi/</guid>
+      <description></description>
+      
+    </item>
+    
+    <item>
+      <title>PCB</title>
+      <link>//localhost:1313/tags/pcb/</link>
+      <pubDate>Tue, 11 Feb 2025 00:00:00 +0000</pubDate>
+      
+      <guid>//localhost:1313/tags/pcb/</guid>
+      <description></description>
+      
+    </item>
+    
     <item>
       <title>Arduino</title>
       <link>//localhost:1313/tags/arduino/</link>
@@ -24,36 +54,6 @@
       <pubDate>Sat, 08 Feb 2025 00:00:00 +0000</pubDate>
       
       <guid>//localhost:1313/tags/pi-pico/</guid>
-      <description></description>
-      
-    </item>
-    
-    <item>
-      <title>Mk2</title>
-      <link>//localhost:1313/tags/mk2/</link>
-      <pubDate>Sat, 01 Feb 2025 00:00:00 +0000</pubDate>
-      
-      <guid>//localhost:1313/tags/mk2/</guid>
-      <description></description>
-      
-    </item>
-    
-    <item>
-      <title>Otsi</title>
-      <link>//localhost:1313/tags/otsi/</link>
-      <pubDate>Sat, 01 Feb 2025 00:00:00 +0000</pubDate>
-      
-      <guid>//localhost:1313/tags/otsi/</guid>
-      <description></description>
-      
-    </item>
-    
-    <item>
-      <title>PCB</title>
-      <link>//localhost:1313/tags/pcb/</link>
-      <pubDate>Tue, 03 Dec 2024 00:00:00 +0000</pubDate>
-      
-      <guid>//localhost:1313/tags/pcb/</guid>
       <description></description>
       
     </item>

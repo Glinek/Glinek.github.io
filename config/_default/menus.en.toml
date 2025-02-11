@@ -11,18 +11,6 @@ identifier = "eAnHAPmV1V"
 weight = 2
 
 [[main]]
-name = "TNST"
-pageRef = "tnst"
-identifier = "JCwfHekekU"
-weight = 4
-
-[[main]]
-name = "ANUlab"
-pageRef = "anulab"
-identifier = "5IYwsjgDTd"
-weight = 3
-
-[[main]]
 name = "About Me"
 pageRef = "about"
 identifier = "oH3nAxdPVc"

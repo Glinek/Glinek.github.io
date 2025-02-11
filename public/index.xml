@@ -7,7 +7,17 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
     <copyright>© 2024 Szymon Glinka | This website does NOT use any cookies for tracking.</copyright>
-    <lastBuildDate>Sat, 08 Feb 2025 00:00:00 +0000</lastBuildDate><atom:link href="//localhost:1313/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Tue, 11 Feb 2025 00:00:00 +0000</lastBuildDate><atom:link href="//localhost:1313/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Otsi - PCBs rev2</title>
+      <link>//localhost:1313/otsi_mk2/1739279004146-otsi-pcb-rev2/</link>
+      <pubDate>Tue, 11 Feb 2025 00:00:00 +0000</pubDate>
+      
+      <guid>//localhost:1313/otsi_mk2/1739279004146-otsi-pcb-rev2/</guid>
+      <description>&lt;p&gt;Second project log for Otsi mk2. Here I am going to focuse on yet another revision of PCBs for my cyberpet. Hopefully this time it goes better and Otsi actually works.&lt;/p&gt;</description>
+      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="//localhost:1313/otsi_mk2/1739279004146-otsi-pcb-rev2/featured.png" />
+    </item>
+    
     <item>
       <title>Arduino Photo-Frame</title>
       <link>//localhost:1313/projects/1739046827340-arduino-photoframe/</link>
@@ -29,12 +39,12 @@
     </item>
     
     <item>
-      <title>Otsi&#39;s PCB rev1</title>
+      <title>Otsi -  PCB rev1</title>
       <link>//localhost:1313/otsi_mk2/1733255304617-otsi_pcb/</link>
-      <pubDate>Tue, 03 Dec 2024 00:00:00 +0000</pubDate>
+      <pubDate>Fri, 03 Jan 2025 00:00:00 +0000</pubDate>
       
       <guid>//localhost:1313/otsi_mk2/1733255304617-otsi_pcb/</guid>
-      <description>&lt;p&gt;This is first project-log of Otsi-mk2. Here I am going to focus on schematic and PCB. As well as try to explain to you how everything is supposed to work.&lt;/p&gt;</description>
+      <description>&lt;p&gt;This is the first project-log of Otsi-mk2. Here I am going to focus on schematic and PCB. As well as try to explain to you how everything is supposed to work.&lt;/p&gt;</description>
       <media:content xmlns:media="http://search.yahoo.com/mrss/" url="//localhost:1313/otsi_mk2/1733255304617-otsi_pcb/featured.jpg" />
     </item>
     
@@ -135,37 +145,29 @@ preparation next time, there is a huge chance to win.&lt;/p&gt;</description>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>//localhost:1313/about/</guid>
-      <description>&lt;h2 class=&#34;relative group&#34;&gt;Hi, I&amp;rsquo;m Simon 
-    &lt;div id=&#34;hi-im-simon&#34; class=&#34;anchor&#34;&gt;&lt;/div&gt;
+      <description>&lt;h1 class=&#34;relative group&#34;&gt;Hii, I&amp;rsquo;m Simon 
+    &lt;div id=&#34;hii-im-simon&#34; class=&#34;anchor&#34;&gt;&lt;/div&gt;
     
     &lt;span
         class=&#34;absolute top-0 w-6 transition-opacity opacity-0 ltr:-left-6 rtl:-right-6 not-prose group-hover:opacity-100&#34;&gt;
         &lt;a class=&#34;group-hover:text-primary-300 dark:group-hover:text-neutral-700&#34;
-            style=&#34;text-decoration-line: none !important;&#34; href=&#34;#hi-im-simon&#34; aria-label=&#34;Anchor&#34;&gt;#&lt;/a&gt;
+            style=&#34;text-decoration-line: none !important;&#34; href=&#34;#hii-im-simon&#34; aria-label=&#34;Anchor&#34;&gt;#&lt;/a&gt;
     &lt;/span&gt;        
     
-&lt;/h2&gt;
-&lt;p&gt;I&amp;rsquo;m an 18yo robotics engineering student. In school I mainly program PLCs (we have siemens s7-1200s) and industrial robots (in labs there are two kuka&amp;rsquo;s KR 4 R600, one kuka KR16 and three ABB collaborative robots). At home I love programming Arduinos/ESPs/RaspberryPis, 3D printing (my current 3d printer is Ender-3 S1 Pro). In general just making stuff. Besides projects for myself I am designing PCBs for my classmate and making smaller projects for friends and fixing stuff for my family.&lt;/p&gt;</description>
-      
-    </item>
-    
-    <item>
-      <title>ANUlab</title>
-      <link>//localhost:1313/anulab/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>//localhost:1313/anulab/</guid>
-      <description>&lt;h2 class=&#34;relative group&#34;&gt;What is ANUlab? 
-    &lt;div id=&#34;what-is-anulab&#34; class=&#34;anchor&#34;&gt;&lt;/div&gt;
+&lt;/h1&gt;
+
+
+&lt;h2 class=&#34;relative group&#34;&gt;Who am I? 
+    &lt;div id=&#34;who-am-i&#34; class=&#34;anchor&#34;&gt;&lt;/div&gt;
     
     &lt;span
         class=&#34;absolute top-0 w-6 transition-opacity opacity-0 ltr:-left-6 rtl:-right-6 not-prose group-hover:opacity-100&#34;&gt;
         &lt;a class=&#34;group-hover:text-primary-300 dark:group-hover:text-neutral-700&#34;
-            style=&#34;text-decoration-line: none !important;&#34; href=&#34;#what-is-anulab&#34; aria-label=&#34;Anchor&#34;&gt;#&lt;/a&gt;
+            style=&#34;text-decoration-line: none !important;&#34; href=&#34;#who-am-i&#34; aria-label=&#34;Anchor&#34;&gt;#&lt;/a&gt;
     &lt;/span&gt;        
     
 &lt;/h2&gt;
-&lt;p&gt;Anulab (or ANU for short) is an organization of mine. For now I use it only as a place to post projects (I just prefere when my projects are made under some brand, It just looks more professional). Also, It&amp;rsquo;s perfect place for my friends and me to work on projects together.&lt;/p&gt;</description>
+&lt;p&gt;I&amp;rsquo;m an 18yo robotics engineering student. In school I mainly program PLCs (we have siemens s7-1200s) and industrial robots (in labs there are two kuka&amp;rsquo;s KR 4 R600, one Kuka KR16 and three ABB collaborative robots). At home I love programming Arduinos/ESPs/RaspberryPis, 3D printing (my current 3d printer is Ender-3 S1 Pro). In general just making stuff. Besides project for myself I have also created ANUab, it&amp;rsquo;s just my small organization to host projects and teams. During 2024 hackathon I have also created Totally Not Suspicious Team with my friends.&lt;/p&gt;</description>
       
     </item>
     
@@ -176,28 +178,6 @@ preparation next time, there is a huge chance to win.&lt;/p&gt;</description>
       
       <guid>//localhost:1313/contact/</guid>
       <description>&lt;p&gt;Due to my overuse of computer and phone, even though it is important for what I do. There are two ways to contact me, either via &lt;a href=&#34;https://discord.com/&#34; target=&#34;_blank&#34;&gt;Discord&lt;/a&gt; &lt;strong&gt;@glinek_tronic&lt;/strong&gt; or via email &lt;strong&gt;&lt;a href=&#34;mailto:simon@glinek.tech&#34;&gt;simon@glinek.tech&lt;/a&gt;&lt;/strong&gt;&lt;/p&gt;</description>
-      
-    </item>
-    
-    <item>
-      <title>Totally Not Suspicious Team</title>
-      <link>//localhost:1313/tnst/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>//localhost:1313/tnst/</guid>
-      <description>&lt;h3 class=&#34;relative group&#34;&gt;Totally Not Suspicious Team or TNST for short 
-    &lt;div id=&#34;totally-not-suspicious-team-or-tnst-for-short&#34; class=&#34;anchor&#34;&gt;&lt;/div&gt;
-    
-    &lt;span
-        class=&#34;absolute top-0 w-6 transition-opacity opacity-0 ltr:-left-6 rtl:-right-6 not-prose group-hover:opacity-100&#34;&gt;
-        &lt;a class=&#34;group-hover:text-primary-300 dark:group-hover:text-neutral-700&#34;
-            style=&#34;text-decoration-line: none !important;&#34; href=&#34;#totally-not-suspicious-team-or-tnst-for-short&#34; aria-label=&#34;Anchor&#34;&gt;#&lt;/a&gt;
-    &lt;/span&gt;        
-    
-&lt;/h3&gt;
-&lt;p&gt;Is a team of my friends and me that was originaly created as a joke during one contest but then became something more serious. Right now we, as a team, have participated in one hackathon and are looking forward to new experience and new people. Currently hosted as a team under the hood of ANUlab&lt;br&gt;
-&lt;strong&gt;Stay creative and find a team&lt;/strong&gt;&lt;br&gt;
-&lt;strong&gt;~TNST&lt;/strong&gt;&lt;/p&gt;</description>
       
     </item>
     
