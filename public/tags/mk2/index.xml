@@ -10,32 +10,32 @@
     <lastBuildDate>Tue, 11 Feb 2025 00:00:00 +0000</lastBuildDate><atom:link href="//localhost:1313/tags/mk2/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Otsi - PCBs rev2</title>
-      <link>//localhost:1313/otsi_mk2/1739279004146-otsi-pcb-rev2/</link>
+      <link>//localhost:1313/otsi_mk2/otsi-pcb-rev2/</link>
       <pubDate>Tue, 11 Feb 2025 00:00:00 +0000</pubDate>
       
-      <guid>//localhost:1313/otsi_mk2/1739279004146-otsi-pcb-rev2/</guid>
-      <description>&lt;p&gt;Second project log for Otsi mk2. Here I am going to focuse on yet another revision of PCBs for my cyberpet. Hopefully this time it goes better and Otsi actually works.&lt;/p&gt;</description>
-      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="//localhost:1313/otsi_mk2/1739279004146-otsi-pcb-rev2/featured.png" />
+      <guid>//localhost:1313/otsi_mk2/otsi-pcb-rev2/</guid>
+      <description>Second project log for Otsi mk2. Here I am going to focuse on yet another revision of PCBs for my cyberpet. Hopefully this time it goes better and Otsi actually works.</description>
+      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="//localhost:1313/otsi_mk2/otsi-pcb-rev2/featured.png" />
     </item>
     
     <item>
       <title>Otsi mk2</title>
-      <link>//localhost:1313/projects/1733255278396-otsi_mk2/</link>
+      <link>//localhost:1313/projects/otsi_mk2/</link>
       <pubDate>Sat, 01 Feb 2025 00:00:00 +0000</pubDate>
       
-      <guid>//localhost:1313/projects/1733255278396-otsi_mk2/</guid>
-      <description>&lt;p&gt;This is an article dedicated to host all Otsi&amp;rsquo;s project-logs. Otsi is too massive to keep her as one article so I decided to break it into individual logs. Each project-log is gonna be focused on a specific milestone.&lt;/p&gt;</description>
-      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="//localhost:1313/projects/1733255278396-otsi_mk2/featured.png" />
+      <guid>//localhost:1313/projects/otsi_mk2/</guid>
+      <description>This is an article dedicated to host all Otsi&amp;rsquo;s project-logs. Otsi is too massive to keep her as one article so I decided to break it into individual logs. Each project-log is gonna be focused on a specific milestone.</description>
+      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="//localhost:1313/projects/otsi_mk2/featured.png" />
     </item>
     
     <item>
       <title>Otsi -  PCB rev1</title>
-      <link>//localhost:1313/otsi_mk2/1733255304617-otsi_pcb/</link>
+      <link>//localhost:1313/otsi_mk2/otsi_pcb/</link>
       <pubDate>Fri, 03 Jan 2025 00:00:00 +0000</pubDate>
       
-      <guid>//localhost:1313/otsi_mk2/1733255304617-otsi_pcb/</guid>
-      <description>&lt;p&gt;This is the first project-log of Otsi-mk2. Here I am going to focus on schematic and PCB. As well as try to explain to you how everything is supposed to work.&lt;/p&gt;</description>
-      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="//localhost:1313/otsi_mk2/1733255304617-otsi_pcb/featured.jpg" />
+      <guid>//localhost:1313/otsi_mk2/otsi_pcb/</guid>
+      <description>This is the first project-log of Otsi-mk2. Here I am going to focus on schematic and PCB. As well as try to explain to you how everything is supposed to work.</description>
+      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="//localhost:1313/otsi_mk2/otsi_pcb/featured.jpg" />
     </item>
     
   </channel>

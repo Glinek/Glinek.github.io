@@ -39,7 +39,7 @@
     <priority>0.5</priority>
   </url>
   <url>
-    <loc>//localhost:1313/otsi_mk2/1739279004146-otsi-pcb-rev2/</loc>
+    <loc>//localhost:1313/otsi_mk2/otsi-pcb-rev2/</loc>
     <lastmod>2025-02-11T00:00:00+00:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
@@ -69,13 +69,7 @@
     <priority>0.5</priority>
   </url>
   <url>
-    <loc>//localhost:1313/projects/1739046827340-arduino-photoframe/</loc>
-    <lastmod>2025-02-09T00:00:00+00:00</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>0.5</priority>
-  </url>
-  <url>
-    <loc>//localhost:1313/tags/pi-pico/</loc>
+    <loc>//localhost:1313/projects/arduino-photoframe/</loc>
     <lastmod>2025-02-09T00:00:00+00:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
@@ -87,13 +81,19 @@
     <priority>0.5</priority>
   </url>
   <url>
-    <loc>//localhost:1313/projects/1733255278396-otsi_mk2/</loc>
+    <loc>//localhost:1313/tags/pi-pico/</loc>
+    <lastmod>2025-02-09T00:00:00+00:00</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>//localhost:1313/projects/otsi_mk2/</loc>
     <lastmod>2025-02-01T00:00:00+00:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
-    <loc>//localhost:1313/otsi_mk2/1733255304617-otsi_pcb/</loc>
+    <loc>//localhost:1313/otsi_mk2/otsi_pcb/</loc>
     <lastmod>2025-01-03T00:00:00+00:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
@@ -111,7 +111,7 @@
     <priority>0.5</priority>
   </url>
   <url>
-    <loc>//localhost:1313/projects/1729534794174-veytoy-desktop-timer/</loc>
+    <loc>//localhost:1313/projects/veytoy-desktop-timer/</loc>
     <lastmod>2024-10-20T00:00:00+00:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
@@ -123,7 +123,7 @@
     <priority>0.5</priority>
   </url>
   <url>
-    <loc>//localhost:1313/projects/1727616024277-chloe---hackyeah2024/</loc>
+    <loc>//localhost:1313/projects/chloe---hackyeah2024/</loc>
     <lastmod>2024-09-29T00:00:00+00:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
@@ -153,13 +153,13 @@
     <priority>0.5</priority>
   </url>
   <url>
-    <loc>//localhost:1313/projects/1725473865525-pelican-case-workstation/</loc>
+    <loc>//localhost:1313/projects/pelican-case-workstation/</loc>
     <lastmod>2024-07-30T00:00:00+00:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
-    <loc>//localhost:1313/projects/1725473930445-rc-car-mode/</loc>
+    <loc>//localhost:1313/projects/rc-car-mode/</loc>
     <lastmod>2024-06-15T00:00:00+00:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
@@ -171,7 +171,7 @@
     <priority>0.5</priority>
   </url>
   <url>
-    <loc>//localhost:1313/projects/1724831487281-obsium-mk2/</loc>
+    <loc>//localhost:1313/projects/obsium-mk2/</loc>
     <lastmod>2024-03-30T00:00:00+00:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
@@ -189,13 +189,13 @@
     <priority>0.5</priority>
   </url>
   <url>
-    <loc>//localhost:1313/projects/1724773813548-otsi/</loc>
+    <loc>//localhost:1313/projects/otsi/</loc>
     <lastmod>2024-01-25T00:00:00+00:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
-    <loc>//localhost:1313/projects/1725463418726-atrovel-calculator/</loc>
+    <loc>//localhost:1313/projects/atrovel-calculator/</loc>
     <lastmod>2023-12-15T00:00:00+00:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
@@ -207,7 +207,7 @@
     <priority>0.5</priority>
   </url>
   <url>
-    <loc>//localhost:1313/projects/1724773805509-obsium/</loc>
+    <loc>//localhost:1313/projects/obsium/</loc>
     <lastmod>2023-08-01T00:00:00+00:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
@@ -219,7 +219,7 @@
     <priority>0.5</priority>
   </url>
   <url>
-    <loc>//localhost:1313/projects/1725463405247-one-key-keyboard/</loc>
+    <loc>//localhost:1313/projects/one-key-keyboard/</loc>
     <lastmod>2023-02-20T00:00:00+00:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>

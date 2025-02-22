@@ -4,6 +4,7 @@ showDate: false
 showPagination: false
 showTableOfContents: false
 showReadingTime: false
+heroStyle: "background"
 ---
 Due to my overuse of computer and phone, even though it is important for what I do. There are two ways to contact me, either via [Discord](https://discord.com/) **@glinek_tronic** or via email **simon@glinek.tech**
 
