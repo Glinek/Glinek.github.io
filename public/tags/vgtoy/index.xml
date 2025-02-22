@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>VGtoy on Glinek</title>
+    <link>//localhost:1313/tags/vgtoy/</link>
+    <description>Recent content in VGtoy on Glinek</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en</language>
+    <copyright>© 2024 Szymon Glinka | This website does NOT use any cookies for tracking.</copyright>
+    <lastBuildDate>Sun, 29 Sep 2024 00:00:00 +0000</lastBuildDate><atom:link href="//localhost:1313/tags/vgtoy/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>VGtoy - desktop timer</title>
+      <link>//localhost:1313/projects/1729534794174-veytoy-desktop-timer/</link>
+      <pubDate>Sun, 29 Sep 2024 00:00:00 +0000</pubDate>
+      
+      <guid>//localhost:1313/projects/1729534794174-veytoy-desktop-timer/</guid>
+      <description>This is one of my one day projects. Created to help me keep focus without my phone or computer. It&amp;rsquo;s a simple timer with watch functionalities</description>
+      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="//localhost:1313/projects/1729534794174-veytoy-desktop-timer/featured.jpg" />
+    </item>
+    
+  </channel>
+</rss>
