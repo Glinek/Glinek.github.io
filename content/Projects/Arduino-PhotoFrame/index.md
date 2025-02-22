@@ -62,11 +62,20 @@ When pluged in, you should see an Axolotl, current time, day of the week, date, 
 ## Credits
 - code for displaying bitmaps is based on [work of](https://forums.adafruit.com/viewtopic.php?t=141979) `Rarday` on adafruit forum but with slight modifications so it works
 - getting time from webserver is based on [work of](https://github.com/tehniq3/NTPclock_RPi_Pico_W/blob/main/ntp_test_serial.ino) `tehniq3` on github
-- dht11 library, sadly I couldn't find who made this library, but when I do, I will post it here to give appropriate credits.
+- dht11 library, sadly I couldn't find who made this library, but when I do, I will post it here to give appropriate credits. 
+
+## Gallery
+{{< gallery >}}
+  <img src="gallery/dev.jpg" class="grid-w33" />
+  <img src="gallery/Julka.jpg" class="grid-w33" />
+  <img src="gallery/onLaptop.jpg" class="grid-w33" />
+  <img src="gallery/packed.jpg" class="grid-w33" />
+{{< /gallery >}}
 
 # Last words
 I hope I have helped someone trying to make a Photo-frame themselves or someone just trying to display bitmap's on ILI9341. Whatever It is, I hope it goes well for you.
-Thank you for reading this article.   
+Thank you for reading this article.  
+
 **Keep making awesome projects**   
 **~Simon**
 
