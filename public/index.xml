@@ -7,7 +7,17 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
     <copyright>© 2024 Szymon Glinka | This website does NOT use any cookies for tracking.</copyright>
-    <lastBuildDate>Tue, 11 Feb 2025 00:00:00 +0000</lastBuildDate><atom:link href="//localhost:1313/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Mon, 10 Mar 2025 00:00:00 +0000</lastBuildDate><atom:link href="//localhost:1313/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Model of my school&#39;s robots</title>
+      <link>//localhost:1313/projects/irb1100-model/</link>
+      <pubDate>Mon, 10 Mar 2025 00:00:00 +0000</pubDate>
+      
+      <guid>//localhost:1313/projects/irb1100-model/</guid>
+      <description>A semi-accurate model of my school&amp;rsquo;s robotic educational setup, modeled in FreeCAD and imported into RobotStudio to allow for somewhat accurate simulation of programs before testing them on actual machines.</description>
+      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="//localhost:1313/projects/irb1100-model/featured.png" />
+    </item>
+    
     <item>
       <title>Otsi - PCBs rev2</title>
       <link>//localhost:1313/otsi_mk2/otsi-pcb-rev2/</link>

@@ -27,7 +27,7 @@ highlightCurrentMenuArea = false
 
 [article]
     showDate = true
-    showDateUpdated = false
+    showDateUpdated = true
     showAuthor = false
     showHero = true
     heroStyle = "background"

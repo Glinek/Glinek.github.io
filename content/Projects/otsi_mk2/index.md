@@ -11,6 +11,7 @@ showTableOfContents: false
 showDate: false
 authors:
   - "anulab"
+  - "maciek"
   - "glinekNormal"
 ---
 This is an article dedicated to host all Otsi's project-logs. Otsi is too massive to keep her as one article so I decided to break it into individual logs. Each project-log is gonna be focused on a specific milestone.
