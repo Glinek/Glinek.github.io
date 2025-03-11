@@ -16,4 +16,4 @@ A semi-accurate model of my school's robotic educational setup, modeled in FreeC
 {{< github repo="Glinek/IRB1100-Project" >}}
 &nbsp;
 
-## Motivation begind this project
+## Page in prograss, please come back later
