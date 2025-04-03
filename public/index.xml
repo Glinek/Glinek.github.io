@@ -24,7 +24,7 @@
       <pubDate>Tue, 11 Feb 2025 00:00:00 +0000</pubDate>
       
       <guid>//localhost:1313/otsi_mk2/otsi-pcb-rev2/</guid>
-      <description>Second project log for Otsi mk2. Here I am going to focuse on yet another revision of PCBs for my cyberpet. Hopefully this time it goes better and Otsi actually works.</description>
+      <description>Project log for Otsi.mk2 focusing on the second revision of PCB&amp;rsquo;s, this time with improved everything, starting from the new formfactor and on individual components (a lot were replaced) ending.</description>
       <media:content xmlns:media="http://search.yahoo.com/mrss/" url="//localhost:1313/otsi_mk2/otsi-pcb-rev2/featured.png" />
     </item>
     
@@ -44,7 +44,7 @@
       <pubDate>Sat, 01 Feb 2025 00:00:00 +0000</pubDate>
       
       <guid>//localhost:1313/projects/otsi_mk2/</guid>
-      <description>This is an article dedicated to host all Otsi&amp;rsquo;s project-logs. Otsi is too massive to keep her as one article so I decided to break it into individual logs. Each project-log is gonna be focused on a specific milestone.</description>
+      <description>This article is dedicated to house all of Otsi.mk2&amp;rsquo;s Project-Logs bc she is too big of a project for one post and being honest I would forget to add something and I want Otsi.</description>
       <media:content xmlns:media="http://search.yahoo.com/mrss/" url="//localhost:1313/projects/otsi_mk2/featured.png" />
     </item>
     
@@ -54,7 +54,7 @@
       <pubDate>Fri, 03 Jan 2025 00:00:00 +0000</pubDate>
       
       <guid>//localhost:1313/otsi_mk2/otsi_pcb/</guid>
-      <description>This is the first project-log of Otsi-mk2. Here I am going to focus on schematic and PCB. As well as try to explain to you how everything is supposed to work.</description>
+      <description>This is the first project-log of Otsi.mk2. Here I&amp;rsquo;m going to focus on the first revision of PCB as well as explaining why it wasn&amp;rsquo;t working so you might learn from my mistakes.</description>
       <media:content xmlns:media="http://search.yahoo.com/mrss/" url="//localhost:1313/otsi_mk2/otsi_pcb/featured.png" />
     </item>
     

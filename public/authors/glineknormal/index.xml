@@ -19,16 +19,6 @@
     </item>
     
     <item>
-      <title>Otsi - PCBs rev2</title>
-      <link>//localhost:1313/otsi_mk2/otsi-pcb-rev2/</link>
-      <pubDate>Tue, 11 Feb 2025 00:00:00 +0000</pubDate>
-      
-      <guid>//localhost:1313/otsi_mk2/otsi-pcb-rev2/</guid>
-      <description>Second project log for Otsi mk2. Here I am going to focuse on yet another revision of PCBs for my cyberpet. Hopefully this time it goes better and Otsi actually works.</description>
-      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="//localhost:1313/otsi_mk2/otsi-pcb-rev2/featured.png" />
-    </item>
-    
-    <item>
       <title>Arduino Photo-Frame</title>
       <link>//localhost:1313/projects/arduino-photoframe/</link>
       <pubDate>Sun, 09 Feb 2025 00:00:00 +0000</pubDate>
@@ -46,16 +36,6 @@
       <guid>//localhost:1313/projects/otsi_mk2/</guid>
       <description>This is an article dedicated to host all Otsi&amp;rsquo;s project-logs. Otsi is too massive to keep her as one article so I decided to break it into individual logs. Each project-log is gonna be focused on a specific milestone.</description>
       <media:content xmlns:media="http://search.yahoo.com/mrss/" url="//localhost:1313/projects/otsi_mk2/featured.png" />
-    </item>
-    
-    <item>
-      <title>Otsi -  PCB rev1</title>
-      <link>//localhost:1313/otsi_mk2/otsi_pcb/</link>
-      <pubDate>Fri, 03 Jan 2025 00:00:00 +0000</pubDate>
-      
-      <guid>//localhost:1313/otsi_mk2/otsi_pcb/</guid>
-      <description>This is the first project-log of Otsi-mk2. Here I am going to focus on schematic and PCB. As well as try to explain to you how everything is supposed to work.</description>
-      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="//localhost:1313/otsi_mk2/otsi_pcb/featured.png" />
     </item>
     
     <item>

@@ -14,10 +14,10 @@ authors:
   - "maciek"
   - "glinekNormal"
 ---
-This is an article dedicated to host all Otsi's project-logs. Otsi is too massive to keep her as one article so I decided to break it into individual logs. Each project-log is gonna be focused on a specific milestone.
+This article is dedicated to house all of Otsi.mk2's Project-Logs bc she is too big of a project for one post and being honest I would forget to add something and I want Otsi.mk2 to have a complete log of all the work that went into designing her.
 
 {{< alert >}}
-**Info** Otsi's repo will be added as soon as It is made public.
+Otsi.mk2's Repos will be added when she is finished. Stay tuned!
 {{< /alert >}}
 #  
 ##        
@@ -29,17 +29,5 @@ This is an article dedicated to host all Otsi's project-logs. Otsi is too massiv
 
 {{< timelineItem icon="xmark" header="PCB rev2" badge="in progress">}}
 {{< article link="/otsi_mk2/otsi-pcb-rev2/" >}}
-{{< /timelineItem >}}
-
-{{< timelineItem icon="xmark" header="Case" badge="unknown">}}
-{{< /timelineItem >}}
-
-{{< timelineItem icon="xmark" header="Full assembly" badge="unknown">}}
-{{< /timelineItem >}}
-
-{{< timelineItem icon="xmark" header="Software" badge="unknown">}}
-{{< /timelineItem >}}
-
-{{< timelineItem icon="xmark" header="Summary" badge="unknown">}}
 {{< /timelineItem >}}
 {{< /timeline >}}

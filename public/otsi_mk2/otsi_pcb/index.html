@@ -95,7 +95,7 @@
     "name": "Otsi -  PCB rev1",
     "headline": "Otsi -  PCB rev1",
     "description": "First revision of PCB\u0027s for Otsi mk2",
-    "abstract": "This is the first project-log of Otsi-mk2. Here I am going to focus on schematic and PCB. As well as try to explain to you how everything is supposed to work.",
+    "abstract": "This is the first project-log of Otsi.mk2. Here I\u0026rsquo;m going to focus on the first revision of PCB as well as explaining why it wasn\u0026rsquo;t working so you might learn from my mistakes.",
     "inLanguage": "en",
     "url" : "\/\/localhost:1313\/otsi_mk2\/otsi_pcb\/",
     "author" : {
@@ -111,7 +111,7 @@
     "keywords": ["Otsi","mk2","PCB"],
     
     "mainEntityOfPage": "true",
-    "wordCount": "394"
+    "wordCount": "617"
   }]
   </script>
 
@@ -634,7 +634,7 @@
 <div class="flex flex-row flex-wrap items-center">
   
   
-  <time datetime="2025-01-03T00:00:00&#43;00:00">3 January 2025</time><span class="px-2 text-primary-500">&middot;</span><span title="Reading time">2 mins</span>
+  <time datetime="2025-01-03T00:00:00&#43;00:00">3 January 2025</time><span class="px-2 text-primary-500">&middot;</span><span title="Reading time">3 mins</span>
   
 
   
@@ -705,91 +705,7 @@
       
 
       
-        
-            
-              
-            
-          
-            
-          
-            
-          
-            
-          
-          
-<div class="flex author author-extra mt-4">
-  
-      
-      
-        
-          
-        
-        <img class="!mt-0 !mb-0 h-24 w-24 rounded-full ltr:mr-4 rtl:ml-4" width="96" height="96"
-          src="/img/anuLogo4-5_hu4ebb2d0cc267124447b04473ba61a71b_22324_192x192_fill_box_smart1_3.png" />
-      
-  
-  <div class="place-self-center">
-    
-    
-    <div class="text-[0.6rem] uppercase leading-3 text-neutral-500 dark:text-neutral-400">
-      Author
-    </div>
-    <a  href="//localhost:1313/authors/anulab/"  class="font-semibold leading-6 text-neutral-800 dark:text-neutral-300">
-      ANUlab
-    </a>
-    
-    
-    <div class="text-2xl sm:text-lg">
-      <div class="flex flex-wrap text-neutral-400 dark:text-neutral-500">
-        
-      </div>
-    </div>
-  </div>
-</div>
 
-        
-            
-          
-            
-          
-            
-          
-            
-          
-          
-<div class="flex author author-extra mt-4">
-  
-      
-      
-        
-          
-        
-        <img class="!mt-0 !mb-0 h-24 w-24 rounded-full ltr:mr-4 rtl:ml-4" width="96" height="96"
-          src="/img/avatarG_hu747d60fb2f18ed1d83bd80a97385d545_114480_192x192_fill_q75_box_smart1.jpg" />
-      
-  
-  <div class="place-self-center">
-    
-    
-    <div class="text-[0.6rem] uppercase leading-3 text-neutral-500 dark:text-neutral-400">
-      Author
-    </div>
-    <a  href="//localhost:1313/authors/anulab/"  class="font-semibold leading-6 text-neutral-800 dark:text-neutral-300">
-      Simon aka. Glinek
-    </a>
-    
-    
-    <div class="text-2xl sm:text-lg">
-      <div class="flex flex-wrap text-neutral-400 dark:text-neutral-500">
-        
-      </div>
-    </div>
-  </div>
-</div>
-
-
-      
-      <div class="mb-5"></div>
       
 
     
@@ -806,61 +722,166 @@
 
 
         <div class="article-content max-w-prose mb-20">
-          <p>This is the first project-log of Otsi-mk2. Here I am going to focus on schematic and PCB. As well as try to explain to you how everything is supposed to work.</p>
+          <p>This is the first project-log of Otsi.mk2. Here I&rsquo;m going to focus on the first revision of PCB as well as explaining why it wasn&rsquo;t working so you might learn from my mistakes. Enjoy!</p>
 
 
-<h2 class="relative group">OH MY GOD, WHY IT&rsquo;S NOT WORKING 
-    <div id="oh-my-god-why-its-not-working" class="anchor"></div>
+<h2 class="relative group">Design 
+    <div id="design" class="anchor"></div>
     
     <span
         class="absolute top-0 w-6 transition-opacity opacity-0 ltr:-left-6 rtl:-right-6 not-prose group-hover:opacity-100">
         <a class="group-hover:text-primary-300 dark:group-hover:text-neutral-700"
-            style="text-decoration-line: none !important;" href="#oh-my-god-why-its-not-working" aria-label="Anchor">#</a>
+            style="text-decoration-line: none !important;" href="#design" aria-label="Anchor">#</a>
     </span>        
     
 </h2>
-<p>That is exactly what I was asking myself when testing my first PCBs. A little spoiler, they were faulty. Oh man, they were very faulty. But from the very beginning.</p>
+<p>The first idea was to create something like a handheld so that one could use Otsi everywhere. But there are a few issues with this approach. First of all, it&rsquo;s getting pretty big pretty quickly and my goal was to make it as cheap to build as possible. That means fitting within JLCPCB&rsquo;s 100x100mm size for the cheapest PCB. And that&rsquo;s the first issue with this design. They didn&rsquo;t fit within those dimensions by like 5mm so 5 PCBs (with delivery and taxes) costed me almost 20 bucks. Enough of a back story, here is what I came up with
+
+    <figure>
+      <img
+        class="my-0 rounded-md"
+        loading="lazy"
+        srcset="
+        /otsi_mk2/otsi_pcb/gallery/2_huc6d3b7fb49841e8bde8ab199d08231b1_107574_330x0_resize_q75_box.jpg 330w,
+        /otsi_mk2/otsi_pcb/gallery/2_huc6d3b7fb49841e8bde8ab199d08231b1_107574_660x0_resize_q75_box.jpg 660w,
+        /otsi_mk2/otsi_pcb/gallery/2_huc6d3b7fb49841e8bde8ab199d08231b1_107574_1024x0_resize_q75_box.jpg 1024w,
+        /otsi_mk2/otsi_pcb/gallery/2_huc6d3b7fb49841e8bde8ab199d08231b1_107574_1320x0_resize_q75_box.jpg 2x"
+        src="/otsi_mk2/otsi_pcb/gallery/2_huc6d3b7fb49841e8bde8ab199d08231b1_107574_660x0_resize_q75_box.jpg"
+        alt="alttext"
+      />
+      
+    </figure>
 
 
-<h2 class="relative group">Testing 
-    <div id="testing" class="anchor"></div>
+    <figure>
+      <img
+        class="my-0 rounded-md"
+        loading="lazy"
+        srcset="
+        /otsi_mk2/otsi_pcb/gallery/3_hu66f42d75ec804d2ebfe8d24830323baa_100347_330x0_resize_q75_box.jpg 330w,
+        /otsi_mk2/otsi_pcb/gallery/3_hu66f42d75ec804d2ebfe8d24830323baa_100347_660x0_resize_q75_box.jpg 660w,
+        /otsi_mk2/otsi_pcb/gallery/3_hu66f42d75ec804d2ebfe8d24830323baa_100347_1024x0_resize_q75_box.jpg 1024w,
+        /otsi_mk2/otsi_pcb/gallery/3_hu66f42d75ec804d2ebfe8d24830323baa_100347_1320x0_resize_q75_box.jpg 2x"
+        src="/otsi_mk2/otsi_pcb/gallery/3_hu66f42d75ec804d2ebfe8d24830323baa_100347_660x0_resize_q75_box.jpg"
+        alt="alttext"
+      />
+      
+    </figure>
+
+Being completely honest. I am proud of those PCBs bc beside the dimension issue they look good, and work&hellip; most of the times&hellip;</p>
+
+
+<h2 class="relative group">First issue (check your schematics 4 times&hellip;) 
+    <div id="first-issue-check-your-schematics-4-times" class="anchor"></div>
     
     <span
         class="absolute top-0 w-6 transition-opacity opacity-0 ltr:-left-6 rtl:-right-6 not-prose group-hover:opacity-100">
         <a class="group-hover:text-primary-300 dark:group-hover:text-neutral-700"
-            style="text-decoration-line: none !important;" href="#testing" aria-label="Anchor">#</a>
+            style="text-decoration-line: none !important;" href="#first-issue-check-your-schematics-4-times" aria-label="Anchor">#</a>
     </span>        
     
 </h2>
-<p>Before I could test my PCBs I had to have them physically, and it was taking longer than usual for my local postal service to deliver them to me, but not thinking about it too much I was just patiently waiting. As it turned out, my boards have been in my city&rsquo;s post office for a week but they just didn&rsquo;t deliver it. Thankfully after messaging JLCPCB customer service I figured it out and went right away to collect them. And that was the easy part&hellip;<br>
-After I finally got them, the time for testing arrived. And they didn&rsquo;t work. Not at all&hellip; I thought that it was a problem with I2C bc some devices were working and some were not. But as it turned out it was a problem with me. To avoid pulling too much current from one voltage regulator I have split power distribution to two V regulators, one connected to +3.3V line and another connected to +3.3VP line. And every device where connected either to +3.3V or +3.3VP, correct right? Yes correct, but voltage regulators where connected to +3.3VP, so far correct, and +3V3&hellip; Small difference but enough to make one V regulator not connected to any I2C slaves. And electronic devices usually work better when connected to power. And that was my problem. I found that out the hard way, after even ordering an oscilloscope.</p>
+<p>Here you have my schematic for this PCB and let&rsquo;s play a little game. Look at it and try to figure out what is wrong with it, I mean, connection wise.
+
+    <figure>
+      <img
+        class="my-0 rounded-md"
+        loading="lazy"
+        srcset="
+        /otsi_mk2/otsi_pcb/gallery/schematic1_huc8d1bd4d5ef36f156b83e2931f3ce963_302748_330x0_resize_box_3.png 330w,
+        /otsi_mk2/otsi_pcb/gallery/schematic1_huc8d1bd4d5ef36f156b83e2931f3ce963_302748_660x0_resize_box_3.png 660w,
+        /otsi_mk2/otsi_pcb/gallery/schematic1_huc8d1bd4d5ef36f156b83e2931f3ce963_302748_1024x0_resize_box_3.png 1024w,
+        /otsi_mk2/otsi_pcb/gallery/schematic1_huc8d1bd4d5ef36f156b83e2931f3ce963_302748_1320x0_resize_box_3.png 2x"
+        src="/otsi_mk2/otsi_pcb/gallery/schematic1_huc8d1bd4d5ef36f156b83e2931f3ce963_302748_660x0_resize_box_3.png"
+        alt="alttext"
+      />
+      
+    </figure>
+
+So in this version I placed two V regulators so that Pico with displays is powered from one and ICs from the other one. First voltage regulator is connected to +3V3 line and the second one to +3.3VP line&hellip;
+
+    <figure>
+      <img
+        class="my-0 rounded-md"
+        loading="lazy"
+        srcset="
+        /otsi_mk2/otsi_pcb/gallery/schematicError_hue5bbe52fb5386d2f1ac64fdb69a51ce1_15209_330x0_resize_box_3.png 330w,
+        /otsi_mk2/otsi_pcb/gallery/schematicError_hue5bbe52fb5386d2f1ac64fdb69a51ce1_15209_660x0_resize_box_3.png 660w,
+        /otsi_mk2/otsi_pcb/gallery/schematicError_hue5bbe52fb5386d2f1ac64fdb69a51ce1_15209_1024x0_resize_box_3.png 1024w,
+        /otsi_mk2/otsi_pcb/gallery/schematicError_hue5bbe52fb5386d2f1ac64fdb69a51ce1_15209_1320x0_resize_box_3.png 2x"
+        src="/otsi_mk2/otsi_pcb/gallery/schematicError_hue5bbe52fb5386d2f1ac64fdb69a51ce1_15209_660x0_resize_box_3.png"
+        alt="alttext"
+      />
+      
+    </figure>
+
+But as you can see above, the regulator is connected to +3V3 line but everything else to +3.3V. And I didn&rsquo;t catch it earlier bc of using 2 voltage regulators, my Pico and displays had power so I completely forgot about the difference in voltage regulators. This one tiny mistake led me to buying an oscilloscope and investigating if the capacitance of I2C lines is correct&hellip; That being said, always remember to check your schematic and measure voltage at the beginning. And before my next problem, let&rsquo;s look at the assembled PCBs</p>
 
 
-<h2 class="relative group">Conclusion 
-    <div id="conclusion" class="anchor"></div>
+<h2 class="relative group">Semi-soldered PCBs 
+    <div id="semi-soldered-pcbs" class="anchor"></div>
     
     <span
         class="absolute top-0 w-6 transition-opacity opacity-0 ltr:-left-6 rtl:-right-6 not-prose group-hover:opacity-100">
         <a class="group-hover:text-primary-300 dark:group-hover:text-neutral-700"
-            style="text-decoration-line: none !important;" href="#conclusion" aria-label="Anchor">#</a>
+            style="text-decoration-line: none !important;" href="#semi-soldered-pcbs" aria-label="Anchor">#</a>
     </span>        
     
 </h2>
-<p>There is a lot that I have to change about this design, and being completely honest, we are going to change a lot. Practically all of it is going to change. Smaller PCB, different features, different case. But it was a wise idea anyway to order those PCBs and test them. Without it, I wouldn&rsquo;t have been able to realise our mistakes. So in the end, everything goes somewhat according to the plan.</p>
+<p>After receiving my package with my boards I made another mistake, I have soldered everything (or almost everything at once)
+
+    <figure>
+      <img class="my-0 rounded-md" loading="lazy" src="gallery/pcb%20rev1%20semisoldered1.png" alt="alttext" />
+      
+    </figure>
 
 
-<h2 class="relative group"> 
-    <div id="heading" class="anchor"></div>
+    <figure>
+      <img class="my-0 rounded-md" loading="lazy" src="gallery/pcb%20rev1%20semisoldered2.png" alt="alttext" />
+      
+    </figure>
+
+Soldering everything at once is a big problem bc you don&rsquo;t know what exactly is causing errors and have to desolder everything piece by piece. And second thing I should have done is using gold pins sockets for e.g. Pico instead of soldering it directly. It would have saved me a lot of trouble later.</p>
+
+
+<h2 class="relative group">I<sup>2</sup>C addressing issues 
+    <div id="isup2supc-addressing-issues" class="anchor"></div>
     
     <span
         class="absolute top-0 w-6 transition-opacity opacity-0 ltr:-left-6 rtl:-right-6 not-prose group-hover:opacity-100">
         <a class="group-hover:text-primary-300 dark:group-hover:text-neutral-700"
-            style="text-decoration-line: none !important;" href="#heading" aria-label="Anchor">#</a>
+            style="text-decoration-line: none !important;" href="#isup2supc-addressing-issues" aria-label="Anchor">#</a>
     </span>        
     
 </h2>
-<p><strong>More updates in the next Otsi log</strong>    <br>
-<strong>Stay creative and keep persistant</strong>  <br>
+<p>Another thing to keep in mind is checking all of your I<sup>2</sup>C devices beforehand. I didn&rsquo;t do it bc I thought that it would take too much time, where, in fact, it would save some. My problem was that 2 of my devices had the same address and everything connected to the BUS after those devices were working only when you jumped on one leg around it and didn&rsquo;t breath near them for exactly 2.3s or saying it normally, they just were working randomly. And after I figured this out, there was one last problem.</p>
+
+
+<h2 class="relative group">Never mess with config files for Arduino 
+    <div id="never-mess-with-config-files-for-arduino" class="anchor"></div>
+    
+    <span
+        class="absolute top-0 w-6 transition-opacity opacity-0 ltr:-left-6 rtl:-right-6 not-prose group-hover:opacity-100">
+        <a class="group-hover:text-primary-300 dark:group-hover:text-neutral-700"
+            style="text-decoration-line: none !important;" href="#never-mess-with-config-files-for-arduino" aria-label="Anchor">#</a>
+    </span>        
+    
+</h2>
+<p>I am using a <a href="https://github.com/earlephilhower/arduino-pico" target="_blank">library</a> for programming Pico in Arduino IDE. And after a stroke of genius I have changed something in config files and bc of it none of my I2C devices were working properly. They just didn&rsquo;t communicate with Pico&hellip; I have spent 1 whole week debugging it every day&hellip; It was a pain&hellip;</p>
+
+
+<h2 class="relative group">Last words 
+    <div id="last-words" class="anchor"></div>
+    
+    <span
+        class="absolute top-0 w-6 transition-opacity opacity-0 ltr:-left-6 rtl:-right-6 not-prose group-hover:opacity-100">
+        <a class="group-hover:text-primary-300 dark:group-hover:text-neutral-700"
+            style="text-decoration-line: none !important;" href="#last-words" aria-label="Anchor">#</a>
+    </span>        
+    
+</h2>
+<p>This project log is slowly coming to an end but I hope you learned that rushing stuff never helps and that your stupidity is your biggest enemy. See you in the next Otsi update.</p>
+<p><strong>Stay creative and slow down</strong> <br>
 <strong>~Otsi development team and Simon</strong></p>
 
           
@@ -884,8 +905,8 @@ After I finally got them, the time for testing arrived. And they didn&rsquo;t wo
           
         
       <script>
-        var oid = "views_otsi_mk2\/otsi_pcb\/index.md"
-        var oid_likes = "likes_otsi_mk2\/otsi_pcb\/index.md"
+        var oid = "views_otsi_mk2\\otsi_pcb\\index.md"
+        var oid_likes = "likes_otsi_mk2\\otsi_pcb\\index.md"
       </script>
       
       
