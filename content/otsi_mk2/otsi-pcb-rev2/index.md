@@ -34,6 +34,8 @@ And here are some of my early ideas of the second design
 Also, this time I am doing proper 3D models of those PCBs. As of today (03 Apr. 2025) I have only designed a UI PCB but in the near future I'm going to continue the work on a model of main PCB.
 ![alttext](gallery/ui%20PCB%20model.png)
 *UI PCB model*
+![alttext](gallery/entire%20PCB%20freecad.png)
+*PCB assembly*
 
 ### More to come when PCBs rev2 arrive
 
