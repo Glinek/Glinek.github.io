@@ -1,0 +1,32 @@
+[[main]]
+name = "Home"
+pageRef = "index"
+identifier = "KCgx6vYcpW"
+weight = 1
+
+[[main]]
+name = "Projects"
+pageRef = "projects"
+identifier = "eAnHAPmV1V"
+weight = 2
+
+[[main]]
+name = "About Me"
+pageRef = "about"
+identifier = "oH3nAxdPVc"
+weight = 5
+
+[[main]]
+name = "Contact"
+pageRef = "contact"
+identifier = "DfnzlEa6HX"
+weight = 6
+
+[[main]]
+pre = "github"
+url = "https://github.com/Glinek"
+identifier = "nvumXsWy43"
+weight = 9999
+
+[[footer]]
+none = "none"

@@ -1,0 +1,73 @@
+colorScheme = "glinekWeb"
+defaultAppearance = "dark"
+autoSwitchAppearance = true
+enableSearch = true
+enableCodeCopy = true
+defaultBackgroundImage = "bg4-3.png"
+highlightCurrentMenuArea = false
+
+[header]
+    layout = "fixed"
+
+[footer]
+    showCopyright = true
+    showThemeAttribution = true
+    showAppearanceSwitcher = true
+    showScrollToTop = true
+
+[homepage]
+    layout = "background"
+    showRecent = true
+    showRecentItems = "3"
+    showMoreLink = true
+    showMoreLinkDest = "./projects"
+    cardView = true
+    cardViewScreenWidth = false
+    layoutBackgroundBlur = false
+
+[article]
+    showDate = true
+    showDateUpdated = true
+    showAuthor = false
+    showHero = true
+    heroStyle = "background"
+    showBreadcrumbs = true
+    showDraftLabel = true
+    showEdit = false
+    editAppendPath = true
+    seriesOpened = false
+    showHeadingAnchors = true
+    showPagination = true
+    invertPagination = false
+    showReadingTime = true
+    showTableOfContents = true
+    showTaxonomies = false
+    showAuthorsBadges = false
+    showWordCount = false
+    showSummary = true
+    showZenMode = false
+    showRelatedContent = ""
+
+[list]
+    showHero = true
+    heroStyle = "background"
+    showBreadcrumbs = false
+    layoutBackgroundHeaderSpace = false
+    showSummary = true
+    showTableOfContents = false
+    showCards = false
+    groupByYear = true
+    cardView = true
+    cardViewScreenWidth = false
+
+[sitemap]
+    excludedKinds = []
+
+[taxonomy]
+    showTermCount = true
+
+[firebase]
+
+[fathomAnalytics]
+
+[verification]
