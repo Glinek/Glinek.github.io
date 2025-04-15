@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Arduino on Glinek</title>
+    <link>//localhost:1313/tags/arduino/</link>
+    <description>Recent content in Arduino on Glinek</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en</language>
+    <copyright>© 2024-2025 Szymon Glinka | This website does NOT use any cookies for tracking.</copyright>
+    <lastBuildDate>Sun, 09 Feb 2025 00:00:00 +0000</lastBuildDate><atom:link href="//localhost:1313/tags/arduino/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Arduino Photo-Frame</title>
+      <link>//localhost:1313/projects/arduino-photoframe/</link>
+      <pubDate>Sun, 09 Feb 2025 00:00:00 +0000</pubDate>
+      
+      <guid>//localhost:1313/projects/arduino-photoframe/</guid>
+      <description>An Arduino Photo-Frame based on Raspberry Pi Pico W and ILI9341 3.2inch SPI display.</description>
+      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="//localhost:1313/projects/arduino-photoframe/featured.jpg" />
+    </item>
+    
+    <item>
+      <title>Atrovel calculator</title>
+      <link>//localhost:1313/projects/atrovel-calculator/</link>
+      <pubDate>Fri, 15 Dec 2023 00:00:00 +0000</pubDate>
+      
+      <guid>//localhost:1313/projects/atrovel-calculator/</guid>
+      <description>Atrovel calculator is a project that originated from one of my schools lessons.</description>
+      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="//localhost:1313/projects/atrovel-calculator/featured.jpg" />
+    </item>
+    
+    <item>
+      <title>One-key keyboard</title>
+      <link>//localhost:1313/projects/one-key-keyboard/</link>
+      <pubDate>Mon, 20 Feb 2023 00:00:00 +0000</pubDate>
+      
+      <guid>//localhost:1313/projects/one-key-keyboard/</guid>
+      <description>This is yet another project made for a contest hosted by Cyberdeck Cafe. The objective was to create a keyboard that, as the name suggests, has only one button.</description>
+      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="//localhost:1313/projects/one-key-keyboard/featured.jpg" />
+    </item>
+    
+  </channel>
+</rss>

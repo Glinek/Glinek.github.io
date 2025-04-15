@@ -3,6 +3,7 @@ title: "Arduino Photo-Frame"
 date: 2025-02-09
 description: "Arduino Photo-frame basend on Pico"
 tags: ["Arduino", "Pi Pico"]
+showTaxonomies: True
 showHero: true
 heroStyle: "background"
 summary: An Arduino Photo-Frame based on Raspberry Pi Pico W and ILI9341 3.2inch SPI display.

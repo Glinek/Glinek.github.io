@@ -1,0 +1,142 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>My projects on Glinek</title>
+    <link>//localhost:1313/projects/</link>
+    <description>Recent content in My projects on Glinek</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en</language>
+    <copyright>© 2024-2025 Szymon Glinka | This website does NOT use any cookies for tracking.</copyright>
+    <lastBuildDate>Tue, 15 Apr 2025 00:00:00 +0000</lastBuildDate><atom:link href="//localhost:1313/projects/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Otsi.mk2</title>
+      <link>//localhost:1313/projects/otsi_mk2/</link>
+      <pubDate>Tue, 15 Apr 2025 00:00:00 +0000</pubDate>
+      
+      <guid>//localhost:1313/projects/otsi_mk2/</guid>
+      <description>This article is dedicated to house all of Otsi.mk2&amp;rsquo;s Project-Logs. Enjoy!</description>
+      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="//localhost:1313/projects/otsi_mk2/featured.png" />
+    </item>
+    
+    <item>
+      <title>Pelican Case workstation mk2</title>
+      <link>//localhost:1313/projects/pelican-case-workstation-mk2/</link>
+      <pubDate>Mon, 14 Apr 2025 00:00:00 +0000</pubDate>
+      
+      <guid>//localhost:1313/projects/pelican-case-workstation-mk2/</guid>
+      <description>This is a second version of my workstation build inside a Pelican Case.</description>
+      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="//localhost:1313/projects/pelican-case-workstation-mk2/featured.jpg" />
+    </item>
+    
+    <item>
+      <title>Model of my school&#39;s robots</title>
+      <link>//localhost:1313/projects/irb1100-model/</link>
+      <pubDate>Mon, 10 Mar 2025 00:00:00 +0000</pubDate>
+      
+      <guid>//localhost:1313/projects/irb1100-model/</guid>
+      <description>A semi-accurate model of my school&amp;rsquo;s robotic educational setup.</description>
+      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="//localhost:1313/projects/irb1100-model/featured.png" />
+    </item>
+    
+    <item>
+      <title>Arduino Photo-Frame</title>
+      <link>//localhost:1313/projects/arduino-photoframe/</link>
+      <pubDate>Sun, 09 Feb 2025 00:00:00 +0000</pubDate>
+      
+      <guid>//localhost:1313/projects/arduino-photoframe/</guid>
+      <description>An Arduino Photo-Frame based on Raspberry Pi Pico W and ILI9341 3.2inch SPI display.</description>
+      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="//localhost:1313/projects/arduino-photoframe/featured.jpg" />
+    </item>
+    
+    <item>
+      <title>VeyToy - desktop timer</title>
+      <link>//localhost:1313/projects/veytoy-desktop-timer/</link>
+      <pubDate>Sun, 20 Oct 2024 00:00:00 +0000</pubDate>
+      
+      <guid>//localhost:1313/projects/veytoy-desktop-timer/</guid>
+      <description>This is one of my one day projects. Created to help me keep focus without my phone or computer</description>
+      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="//localhost:1313/projects/veytoy-desktop-timer/featured.jpg" />
+    </item>
+    
+    <item>
+      <title>Chloe - HackYeah2024</title>
+      <link>//localhost:1313/projects/chloe---hackyeah2024/</link>
+      <pubDate>Sun, 29 Sep 2024 00:00:00 +0000</pubDate>
+      
+      <guid>//localhost:1313/projects/chloe---hackyeah2024/</guid>
+      <description>This is a project made in 24h during HackYeah2024 aka. a Hackathon.</description>
+      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="//localhost:1313/projects/chloe---hackyeah2024/featured.png" />
+    </item>
+    
+    <item>
+      <title>Pelican Case workstation</title>
+      <link>//localhost:1313/projects/pelican-case-workstation/</link>
+      <pubDate>Tue, 30 Jul 2024 00:00:00 +0000</pubDate>
+      
+      <guid>//localhost:1313/projects/pelican-case-workstation/</guid>
+      <description>This is a 15kg pelican case that houses lab bench power supply, ethernet switch, second screen, charger for my laptop and much more.</description>
+      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="//localhost:1313/projects/pelican-case-workstation/featured.jpg" />
+    </item>
+    
+    <item>
+      <title>RC car mode</title>
+      <link>//localhost:1313/projects/rc-car-mode/</link>
+      <pubDate>Sat, 15 Jun 2024 00:00:00 +0000</pubDate>
+      
+      <guid>//localhost:1313/projects/rc-car-mode/</guid>
+      <description>Warning! This project is not well documented.A-N-Ulab/RC_car-LoRa_drivenController and reciver for controling rc based on rp2040, heltec_v3 and LoRaC&amp;#43;&amp;#43; 00Story #This project is another simple-ish build but more time than I would like to admit.</description>
+      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="//localhost:1313/projects/rc-car-mode/featured.png" />
+    </item>
+    
+    <item>
+      <title>Obsium mk2</title>
+      <link>//localhost:1313/projects/obsium-mk2/</link>
+      <pubDate>Sat, 30 Mar 2024 00:00:00 +0000</pubDate>
+      
+      <guid>//localhost:1313/projects/obsium-mk2/</guid>
+      <description>Obsium mk2 is an upgraded version of my beloved Obsium.</description>
+      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="//localhost:1313/projects/obsium-mk2/featured.jpg" />
+    </item>
+    
+    <item>
+      <title>Otsi cyberpet - mk1</title>
+      <link>//localhost:1313/projects/otsi/</link>
+      <pubDate>Thu, 25 Jan 2024 00:00:00 +0000</pubDate>
+      
+      <guid>//localhost:1313/projects/otsi/</guid>
+      <description>Otsi is a winning design of a cyberpet made for Cyberdeck Cafe&amp;rsquo;s contest. Main objective of this contest was to build your personal companion that would need to be taken care of and would serve a real life purpose like helping you with everyday tasks.</description>
+      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="//localhost:1313/projects/otsi/featured.jpg" />
+    </item>
+    
+    <item>
+      <title>Atrovel calculator</title>
+      <link>//localhost:1313/projects/atrovel-calculator/</link>
+      <pubDate>Fri, 15 Dec 2023 00:00:00 +0000</pubDate>
+      
+      <guid>//localhost:1313/projects/atrovel-calculator/</guid>
+      <description>Atrovel calculator is a project that originated from one of my schools lessons.</description>
+      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="//localhost:1313/projects/atrovel-calculator/featured.jpg" />
+    </item>
+    
+    <item>
+      <title>Obsium mk1</title>
+      <link>//localhost:1313/projects/obsium/</link>
+      <pubDate>Tue, 01 Aug 2023 00:00:00 +0000</pubDate>
+      
+      <guid>//localhost:1313/projects/obsium/</guid>
+      <description>Cyberdecks serve a different purpose for everybody. Some create it purely for fun others try to make a perfect „laptop” like device to fulfil all of their needs. For me it is both.</description>
+      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="//localhost:1313/projects/obsium/featured.jpg" />
+    </item>
+    
+    <item>
+      <title>One-key keyboard</title>
+      <link>//localhost:1313/projects/one-key-keyboard/</link>
+      <pubDate>Mon, 20 Feb 2023 00:00:00 +0000</pubDate>
+      
+      <guid>//localhost:1313/projects/one-key-keyboard/</guid>
+      <description>This is yet another project made for a contest hosted by Cyberdeck Cafe. The objective was to create a keyboard that, as the name suggests, has only one button.</description>
+      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="//localhost:1313/projects/one-key-keyboard/featured.jpg" />
+    </item>
+    
+  </channel>
+</rss>

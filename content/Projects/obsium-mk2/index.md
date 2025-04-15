@@ -6,6 +6,7 @@ description: "Upgraded version of Obsium"
 tags: ["Cyberdeck", "Obsium"]
 summary: Obsium mk2 is an upgraded version of my beloved Obsium.
 showHero: true
+showTaxonomies: True
 heroStyle: "background"
 authors:
   - "anulab"

@@ -6,6 +6,7 @@ tags: ["Arduino", "Calculator", "Open Source"]
 summary: Atrovel calculator is a project that originated from one of my schools lessons.
 showHero: true
 heroStyle: "background"
+showTaxonomies: True
 authors:
   - "anulab"
   - "glinekNormal"

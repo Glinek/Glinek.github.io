@@ -5,6 +5,7 @@ draft: false
 description: "Another version of everyones beloved Otsi Cyberpet"
 tags: ["Otsi", "mk2"]
 summary: This article is dedicated to house all of Otsi.mk2's Project-Logs. Enjoy!
+showTaxonomies: True
 showHero: true
 heroStyle: "background"
 showTableOfContents: false

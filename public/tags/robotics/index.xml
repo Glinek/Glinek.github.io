@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Robotics on Glinek</title>
+    <link>//localhost:1313/tags/robotics/</link>
+    <description>Recent content in Robotics on Glinek</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en</language>
+    <copyright>© 2024-2025 Szymon Glinka | This website does NOT use any cookies for tracking.</copyright>
+    <lastBuildDate>Mon, 10 Mar 2025 00:00:00 +0000</lastBuildDate><atom:link href="//localhost:1313/tags/robotics/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Model of my school&#39;s robots</title>
+      <link>//localhost:1313/projects/irb1100-model/</link>
+      <pubDate>Mon, 10 Mar 2025 00:00:00 +0000</pubDate>
+      
+      <guid>//localhost:1313/projects/irb1100-model/</guid>
+      <description>A semi-accurate model of my school&amp;rsquo;s robotic educational setup.</description>
+      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="//localhost:1313/projects/irb1100-model/featured.png" />
+    </item>
+    
+  </channel>
+</rss>

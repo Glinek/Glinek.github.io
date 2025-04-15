@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Otsi on Glinek</title>
+    <link>//localhost:1313/tags/otsi/</link>
+    <description>Recent content in Otsi on Glinek</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en</language>
+    <copyright>© 2024-2025 Szymon Glinka | This website does NOT use any cookies for tracking.</copyright>
+    <lastBuildDate>Tue, 15 Apr 2025 00:00:00 +0000</lastBuildDate><atom:link href="//localhost:1313/tags/otsi/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Otsi.mk2</title>
+      <link>//localhost:1313/projects/otsi_mk2/</link>
+      <pubDate>Tue, 15 Apr 2025 00:00:00 +0000</pubDate>
+      
+      <guid>//localhost:1313/projects/otsi_mk2/</guid>
+      <description>This article is dedicated to house all of Otsi.mk2&amp;rsquo;s Project-Logs. Enjoy!</description>
+      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="//localhost:1313/projects/otsi_mk2/featured.png" />
+    </item>
+    
+    <item>
+      <title>Otsi - PCBs rev2</title>
+      <link>//localhost:1313/otsi_mk2/otsi-pcb-rev2/</link>
+      <pubDate>Tue, 11 Feb 2025 00:00:00 +0000</pubDate>
+      
+      <guid>//localhost:1313/otsi_mk2/otsi-pcb-rev2/</guid>
+      <description>Project log for Otsi.mk2 focusing on the second revision of PCB&amp;rsquo;s.</description>
+      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="//localhost:1313/otsi_mk2/otsi-pcb-rev2/featured.png" />
+    </item>
+    
+    <item>
+      <title>Otsi -  PCB rev1</title>
+      <link>//localhost:1313/otsi_mk2/otsi_pcb/</link>
+      <pubDate>Fri, 03 Jan 2025 00:00:00 +0000</pubDate>
+      
+      <guid>//localhost:1313/otsi_mk2/otsi_pcb/</guid>
+      <description>This is the first project-log of Otsi.mk2 showcasing our first PCB.</description>
+      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="//localhost:1313/otsi_mk2/otsi_pcb/featured.png" />
+    </item>
+    
+    <item>
+      <title>Otsi cyberpet - mk1</title>
+      <link>//localhost:1313/projects/otsi/</link>
+      <pubDate>Thu, 25 Jan 2024 00:00:00 +0000</pubDate>
+      
+      <guid>//localhost:1313/projects/otsi/</guid>
+      <description>Otsi is a winning design of a cyberpet made for Cyberdeck Cafe&amp;rsquo;s contest. Main objective of this contest was to build your personal companion that would need to be taken care of and would serve a real life purpose like helping you with everyday tasks.</description>
+      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="//localhost:1313/projects/otsi/featured.jpg" />
+    </item>
+    
+  </channel>
+</rss>

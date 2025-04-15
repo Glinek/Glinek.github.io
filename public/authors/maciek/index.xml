@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Maciek on Glinek</title>
+    <link>//localhost:1313/authors/maciek/</link>
+    <description>Recent content in Maciek on Glinek</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en</language>
+    <copyright>© 2024-2025 Szymon Glinka | This website does NOT use any cookies for tracking.</copyright>
+    <lastBuildDate>Tue, 15 Apr 2025 00:00:00 +0000</lastBuildDate><atom:link href="//localhost:1313/authors/maciek/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Otsi.mk2</title>
+      <link>//localhost:1313/projects/otsi_mk2/</link>
+      <pubDate>Tue, 15 Apr 2025 00:00:00 +0000</pubDate>
+      
+      <guid>//localhost:1313/projects/otsi_mk2/</guid>
+      <description>This article is dedicated to house all of Otsi.mk2&amp;rsquo;s Project-Logs. Enjoy!</description>
+      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="//localhost:1313/projects/otsi_mk2/featured.png" />
+    </item>
+    
+  </channel>
+</rss>

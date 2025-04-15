@@ -5,6 +5,7 @@ draft: false
 description: "A pelican case for laptops and cyberdecks"
 tags: ["Other", "Cyberdeck"]
 summary: This is a 15kg pelican case that houses lab bench power supply, ethernet switch, second screen, charger for my laptop and much more.
+showTaxonomies: True
 showHero: true
 heroStyle: "background"
 authors:

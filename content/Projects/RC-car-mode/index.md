@@ -7,6 +7,7 @@ tags: ["Other"]
 sumarry: A mod for RC. Completely new remote based on LoRa, new and stronger battery, better H-Bridge.
 showHero: true
 heroStyle: "background"
+showTaxonomies: True
 authors:
   - "anulab"
   - "glinekNormal"

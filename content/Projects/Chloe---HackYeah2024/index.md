@@ -6,6 +6,7 @@ tags: ["HackYeah", "Chloe", "Software"]
 showHero: true
 heroStyle: "background"
 summary: This is a project made in 24h during HackYeah2024 aka. a Hackathon.
+showTaxonomies: True
 authors:
   - "anulab"
   - "tnst"

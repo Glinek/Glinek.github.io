@@ -7,6 +7,7 @@ tags: ["Cyberdeck", "Obsium"]
 summary: Cyberdecks serve a different purpose for everybody. Some create it purely for fun others try to make a perfect „laptop” like device to fulfil all of their needs. For me it is both.
 showHero: true
 heroStyle: "background"
+showTaxonomies: True
 authors:
   - "anulab"
   - "glinekNormal"

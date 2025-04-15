@@ -7,6 +7,7 @@ tags: ["VeyToy", "Software"]
 summary: This is one of my one day projects. Created to help me keep focus without my phone or computer
 showHero: true
 heroStyle: "background"
+showTaxonomies: True
 authors:
   - "anulab"
   - "glinekNormal"

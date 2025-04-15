@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Authors on Glinek</title>
+    <link>//localhost:1313/authors/</link>
+    <description>Recent content in Authors on Glinek</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en</language>
+    <copyright>© 2024-2025 Szymon Glinka | This website does NOT use any cookies for tracking.</copyright>
+    <lastBuildDate>Tue, 15 Apr 2025 00:00:00 +0000</lastBuildDate><atom:link href="//localhost:1313/authors/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Anulab</title>
+      <link>//localhost:1313/authors/anulab/</link>
+      <pubDate>Tue, 15 Apr 2025 00:00:00 +0000</pubDate>
+      
+      <guid>//localhost:1313/authors/anulab/</guid>
+      <description></description>
+      
+    </item>
+    
+    <item>
+      <title>GlinekNormal</title>
+      <link>//localhost:1313/authors/glineknormal/</link>
+      <pubDate>Tue, 15 Apr 2025 00:00:00 +0000</pubDate>
+      
+      <guid>//localhost:1313/authors/glineknormal/</guid>
+      <description></description>
+      
+    </item>
+    
+    <item>
+      <title>Maciek</title>
+      <link>//localhost:1313/authors/maciek/</link>
+      <pubDate>Tue, 15 Apr 2025 00:00:00 +0000</pubDate>
+      
+      <guid>//localhost:1313/authors/maciek/</guid>
+      <description></description>
+      
+    </item>
+    
+    <item>
+      <title>Tnst</title>
+      <link>//localhost:1313/authors/tnst/</link>
+      <pubDate>Sun, 29 Sep 2024 00:00:00 +0000</pubDate>
+      
+      <guid>//localhost:1313/authors/tnst/</guid>
+      <description></description>
+      
+    </item>
+    
+  </channel>
+</rss>

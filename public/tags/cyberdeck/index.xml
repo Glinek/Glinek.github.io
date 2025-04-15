@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Cyberdeck on Glinek</title>
+    <link>//localhost:1313/tags/cyberdeck/</link>
+    <description>Recent content in Cyberdeck on Glinek</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en</language>
+    <copyright>© 2024-2025 Szymon Glinka | This website does NOT use any cookies for tracking.</copyright>
+    <lastBuildDate>Mon, 14 Apr 2025 00:00:00 +0000</lastBuildDate><atom:link href="//localhost:1313/tags/cyberdeck/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Pelican Case workstation mk2</title>
+      <link>//localhost:1313/projects/pelican-case-workstation-mk2/</link>
+      <pubDate>Mon, 14 Apr 2025 00:00:00 +0000</pubDate>
+      
+      <guid>//localhost:1313/projects/pelican-case-workstation-mk2/</guid>
+      <description>This is a second version of my workstation build inside a Pelican Case.</description>
+      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="//localhost:1313/projects/pelican-case-workstation-mk2/featured.jpg" />
+    </item>
+    
+    <item>
+      <title>Pelican Case workstation</title>
+      <link>//localhost:1313/projects/pelican-case-workstation/</link>
+      <pubDate>Tue, 30 Jul 2024 00:00:00 +0000</pubDate>
+      
+      <guid>//localhost:1313/projects/pelican-case-workstation/</guid>
+      <description>This is a 15kg pelican case that houses lab bench power supply, ethernet switch, second screen, charger for my laptop and much more.</description>
+      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="//localhost:1313/projects/pelican-case-workstation/featured.jpg" />
+    </item>
+    
+    <item>
+      <title>Obsium mk2</title>
+      <link>//localhost:1313/projects/obsium-mk2/</link>
+      <pubDate>Sat, 30 Mar 2024 00:00:00 +0000</pubDate>
+      
+      <guid>//localhost:1313/projects/obsium-mk2/</guid>
+      <description>Obsium mk2 is an upgraded version of my beloved Obsium.</description>
+      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="//localhost:1313/projects/obsium-mk2/featured.jpg" />
+    </item>
+    
+    <item>
+      <title>Obsium mk1</title>
+      <link>//localhost:1313/projects/obsium/</link>
+      <pubDate>Tue, 01 Aug 2023 00:00:00 +0000</pubDate>
+      
+      <guid>//localhost:1313/projects/obsium/</guid>
+      <description>Cyberdecks serve a different purpose for everybody. Some create it purely for fun others try to make a perfect „laptop” like device to fulfil all of their needs. For me it is both.</description>
+      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="//localhost:1313/projects/obsium/featured.jpg" />
+    </item>
+    
+  </channel>
+</rss>

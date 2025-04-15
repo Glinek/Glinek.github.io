@@ -5,6 +5,7 @@ draft: false
 tags: ["Robotics", "SchoolProject"]
 heroStyle: "background"
 summary: A semi-accurate model of my school's robotic educational setup.
+showTaxonomies: True
 authors:
   - "glinekNormal"
 ---
