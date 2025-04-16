@@ -19,6 +19,16 @@
     </item>
     
     <item>
+      <title>Pelican Case workstation mk2</title>
+      <link>//localhost:1313/projects/pelican-case-workstation-mk2/</link>
+      <pubDate>Mon, 14 Apr 2025 00:00:00 +0000</pubDate>
+      
+      <guid>//localhost:1313/projects/pelican-case-workstation-mk2/</guid>
+      <description>This is a second version of my workstation build inside a Pelican Case.</description>
+      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="//localhost:1313/projects/pelican-case-workstation-mk2/featured.jpg" />
+    </item>
+    
+    <item>
       <title>Otsi - PCBs rev2</title>
       <link>//localhost:1313/otsi_mk2/otsi-pcb-rev2/</link>
       <pubDate>Tue, 11 Feb 2025 00:00:00 +0000</pubDate>
