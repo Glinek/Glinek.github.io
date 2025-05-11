@@ -110,7 +110,7 @@
     "keywords": ["VeyToy","Software"],
     
     "mainEntityOfPage": "true",
-    "wordCount": "168"
+    "wordCount": "170"
   }]
   </script>
 
@@ -694,91 +694,7 @@
       
 
       
-        
-            
-              
-            
-          
-            
-          
-            
-          
-            
-          
-          
-<div class="flex author author-extra mt-4">
-  
-      
-      
-        
-          
-        
-        <img class="!mt-0 !mb-0 h-24 w-24 rounded-full ltr:mr-4 rtl:ml-4" width="96" height="96"
-          src="/img/anuLogo4-5_hu4ebb2d0cc267124447b04473ba61a71b_22324_192x192_fill_box_smart1_3.png" />
-      
-  
-  <div class="place-self-center">
-    
-    
-    <div class="text-[0.6rem] uppercase leading-3 text-neutral-500 dark:text-neutral-400">
-      Author
-    </div>
-    <a  href="//localhost:1313/authors/anulab/"  class="font-semibold leading-6 text-neutral-800 dark:text-neutral-300">
-      ANUlab
-    </a>
-    
-    
-    <div class="text-2xl sm:text-lg">
-      <div class="flex flex-wrap text-neutral-400 dark:text-neutral-500">
-        
-      </div>
-    </div>
-  </div>
-</div>
 
-        
-            
-          
-            
-          
-            
-          
-            
-          
-          
-<div class="flex author author-extra mt-4">
-  
-      
-      
-        
-          
-        
-        <img class="!mt-0 !mb-0 h-24 w-24 rounded-full ltr:mr-4 rtl:ml-4" width="96" height="96"
-          src="/img/avatarG_hu747d60fb2f18ed1d83bd80a97385d545_114480_192x192_fill_q75_box_smart1.jpg" />
-      
-  
-  <div class="place-self-center">
-    
-    
-    <div class="text-[0.6rem] uppercase leading-3 text-neutral-500 dark:text-neutral-400">
-      Author
-    </div>
-    <a  href="//localhost:1313/authors/anulab/"  class="font-semibold leading-6 text-neutral-800 dark:text-neutral-300">
-      Simon aka. Glinek
-    </a>
-    
-    
-    <div class="text-2xl sm:text-lg">
-      <div class="flex flex-wrap text-neutral-400 dark:text-neutral-500">
-        
-      </div>
-    </div>
-  </div>
-</div>
-
-
-      
-      <div class="mb-5"></div>
       
 
     
@@ -787,7 +703,81 @@
   
   <section class="flex flex-col max-w-full mt-0 prose dark:prose-invert lg:flex-row">
     
-    
+     <div
+      class="order-first lg:ml-auto px-0 lg:order-last ltr:lg:pl-8 rtl:lg:pr-8">
+      <div class="toc ltr:pl-5 rtl:pr-5 print:hidden lg:sticky lg:top-[140px]">
+
+         <details open id="TOCView"
+  class="toc-right mt-0 overflow-y-scroll overscroll-contain scrollbar-thin scrollbar-track-neutral-200 scrollbar-thumb-neutral-400 dark:scrollbar-track-neutral-800 dark:scrollbar-thumb-neutral-600 rounded-lg ltr:-ml-5 ltr:pl-5 rtl:-mr-5 rtl:pr-5 hidden lg:block">
+  <summary
+    class="block py-1 text-lg font-semibold cursor-pointer bg-neutral-100 text-neutral-800 ltr:-ml-5 ltr:pl-5 rtl:-mr-5 rtl:pr-5 dark:bg-neutral-700 dark:text-neutral-100 lg:hidden">
+    Table of Contents
+  </summary>
+  <div
+    class="min-w-[220px] py-2 border-dotted ltr:-ml-5 ltr:border-l ltr:pl-5 rtl:-mr-5 rtl:border-r rtl:pr-5 dark:border-neutral-600">
+    <nav id="TableOfContents">
+  <ul>
+    <li>
+      <ul>
+        <li><a href="#stay-productive-and-keep-dreaming">Stay productive and keep dreaming</a></li>
+        <li><a href="#simon">~Simon</a></li>
+      </ul>
+    </li>
+  </ul>
+</nav>
+  </div>
+</details>
+<details class="toc-inside mt-0 overflow-hidden rounded-lg ltr:-ml-5 ltr:pl-5 rtl:-mr-5 rtl:pr-5 lg:hidden">
+  <summary
+    class="py-1 text-lg font-semibold cursor-pointer bg-neutral-100 text-neutral-800 ltr:-ml-5 ltr:pl-5 rtl:-mr-5 rtl:pr-5 dark:bg-neutral-700 dark:text-neutral-100 lg:hidden">
+    Table of Contents
+  </summary>
+  <div
+    class="py-2 border-dotted border-neutral-300 ltr:-ml-5 ltr:border-l ltr:pl-5 rtl:-mr-5 rtl:border-r rtl:pr-5 dark:border-neutral-600">
+    <nav id="TableOfContents">
+  <ul>
+    <li>
+      <ul>
+        <li><a href="#stay-productive-and-keep-dreaming">Stay productive and keep dreaming</a></li>
+        <li><a href="#simon">~Simon</a></li>
+      </ul>
+    </li>
+  </ul>
+</nav>
+  </div>
+</details>
+
+<script>
+
+  var margin = 200;
+  var marginError = 50;
+
+  (function () {
+    var $window = $(window);
+    var $toc = $('#TOCView');
+    var tocHeight = $toc.height();
+
+    function onResize() {
+      var windowAndMarginHeight = $window.height() - margin;
+      if(tocHeight >= windowAndMarginHeight) {
+        $toc.css("overflow-y", "scroll")
+        $toc.css("max-height", (windowAndMarginHeight + marginError) + "px")
+      } else {
+        $toc.css("overflow-y", "hidden")
+        $toc.css("max-height", "9999999px")
+      }
+    }
+
+    $window.on('resize', onResize);
+    $(document).ready(onResize);
+  })();
+
+
+
+</script>
+   </div>
+      </div>
+      
 
       <div class="min-w-0 min-h-0 max-w-fit">
         
@@ -821,8 +811,30 @@
     
 </h1>
 <p>Honestly, if you want to build one. You are on your own. I don&rsquo;t plan on releasing any files for it. It&rsquo;s not refined and creating documentation for it is just too much effort for a project like this. But if you want VeyToy&rsquo;s code, contact me and I will happily send them to you.</p>
-<p><strong>Stay productive and keep dreaming</strong><br>
-<strong>~Simon</strong></p>
+
+
+<h3 class="relative group">Stay productive and keep dreaming 
+    <div id="stay-productive-and-keep-dreaming" class="anchor"></div>
+    
+    <span
+        class="absolute top-0 w-6 transition-opacity opacity-0 ltr:-left-6 rtl:-right-6 not-prose group-hover:opacity-100">
+        <a class="group-hover:text-primary-300 dark:group-hover:text-neutral-700"
+            style="text-decoration-line: none !important;" href="#stay-productive-and-keep-dreaming" aria-label="Anchor">#</a>
+    </span>        
+    
+</h3>
+
+
+<h3 class="relative group">~Simon 
+    <div id="simon" class="anchor"></div>
+    
+    <span
+        class="absolute top-0 w-6 transition-opacity opacity-0 ltr:-left-6 rtl:-right-6 not-prose group-hover:opacity-100">
+        <a class="group-hover:text-primary-300 dark:group-hover:text-neutral-700"
+            style="text-decoration-line: none !important;" href="#simon" aria-label="Anchor">#</a>
+    </span>        
+    
+</h3>
 
           
           

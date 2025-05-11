@@ -8,9 +8,6 @@ summary: This is a 15kg pelican case that houses lab bench power supply, etherne
 showTaxonomies: True
 showHero: true
 heroStyle: "background"
-authors:
-  - "anulab"
-  - "glinekNormal"
 ---
 
 ## But why?
@@ -38,8 +35,8 @@ The whole case is controlled by Arduino Nano and some relays. Most important dat
 ## Last words
 It looks simple bc It is. But the size of it made it a nightmare to assemble. That's why it took me 2 months to finish It. Will see if It works as I want in one month, during the hackathon.\
 
-**Never give up**\
-**~Simon**
+### Never give up
+### ~Simon
 
 ## Gallery
 {{< gallery >}}

@@ -7,9 +7,6 @@ showTaxonomies: True
 showHero: true
 heroStyle: "background"
 summary: An Arduino Photo-Frame based on Raspberry Pi Pico W and ILI9341 3.2inch SPI display.
-authors:
- - "anulab"
- - "glinekNormal"
 ---
 
 #
@@ -74,6 +71,6 @@ When pluged in, you should see an Axolotl, current time, day of the week, date, 
 I hope I have helped someone trying to make a Photo-frame themselves or someone just trying to display bitmap's on ILI9341. Whatever It is, I hope it goes well for you.
 Thank you for reading this article.  
 
-**Keep making awesome projects**   
-**~Simon**
+### Keep making awesome projects
+### ~Simon 
 

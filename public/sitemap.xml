@@ -3,31 +3,7 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
 
   <url>
-    <loc>//localhost:1313/authors/anulab/</loc>
-    <lastmod>2025-04-15T00:00:00+00:00</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>0.5</priority>
-  </url>
-  <url>
-    <loc>//localhost:1313/authors/</loc>
-    <lastmod>2025-04-15T00:00:00+00:00</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>0.5</priority>
-  </url>
-  <url>
     <loc>//localhost:1313/</loc>
-    <lastmod>2025-04-15T00:00:00+00:00</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>0.5</priority>
-  </url>
-  <url>
-    <loc>//localhost:1313/authors/glineknormal/</loc>
-    <lastmod>2025-04-15T00:00:00+00:00</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>0.5</priority>
-  </url>
-  <url>
-    <loc>//localhost:1313/authors/maciek/</loc>
     <lastmod>2025-04-15T00:00:00+00:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
@@ -63,7 +39,25 @@
     <priority>0.5</priority>
   </url>
   <url>
+    <loc>//localhost:1313/authors/anulab/</loc>
+    <lastmod>2025-04-14T00:00:00+00:00</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>//localhost:1313/authors/</loc>
+    <lastmod>2025-04-14T00:00:00+00:00</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
     <loc>//localhost:1313/tags/cyberdeck/</loc>
+    <lastmod>2025-04-14T00:00:00+00:00</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>//localhost:1313/authors/glineknormal/</loc>
     <lastmod>2025-04-14T00:00:00+00:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
@@ -99,24 +93,6 @@
     <priority>0.5</priority>
   </url>
   <url>
-    <loc>//localhost:1313/otsi_mk2/otsi-pcb-rev2/</loc>
-    <lastmod>2025-02-11T00:00:00+00:00</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>0.5</priority>
-  </url>
-  <url>
-    <loc>//localhost:1313/otsi_mk2/</loc>
-    <lastmod>2025-02-11T00:00:00+00:00</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>0.5</priority>
-  </url>
-  <url>
-    <loc>//localhost:1313/tags/pcb/</loc>
-    <lastmod>2025-02-11T00:00:00+00:00</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>0.5</priority>
-  </url>
-  <url>
     <loc>//localhost:1313/tags/arduino/</loc>
     <lastmod>2025-02-09T00:00:00+00:00</lastmod>
     <changefreq>daily</changefreq>
@@ -131,12 +107,6 @@
   <url>
     <loc>//localhost:1313/tags/pi-pico/</loc>
     <lastmod>2025-02-09T00:00:00+00:00</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>0.5</priority>
-  </url>
-  <url>
-    <loc>//localhost:1313/otsi_mk2/otsi_pcb/</loc>
-    <lastmod>2025-01-03T00:00:00+00:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
@@ -172,12 +142,6 @@
   </url>
   <url>
     <loc>//localhost:1313/tags/hackyeah/</loc>
-    <lastmod>2024-09-29T00:00:00+00:00</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>0.5</priority>
-  </url>
-  <url>
-    <loc>//localhost:1313/authors/tnst/</loc>
     <lastmod>2024-09-29T00:00:00+00:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>

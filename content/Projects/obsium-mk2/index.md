@@ -8,9 +8,6 @@ summary: Obsium mk2 is an upgraded version of my beloved Obsium.
 showHero: true
 showTaxonomies: True
 heroStyle: "background"
-authors:
-  - "anulab"
-  - "glinekNormal"
 ---
 
 ## Story
@@ -49,8 +46,9 @@ No. Short answer is no. I have been daily driving Obsium for a while. Then I man
 
 ## Last words
 Both Obsiums were great projects and I have learned a ton. I definitely won't disassemble this Obsium, It has Its own place in my heart and I just love It too much. Yes, It's not super powerful. Yes, I have a laptop now. But Obsium remains one of my favorite projects.\
-**Stay creative and make cyberdecks**\
-**~Simon**
+
+### Stay creative and make cyberdecks
+### ~Simon
 
 
 

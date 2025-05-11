@@ -7,9 +7,6 @@ tags: ["Other", "Cyberdeck", "mk2"]
 summary: This is a second version of my workstation build inside a Pelican Case.
 showHero: true
 heroStyle: "background"
-authors:
-  - "anulab"
-  - "glinekNormal"
 ---
 **<center>This page is in active development. Please visit later</center>**
 

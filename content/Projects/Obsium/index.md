@@ -8,9 +8,6 @@ summary: Cyberdecks serve a different purpose for everybody. Some create it pure
 showHero: true
 heroStyle: "background"
 showTaxonomies: True
-authors:
-  - "anulab"
-  - "glinekNormal"
 ---
 
 ## Links

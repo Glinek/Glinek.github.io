@@ -7,9 +7,6 @@ summary: Atrovel calculator is a project that originated from one of my schools 
 showHero: true
 heroStyle: "background"
 showTaxonomies: True
-authors:
-  - "anulab"
-  - "glinekNormal"
 ---
 
 {{< alert >}}
@@ -33,6 +30,6 @@ To create your own Atrovel, just follow the instructions on It's github (link ab
   <img src="gallery/3.jpg" class="grid-w33" />
 {{< /gallery >}}
 
-**Stay creative**\
-**~ Simon**
+### Stay creative
+### ~Simon
 

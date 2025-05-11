@@ -69,16 +69,6 @@
     </item>
     
     <item>
-      <title>PCB</title>
-      <link>//localhost:1313/tags/pcb/</link>
-      <pubDate>Tue, 11 Feb 2025 00:00:00 +0000</pubDate>
-      
-      <guid>//localhost:1313/tags/pcb/</guid>
-      <description></description>
-      
-    </item>
-    
-    <item>
       <title>Arduino</title>
       <link>//localhost:1313/tags/arduino/</link>
       <pubDate>Sun, 09 Feb 2025 00:00:00 +0000</pubDate>

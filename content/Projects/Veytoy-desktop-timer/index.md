@@ -8,9 +8,6 @@ summary: This is one of my one day projects. Created to help me keep focus witho
 showHero: true
 heroStyle: "background"
 showTaxonomies: True
-authors:
-  - "anulab"
-  - "glinekNormal"
 ---
 
 # Story
@@ -19,5 +16,5 @@ This is an actual one day project. Which is something that is not common with my
 # Build your own
 Honestly, if you want to build one. You are on your own. I don't plan on releasing any files for it. It's not refined and creating documentation for it is just too much effort for a project like this. But if you want VeyToy's code, contact me and I will happily send them to you.
 
-**Stay productive and keep dreaming**\
-**~Simon**
+### Stay productive and keep dreaming
+### ~Simon

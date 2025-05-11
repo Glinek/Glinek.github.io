@@ -4,30 +4,15 @@ date: 2025-04-15
 draft: false
 description: "Another version of everyones beloved Otsi Cyberpet"
 tags: ["Otsi", "mk2"]
-summary: This article is dedicated to house all of Otsi.mk2's Project-Logs. Enjoy!
+summary: Details about Otsi.mk2. She is finally posted on ANUlab's own website.
 showTaxonomies: True
 showHero: true
 heroStyle: "background"
 showTableOfContents: false
 showDate: false
-authors:
-  - "anulab"
-  - "maciek"
-  - "glinekNormal"
 ---
 
 {{< alert >}}
-Otsi.mk2's Repos will be added when she is finished. Stay tuned!
+**Info!** Otsi.mk2 has been moved to ANUlab's website. Click [here](https://anulab.glinek.tech/projects/otsi.mk2/otsi-info/) to visit Otsi.mk2's new page.
 {{< /alert >}}
-#  
-##        
-# Project logs
-{{< timeline >}}
-{{< timelineItem icon="check" header="PCB rev1" badge="3.01.2025">}}
-{{< article link="/otsi_mk2/otsi_pcb/" >}}
-{{< /timelineItem >}}
 
-{{< timelineItem icon="xmark" header="PCB rev2" badge="in progress">}}
-{{< article link="/otsi_mk2/otsi-pcb-rev2/" >}}
-{{< /timelineItem >}}
-{{< /timeline >}}

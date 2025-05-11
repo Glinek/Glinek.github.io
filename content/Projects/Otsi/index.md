@@ -8,13 +8,10 @@ summary: Otsi is a winning design of a cyberpet made for Cyberdeck Cafe's contes
 showTaxonomies: True
 showHero: true
 heroStyle: "background"
-authors:
-  - "anulab"
-  - "glinekNormal"
 ---
 
 {{< alert >}}
-**Warning!** Otsi mk1 is no longer under development. There is mk2 coming in the early 2025
+**Warning!** Otsi mk1 is no longer under development. Check [Otsi.mk2](https://anulab.glinek.tech/projects/otsi.mk2/otsi-info/)
 {{< /alert >}}   
 {{< github repo="A-N-Ulab/OTSI-cyberpet" >}}
 
@@ -66,8 +63,9 @@ The one problem that I managed to find is that the timer doesn't work correctly 
 Otsi has been a great project to vastly improve my arduino coding skills. This project wouldn't have been possible without the awesome people from Cyberdeck Cafe. Especially Helix.
 
 ![alt text](20240127_143203.jpg)
-**Stay creative and keep improving**\
-**~Simon**
+
+### Stay creative and keep improving
+### ~Simon
 
 
 

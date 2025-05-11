@@ -8,9 +8,6 @@ sumarry: A mod for RC. Completely new remote based on LoRa, new and stronger bat
 showHero: true
 heroStyle: "background"
 showTaxonomies: True
-authors:
-  - "anulab"
-  - "glinekNormal"
 ---
 
 {{< alert >}}
@@ -25,9 +22,10 @@ This project is another simple-ish build but more time than I would like to admi
 to make your own, visit its github page (Link above). There might not be any instructions, I want to forget about this project. But the code, and cad files are available. If you have any questions, just contact me and I will try to answer them as good as I possibly can.
 
 ## Last words
-As every project, this one also taught me a lot. Was It easy? No... Would I do It again? I don't want to. But remember that every project, no matter how challenging will teach you something. This one taught me LoRa. Keep that in mind when something is not working for you.\
-**Stay persistant**\
-**~Simon**
+As every project, this one also taught me a lot. Was It easy? No... Would I do It again? I don't want to. But remember that every project, no matter how challenging will teach you something. This one taught me LoRa. Keep that in mind when something is not working for you.
+
+### Stay persistant
+### ~Simon
 
 
 

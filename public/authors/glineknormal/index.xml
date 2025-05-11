@@ -7,17 +7,7 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
     <copyright>© 2024-2025 Szymon Glinka | This website does NOT use any cookies for tracking.</copyright>
-    <lastBuildDate>Tue, 15 Apr 2025 00:00:00 +0000</lastBuildDate><atom:link href="//localhost:1313/authors/glineknormal/index.xml" rel="self" type="application/rss+xml" />
-    <item>
-      <title>Otsi.mk2</title>
-      <link>//localhost:1313/projects/otsi_mk2/</link>
-      <pubDate>Tue, 15 Apr 2025 00:00:00 +0000</pubDate>
-      
-      <guid>//localhost:1313/projects/otsi_mk2/</guid>
-      <description>This article is dedicated to house all of Otsi.mk2&amp;rsquo;s Project-Logs. Enjoy!</description>
-      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="//localhost:1313/projects/otsi_mk2/featured.png" />
-    </item>
-    
+    <lastBuildDate>Mon, 14 Apr 2025 00:00:00 +0000</lastBuildDate><atom:link href="//localhost:1313/authors/glineknormal/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Pelican Case workstation mk2</title>
       <link>//localhost:1313/projects/pelican-case-workstation-mk2/</link>
@@ -26,26 +16,6 @@
       <guid>//localhost:1313/projects/pelican-case-workstation-mk2/</guid>
       <description>This is a second version of my workstation build inside a Pelican Case.</description>
       <media:content xmlns:media="http://search.yahoo.com/mrss/" url="//localhost:1313/projects/pelican-case-workstation-mk2/featured.jpg" />
-    </item>
-    
-    <item>
-      <title>Model of my school&#39;s robots</title>
-      <link>//localhost:1313/projects/irb1100-model/</link>
-      <pubDate>Mon, 10 Mar 2025 00:00:00 +0000</pubDate>
-      
-      <guid>//localhost:1313/projects/irb1100-model/</guid>
-      <description>A semi-accurate model of my school&amp;rsquo;s robotic educational setup.</description>
-      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="//localhost:1313/projects/irb1100-model/featured.png" />
-    </item>
-    
-    <item>
-      <title>Arduino Photo-Frame</title>
-      <link>//localhost:1313/projects/arduino-photoframe/</link>
-      <pubDate>Sun, 09 Feb 2025 00:00:00 +0000</pubDate>
-      
-      <guid>//localhost:1313/projects/arduino-photoframe/</guid>
-      <description>An Arduino Photo-Frame based on Raspberry Pi Pico W and ILI9341 3.2inch SPI display.</description>
-      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="//localhost:1313/projects/arduino-photoframe/featured.jpg" />
     </item>
     
     <item>
@@ -96,16 +66,6 @@
       <guid>//localhost:1313/projects/otsi/</guid>
       <description>Otsi is a winning design of a cyberpet made for Cyberdeck Cafe&amp;rsquo;s contest. Main objective of this contest was to build your personal companion that would need to be taken care of and would serve a real life purpose like helping you with everyday tasks.</description>
       <media:content xmlns:media="http://search.yahoo.com/mrss/" url="//localhost:1313/projects/otsi/featured.jpg" />
-    </item>
-    
-    <item>
-      <title>Atrovel calculator</title>
-      <link>//localhost:1313/projects/atrovel-calculator/</link>
-      <pubDate>Fri, 15 Dec 2023 00:00:00 +0000</pubDate>
-      
-      <guid>//localhost:1313/projects/atrovel-calculator/</guid>
-      <description>Atrovel calculator is a project that originated from one of my schools lessons.</description>
-      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="//localhost:1313/projects/atrovel-calculator/featured.jpg" />
     </item>
     
     <item>

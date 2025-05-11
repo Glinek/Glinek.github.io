@@ -8,9 +8,6 @@ summary: This is yet another project made for a contest hosted by Cyberdeck Cafe
 showHero: true
 heroStyle: "background"
 showTaxonomies: True
-authors:
-  - "anulab"
-  - "glinekNormal"
 ---
 
 
@@ -41,5 +38,5 @@ Why would you even want to make your own version? Never mind... Good-ish documen
   <img src="gallery/7.jpg" class="grid-w33" />
 {{< /gallery >}}
 
-**Happy making**\
-**~Simon**
+### Happy making
+### ~Simon
