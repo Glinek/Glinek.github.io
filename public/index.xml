@@ -94,7 +94,7 @@
       <pubDate>Sat, 15 Jun 2024 00:00:00 +0000</pubDate>
       
       <guid>//localhost:1313/projects/rc-car-mode/</guid>
-      <description>Warning! This project is not well documented.A-N-Ulab/RC_car-LoRa_drivenController and reciver for controling rc based on rp2040, heltec_v3 and LoRaC&amp;#43;&amp;#43; 00Story #This project is another simple-ish build but more time than I would like to admit.</description>
+      <description>A mod for RC. Completely new remote based on LoRa, new and stronger battery, better H-Bridge.</description>
       <media:content xmlns:media="http://search.yahoo.com/mrss/" url="//localhost:1313/projects/rc-car-mode/featured.png" />
     </item>
     

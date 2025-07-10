@@ -4,7 +4,7 @@ date: 2024-06-15
 draft: false
 description: "An RC car mode"
 tags: ["Other"]
-sumarry: A mod for RC. Completely new remote based on LoRa, new and stronger battery, better H-Bridge.
+summary: A mod for RC. Completely new remote based on LoRa, new and stronger battery, better H-Bridge.
 showHero: true
 heroStyle: "background"
 showTaxonomies: True
