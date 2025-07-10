@@ -1,5 +1,5 @@
 ---
-title: "PicoCalc"
+title: "PicoCalc mod"
 date: 2025-07-09
 draft: false
 description: ""
