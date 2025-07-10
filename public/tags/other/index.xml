@@ -9,23 +9,23 @@
     <copyright>© 2024-2025 Szymon Glinka | This website does NOT use any cookies for tracking.</copyright>
     <lastBuildDate>Mon, 14 Apr 2025 00:00:00 +0000</lastBuildDate><atom:link href="//localhost:1313/tags/other/index.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title>Pelican Case workstation mk2</title>
-      <link>//localhost:1313/projects/pelican-case-workstation-mk2/</link>
+      <title>Cition.mk2</title>
+      <link>//localhost:1313/projects/cition-mk2/</link>
       <pubDate>Mon, 14 Apr 2025 00:00:00 +0000</pubDate>
       
-      <guid>//localhost:1313/projects/pelican-case-workstation-mk2/</guid>
-      <description>This is a second version of my workstation build inside a Pelican Case.</description>
-      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="//localhost:1313/projects/pelican-case-workstation-mk2/featured.jpg" />
+      <guid>//localhost:1313/projects/cition-mk2/</guid>
+      <description>Have you ever wanted to have a portable workstation straight from movies? Me too, that&amp;rsquo;s why I have made this - a portable workstation enclosed in durable Pelican Case</description>
+      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="//localhost:1313/projects/cition-mk2/featured.jpg" />
     </item>
     
     <item>
       <title>Pelican Case workstation</title>
-      <link>//localhost:1313/projects/pelican-case-workstation/</link>
+      <link>//localhost:1313/projects/cition/</link>
       <pubDate>Tue, 30 Jul 2024 00:00:00 +0000</pubDate>
       
-      <guid>//localhost:1313/projects/pelican-case-workstation/</guid>
+      <guid>//localhost:1313/projects/cition/</guid>
       <description>This is a 15kg pelican case that houses lab bench power supply, ethernet switch, second screen, charger for my laptop and much more.</description>
-      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="//localhost:1313/projects/pelican-case-workstation/featured.jpg" />
+      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="//localhost:1313/projects/cition/featured.jpg" />
     </item>
     
     <item>

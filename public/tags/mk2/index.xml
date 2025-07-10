@@ -14,18 +14,18 @@
       <pubDate>Tue, 15 Apr 2025 00:00:00 +0000</pubDate>
       
       <guid>//localhost:1313/projects/otsi_mk2/</guid>
-      <description>Details about Otsi.mk2. She is finally posted on ANUlab&amp;rsquo;s own website.</description>
-      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="//localhost:1313/projects/otsi_mk2/featured.png" />
+      <description>Otsi is a cute axolotl that is also your personal companion. All in a compact form so you can keep her with you all the time.</description>
+      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="//localhost:1313/projects/otsi_mk2/featured.jpg" />
     </item>
     
     <item>
-      <title>Pelican Case workstation mk2</title>
-      <link>//localhost:1313/projects/pelican-case-workstation-mk2/</link>
+      <title>Cition.mk2</title>
+      <link>//localhost:1313/projects/cition-mk2/</link>
       <pubDate>Mon, 14 Apr 2025 00:00:00 +0000</pubDate>
       
-      <guid>//localhost:1313/projects/pelican-case-workstation-mk2/</guid>
-      <description>This is a second version of my workstation build inside a Pelican Case.</description>
-      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="//localhost:1313/projects/pelican-case-workstation-mk2/featured.jpg" />
+      <guid>//localhost:1313/projects/cition-mk2/</guid>
+      <description>Have you ever wanted to have a portable workstation straight from movies? Me too, that&amp;rsquo;s why I have made this - a portable workstation enclosed in durable Pelican Case</description>
+      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="//localhost:1313/projects/cition-mk2/featured.jpg" />
     </item>
     
   </channel>

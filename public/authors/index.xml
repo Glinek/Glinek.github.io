@@ -7,26 +7,6 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
     <copyright>© 2024-2025 Szymon Glinka | This website does NOT use any cookies for tracking.</copyright>
-    <lastBuildDate>Mon, 14 Apr 2025 00:00:00 +0000</lastBuildDate><atom:link href="//localhost:1313/authors/index.xml" rel="self" type="application/rss+xml" />
-    <item>
-      <title>Anulab</title>
-      <link>//localhost:1313/authors/anulab/</link>
-      <pubDate>Mon, 14 Apr 2025 00:00:00 +0000</pubDate>
-      
-      <guid>//localhost:1313/authors/anulab/</guid>
-      <description></description>
-      
-    </item>
-    
-    <item>
-      <title>GlinekNormal</title>
-      <link>//localhost:1313/authors/glineknormal/</link>
-      <pubDate>Mon, 14 Apr 2025 00:00:00 +0000</pubDate>
-      
-      <guid>//localhost:1313/authors/glineknormal/</guid>
-      <description></description>
-      
-    </item>
-    
+    <atom:link href="//localhost:1313/authors/index.xml" rel="self" type="application/rss+xml" />
   </channel>
 </rss>

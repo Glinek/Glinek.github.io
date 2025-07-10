@@ -7,7 +7,17 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
     <copyright>© 2024-2025 Szymon Glinka | This website does NOT use any cookies for tracking.</copyright>
-    <lastBuildDate>Sun, 09 Feb 2025 00:00:00 +0000</lastBuildDate><atom:link href="//localhost:1313/tags/pi-pico/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Wed, 09 Jul 2025 00:00:00 +0000</lastBuildDate><atom:link href="//localhost:1313/tags/pi-pico/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>PicoCalc</title>
+      <link>//localhost:1313/projects/picocalc-mod/</link>
+      <pubDate>Wed, 09 Jul 2025 00:00:00 +0000</pubDate>
+      
+      <guid>//localhost:1313/projects/picocalc-mod/</guid>
+      <description>ClockworkPi&amp;rsquo;s PicoCalc is great but you know me. It could be even better with just a few hardware upgrades and entirely new software&amp;hellip; Enjoy!</description>
+      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="//localhost:1313/projects/picocalc-mod/featured.jpg" />
+    </item>
+    
     <item>
       <title>Arduino Photo-Frame</title>
       <link>//localhost:1313/projects/arduino-photoframe/</link>

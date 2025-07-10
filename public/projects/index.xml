@@ -7,25 +7,35 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
     <copyright>© 2024-2025 Szymon Glinka | This website does NOT use any cookies for tracking.</copyright>
-    <lastBuildDate>Tue, 15 Apr 2025 00:00:00 +0000</lastBuildDate><atom:link href="//localhost:1313/projects/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Wed, 09 Jul 2025 00:00:00 +0000</lastBuildDate><atom:link href="//localhost:1313/projects/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>PicoCalc</title>
+      <link>//localhost:1313/projects/picocalc-mod/</link>
+      <pubDate>Wed, 09 Jul 2025 00:00:00 +0000</pubDate>
+      
+      <guid>//localhost:1313/projects/picocalc-mod/</guid>
+      <description>ClockworkPi&amp;rsquo;s PicoCalc is great but you know me. It could be even better with just a few hardware upgrades and entirely new software&amp;hellip; Enjoy!</description>
+      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="//localhost:1313/projects/picocalc-mod/featured.jpg" />
+    </item>
+    
     <item>
       <title>Otsi.mk2</title>
       <link>//localhost:1313/projects/otsi_mk2/</link>
       <pubDate>Tue, 15 Apr 2025 00:00:00 +0000</pubDate>
       
       <guid>//localhost:1313/projects/otsi_mk2/</guid>
-      <description>Details about Otsi.mk2. She is finally posted on ANUlab&amp;rsquo;s own website.</description>
-      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="//localhost:1313/projects/otsi_mk2/featured.png" />
+      <description>Otsi is a cute axolotl that is also your personal companion. All in a compact form so you can keep her with you all the time.</description>
+      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="//localhost:1313/projects/otsi_mk2/featured.jpg" />
     </item>
     
     <item>
-      <title>Pelican Case workstation mk2</title>
-      <link>//localhost:1313/projects/pelican-case-workstation-mk2/</link>
+      <title>Cition portable mk2</title>
+      <link>//localhost:1313/projects/cition-mk2/</link>
       <pubDate>Mon, 14 Apr 2025 00:00:00 +0000</pubDate>
       
-      <guid>//localhost:1313/projects/pelican-case-workstation-mk2/</guid>
-      <description>This is a second version of my workstation build inside a Pelican Case.</description>
-      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="//localhost:1313/projects/pelican-case-workstation-mk2/featured.jpg" />
+      <guid>//localhost:1313/projects/cition-mk2/</guid>
+      <description>Have you ever wanted to have a portable workstation straight from movies? Me too, that&amp;rsquo;s why I have made this - a portable workstation enclosed in durable Pelican Case</description>
+      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="//localhost:1313/projects/cition-mk2/featured.jpg" />
     </item>
     
     <item>
@@ -69,13 +79,13 @@
     </item>
     
     <item>
-      <title>Pelican Case workstation</title>
-      <link>//localhost:1313/projects/pelican-case-workstation/</link>
+      <title>Cition portable</title>
+      <link>//localhost:1313/projects/cition/</link>
       <pubDate>Tue, 30 Jul 2024 00:00:00 +0000</pubDate>
       
-      <guid>//localhost:1313/projects/pelican-case-workstation/</guid>
-      <description>This is a 15kg pelican case that houses lab bench power supply, ethernet switch, second screen, charger for my laptop and much more.</description>
-      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="//localhost:1313/projects/pelican-case-workstation/featured.jpg" />
+      <guid>//localhost:1313/projects/cition/</guid>
+      <description>Totally not a 15kg Pelican Case fitted with overengineered guts to allow for usage totally everywhere!</description>
+      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="//localhost:1313/projects/cition/featured.jpg" />
     </item>
     
     <item>
