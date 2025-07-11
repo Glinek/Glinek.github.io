@@ -9,7 +9,7 @@
     <copyright>© 2024-2025 Szymon Glinka | This website does NOT use any cookies for tracking.</copyright>
     <lastBuildDate>Mon, 14 Apr 2025 00:00:00 +0000</lastBuildDate><atom:link href="//localhost:1313/tags/other/index.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title>Cition.mk2</title>
+      <title>Cition portable mk2</title>
       <link>//localhost:1313/projects/cition-mk2/</link>
       <pubDate>Mon, 14 Apr 2025 00:00:00 +0000</pubDate>
       
@@ -19,12 +19,12 @@
     </item>
     
     <item>
-      <title>Pelican Case workstation</title>
+      <title>Cition portable</title>
       <link>//localhost:1313/projects/cition/</link>
       <pubDate>Tue, 30 Jul 2024 00:00:00 +0000</pubDate>
       
       <guid>//localhost:1313/projects/cition/</guid>
-      <description>This is a 15kg pelican case that houses lab bench power supply, ethernet switch, second screen, charger for my laptop and much more.</description>
+      <description>Totally not a 15kg Pelican Case fitted with overengineered guts to allow for usage totally everywhere!</description>
       <media:content xmlns:media="http://search.yahoo.com/mrss/" url="//localhost:1313/projects/cition/featured.jpg" />
     </item>
     
@@ -34,7 +34,7 @@
       <pubDate>Sat, 15 Jun 2024 00:00:00 +0000</pubDate>
       
       <guid>//localhost:1313/projects/rc-car-mode/</guid>
-      <description>Warning! This project is not well documented.A-N-Ulab/RC_car-LoRa_drivenController and reciver for controling rc based on rp2040, heltec_v3 and LoRaC&amp;#43;&amp;#43; 00Story #This project is another simple-ish build but more time than I would like to admit.</description>
+      <description>A mod for RC. Completely new remote based on LoRa, new and stronger battery, better H-Bridge.</description>
       <media:content xmlns:media="http://search.yahoo.com/mrss/" url="//localhost:1313/projects/rc-car-mode/featured.png" />
     </item>
     

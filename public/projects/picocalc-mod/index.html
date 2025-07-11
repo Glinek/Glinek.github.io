@@ -110,7 +110,7 @@
     "keywords": ["Pi Pico","Cyberdeck"],
     
     "mainEntityOfPage": "true",
-    "wordCount": "776"
+    "wordCount": "778"
   }]
   </script>
 
@@ -819,7 +819,7 @@
     ><strong>Info!</strong> This project is WORK IN PROGRESS! Even though my PicoCalc&rsquo;s custom back is made, the software is still being developed.</span>
 </div>
 
-<p><a href="https://www.clockworkpi.com/picocalc" target="_blank">PicoCalc by ClockworkPi</a> is an amazing kit. But for my needs it lacks a few things, like how am I supposed to make a custom handheld system without RTC? Impossible&hellip; Thankfully Clockwork shares all the files on <a href="https://github.com/clockworkpi/PicoCalc" target="_blank">their github</a> so it&rsquo;s fairly easy to add custom boards. Another thing, have you seen its software? Don&rsquo;t get me wrong, <a href="https://geoffg.net/picomite.html" target="_blank">PicoMite</a> is incredible, but why would you use BASIC in 2025? So I&rsquo;m also making new software&hellip; <br>
+<p><a href="https://www.clockworkpi.com/picocalc" target="_blank">PicoCalc by ClockworkPi</a> is an amazing kit. But for my needs it lacks a few things, like how am I supposed to make a custom handheld system without RTC? Impossible&hellip; Thankfully Clockwork shares all the files on <a href="https://github.com/clockworkpi/PicoCalc" target="_blank">their github</a> so it&rsquo;s fairly easy to add custom boards. Another thing, have you seen its software? Don&rsquo;t get me wrong, <a href="https://geoffg.net/picomite.html" target="_blank">PicoMite</a> is incredible, why would you use BASIC in 2025 though? So I&rsquo;m also making new software&hellip; <br>
 But let&rsquo;s not get ahead of myself. Let&rsquo;s, for now, focus on hardware</p>
 
 
@@ -856,7 +856,7 @@ But let&rsquo;s not get ahead of myself. Let&rsquo;s, for now, focus on hardware
     </span>        
     
 </h2>
-<p>But adding that stuff is one thing, another thing is mounting them inside. And that took me 2 tries. At first I used the awesome back replacement by n602 on Thingiverse (here is a link: <a href="https://www.thingiverse.com/thing:6998636" target="_blank">Replacement bottom part for PicoCalc on Thingiverse</a>). And I have modified it heavily to fit all I wanted. Maybe without the LED and extension port, that idea came to my mind later. And I printed this case in my beloved turquoise PETG
+<p>But adding that stuff is one thing, another thing is mounting them inside. And that took me 2 tries. At first I used the awesome back replacement by n602 on Thingiverse (here is a link: <a href="https://www.thingiverse.com/thing:6998636" target="_blank">Replacement bottom part for PicoCalc on Thingiverse</a>). And I have modified it heavily to fit all I wanted. Just without the LED and extension port, that idea came to my mind later. And I printed this case in my beloved turquoise PETG
 
 
 <div id="gallery-9362d4c0834fc6ff89e70e0164555bfa" class="gallery">
@@ -866,7 +866,7 @@ But let&rsquo;s not get ahead of myself. Let&rsquo;s, for now, focus on hardware
   <img src="galleryBack1/picoPanelOpened.jpg" class="grid-w33" />
 
 </div></p>
-<p>But a few weeks later I had a genius idea to add an extension port developed for my other project - <a href="/projects/otsi_mk2">Otsi.mk2</a>, high power LED as well as a mysterious port for something i will talk about in a minute. But at that point I wasn&rsquo;t totally sure if I wanted to change all of it. Soldering took a long time and I wanted to just program my PicoCalc. But after finding Kelpiscool&rsquo;s work on github I had to make it. Kelpiscool made an awesome modular back for PicoCalc that is much more flexible than n602&rsquo;s design (here you have a link: <a href="https://github.com/Kelpiscool/PicoCalc-modular-back" target="_blank">PicoCalc modular back on Github</a>). So I have spent a lot of time designing the new Back and finally here it is. Printed in beautiful bottle green and mat black. TBH I think it looks better than the turquoise one.
+<p>But a few weeks later I had a genius idea to add an extension port developed for my other project - <a href="/projects/otsi_mk2">Otsi.mk2</a>, high power LED as well as a mysterious port for something I will talk about in a minute. But at that point I wasn&rsquo;t totally sure if I wanted to change all of it. Soldering took a long time and I wanted to just program my PicoCalc. But after finding Kelpiscool&rsquo;s work on github I had to make it. Kelpiscool made an awesome modular back for PicoCalc that is much more flexible than n602&rsquo;s design (here you have a link: <a href="https://github.com/Kelpiscool/PicoCalc-modular-back" target="_blank">PicoCalc modular back on Github</a>). So I have spent a lot of time designing the new Back and finally here it is. Printed in beautiful bottle green and mat black. TBH I think it looks better than the turquoise one.
 
 
 <div id="gallery-391ff4d9ad2a372e3b1aa6d3915d8ea2" class="gallery">
@@ -912,9 +912,9 @@ Original on the left, my first attempt in the center and my current version on t
 </h2>
 <p>The software is something special. Bc of PicoCalc being basically a glorified Raspberry Pi Pico I have been programming it in Arduino IDE (bc it&rsquo;s better than micropython&hellip;). My main goals for PicoCalc OS (named Otion-OS) are:</p>
 <ul>
-<li>Display data from all the sensors in a convenient way</li>
-<li>Have a notepad</li>
-<li>Have google calendar and weather forecast integrated</li>
+<li>Displaying data from all the sensors in a convenient way</li>
+<li>Having a notepad</li>
+<li>Having google calendar and weather forecast integrated</li>
 <li>Can&rsquo;t forget about the calculator, this includes:
 <ul>
 <li>Regular calculator</li>
@@ -928,13 +928,13 @@ Original on the left, my first attempt in the center and my current version on t
 <li>Additionally everything that the I2C module outputs</li>
 <li>And something special, remember that mysterious port from earlier? That is for thermal printer, so my PicoCalc is going to be a printer as well.</li>
 </ul>
-<p>And those are my plans, as of today (10.07.2025) I have made the main menu and will now proceed into making widgets (google calendar and weather forecast, those to blank rectangles). Below you have a few photos showing current progress:
+<p>And those are my plans, as of today (10.07.2025) I have made the main menu and will now proceed into making widgets (google calendar and weather forecast, those two blank rectangles). Below you have a few photos showing current progress:
 
 
 <div id="gallery-96ee02cd6a9415c79f378920b8f014b2" class="gallery">
   
-  <img src="gallerySoftware/login.jpg" class="grid-w33" />
-  <img src="gallerySoftware/mainMenu.jpg" class="grid-w33" />
+  <img src="gallerySoftware/login.jpg" class="grid-w50" />
+  <img src="gallerySoftware/mainMenu.jpg" class="grid-w50" />
 
 </div></p>
 
@@ -949,7 +949,7 @@ Original on the left, my first attempt in the center and my current version on t
     </span>        
     
 </h2>
-<p>As of today I&rsquo;m not sharing any files for my mods for PicoCalc, mainly bc I don&rsquo;t have the time to work on all instructions and bc it uses a lot of other peoples projects and dealing with the licenses would be a nightmare. Hope you understand! But if you want some advice or maybe even some files don&rsquo;t hesitate to massage me! And for now here are some photos of soldering process:
+<p>Currently I&rsquo;m not sharing any files for my mods for PicoCalc, mainly bc I don&rsquo;t have the time to work on all the instructions and bc it uses a lot of other people&rsquo;s projects and dealing with the licenses would be a nightmare. Hope you understand. But if you want some advice or maybe even some files don&rsquo;t hesitate to massage me! At last here are some photos I took while soldering the second case:
 
 
 <div id="gallery-ccf1e9b57a3482b0b5b8f9e247fc71ce" class="gallery">
