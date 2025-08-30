@@ -1,4 +1,4 @@
 ---
-title: "My projects"
+title: "My Projects"
 ---
-Projects created by my friends and me and under ANUlab Organization
+Hardware and software projects created by me over the years. Also includes a few things I have been working on with my friends

@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>My projects on Glinek</title>
+    <title>My Projects on Glinek</title>
     <link>//localhost:1313/projects/</link>
-    <description>Recent content in My projects on Glinek</description>
+    <description>Recent content in My Projects on Glinek</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
     <copyright>© 2024-2025 Szymon Glinka | This website does NOT use any cookies for tracking.</copyright>
@@ -24,7 +24,7 @@
       <pubDate>Tue, 15 Apr 2025 00:00:00 +0000</pubDate>
       
       <guid>//localhost:1313/projects/otsi_mk2/</guid>
-      <description>Otsi is a cute axolotl that is also your personal companion. All in a compact form so you can keep her with you all the time.</description>
+      <description>Otsi is a cute axolotl that is also your personal companion. All in a compact form so you can keep her with you all the time. (Info - This project has unfortunately been scraped&amp;hellip;)</description>
       <media:content xmlns:media="http://search.yahoo.com/mrss/" url="//localhost:1313/projects/otsi_mk2/featured.jpg" />
     </item>
     
@@ -66,16 +66,6 @@
       <guid>//localhost:1313/projects/veytoy-desktop-timer/</guid>
       <description>This is one of my one day projects. Created to help me keep focus without my phone or computer</description>
       <media:content xmlns:media="http://search.yahoo.com/mrss/" url="//localhost:1313/projects/veytoy-desktop-timer/featured.jpg" />
-    </item>
-    
-    <item>
-      <title>Chloe - HackYeah2024</title>
-      <link>//localhost:1313/projects/chloe---hackyeah2024/</link>
-      <pubDate>Sun, 29 Sep 2024 00:00:00 +0000</pubDate>
-      
-      <guid>//localhost:1313/projects/chloe---hackyeah2024/</guid>
-      <description>This is a project made in 24h during a Hackathon.</description>
-      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="//localhost:1313/projects/chloe---hackyeah2024/featured.png" />
     </item>
     
     <item>

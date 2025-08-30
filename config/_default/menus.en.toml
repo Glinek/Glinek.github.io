@@ -5,28 +5,26 @@ identifier = "KCgx6vYcpW"
 weight = 1
 
 [[main]]
-name = "Projects"
+name = "My Projects"
 pageRef = "projects"
 identifier = "eAnHAPmV1V"
 weight = 2
 
 [[main]]
+name = "My Blog"
+pageRef = "blog"
+weight = 3
+
+[[main]]
 name = "About Me"
 pageRef = "about"
 identifier = "oH3nAxdPVc"
-weight = 5
-
-[[main]]
-name = "Contact"
-pageRef = "contact"
-identifier = "DfnzlEa6HX"
-weight = 6
-
-[[main]]
-pre = "github"
-url = "https://github.com/Glinek"
-identifier = "nvumXsWy43"
-weight = 9999
+weight = 4
 
 [[footer]]
-none = "none"
+name = "Email Me"
+url = "mailto:simon@glinek.tech"
+
+[[footer]]
+name = "My Github"
+url = "https://github.com/Glinek"

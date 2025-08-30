@@ -3,15 +3,19 @@ title: "Otsi.mk2"
 date: 2025-04-15
 draft: false
 description: "Another version of our beloved Otsi Cyberpet"
-tags: ["Otsi", "mk2"]
-summary: Otsi is a cute axolotl that is also your personal companion. All in a compact form so you can keep her with you all the time.
+tags: ["ANUlab project","Otsi", "mk2"]
+summary: Otsi is a cute axolotl that is also your personal companion. All in a compact form so you can keep her with you all the time. (Info - This project has unfortunately been scraped...)
 showTaxonomies: True
 showHero: true
 heroStyle: "background"
 showTableOfContents: false
-showDate: false
+showDate: true
 ---
 
+{{< alert >}}
+**Info!** As of today (31.07.2025) I am unfortunately scraping Otsi.mk2. Mainly because of lack of time and I just don't think this version could have been a major advancement. Maybe I will revisit this project in the future tho...
+{{< /alert >}}
+<br>
 {{< alert >}}
 **Info!** Otsi.mk2 has been moved to ANUlab's website. Click [here](https://anulab.glinek.tech/projects/otsi.mk2/otsi-info/) to visit Otsi.mk2's new page.
 {{< /alert >}}

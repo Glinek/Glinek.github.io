@@ -3,7 +3,7 @@ defaultAppearance = "dark"
 autoSwitchAppearance = true
 enableSearch = true
 enableCodeCopy = true
-defaultBackgroundImage = "bg4-3.png"
+defaultBackgroundImage = "background.png"
 highlightCurrentMenuArea = false
 
 [header]
@@ -12,7 +12,7 @@ highlightCurrentMenuArea = false
 [footer]
     showCopyright = true
     showThemeAttribution = true
-    showAppearanceSwitcher = true
+    showAppearanceSwitcher = false
     showScrollToTop = true
 
 [homepage]

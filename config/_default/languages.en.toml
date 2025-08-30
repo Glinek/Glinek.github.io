@@ -10,11 +10,14 @@ rtl = false
 description = "Glinek's portfolio website"
 dateFormat = "2 January 2006"
 copyright = "© 2024-2025 Szymon Glinka | This website does NOT use any cookies for tracking."
-logo = "logo_justBallv3.png"
+logo = "logo.png"
 
 [params.author]
 name = "Simon aka. Glinek"
 image = "avatar.jpg"
 headline = "Hii, I'm 19yo robotics engineering student and a maker"
 bio = "Hii, I'm 19yo robotics engineering student, currently a heavy machinery mechanic"
-links = []
+links = [
+    { email = "mailto:simon@glinek.tech" },
+    { github = "https://github.com/Glinek" },
+]
