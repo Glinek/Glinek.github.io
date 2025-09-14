@@ -18,6 +18,6 @@ image = "avatar.jpg"
 headline = "Hii, I'm 19yo robotics engineering student and a maker"
 bio = "Hii, I'm 19yo robotics engineering student, currently a heavy machinery mechanic"
 links = [
-    { email = "mailto:simon@glinek.tech" },
+    { email = "mailto:glinek@anulab.tech" },
     { github = "https://github.com/Glinek" },
 ]
