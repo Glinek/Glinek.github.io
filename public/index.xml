@@ -7,7 +7,17 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
     <copyright>© 2024-2025 Szymon Glinka | This website does NOT use any cookies for tracking.</copyright>
-    <lastBuildDate>Mon, 18 Aug 2025 00:00:00 +0000</lastBuildDate><atom:link href="//localhost:1313/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Wed, 20 Aug 2025 00:00:00 +0000</lastBuildDate><atom:link href="//localhost:1313/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Server Rack...ish</title>
+      <link>//localhost:1313/projects/piserverrack/</link>
+      <pubDate>Wed, 20 Aug 2025 00:00:00 +0000</pubDate>
+      
+      <guid>//localhost:1313/projects/piserverrack/</guid>
+      <description>A v-slot based rack for my Raspberry Pi servers and not only!</description>
+      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="//localhost:1313/projects/piserverrack/featured.jpg" />
+    </item>
+    
     <item>
       <title>picoEEPROM library</title>
       <link>//localhost:1313/blog/picoeeprom/</link>
@@ -165,7 +175,7 @@ In school I mainly program PLCs (we have siemens s7-1200s) and industrial robots
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>//localhost:1313/contact/</guid>
-      <description>Due to my overuse of computer and phone, even though it is important for what I do. There are two ways to contact me, either via Discord @glinek_tronic or via email simon@glinek.</description>
+      <description>Due to my overuse of computer and phone, even though it is important for what I do. There are two ways to contact me, either via Discord @glinek_tronic or via email glinek@anulab.</description>
       
     </item>
     
