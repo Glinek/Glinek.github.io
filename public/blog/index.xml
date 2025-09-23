@@ -7,7 +7,17 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
     <copyright>© 2024-2025 Szymon Glinka | This website does NOT use any cookies for tracking.</copyright>
-    <lastBuildDate>Mon, 18 Aug 2025 00:00:00 +0000</lastBuildDate><atom:link href="//localhost:1313/blog/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Wed, 20 Aug 2025 00:00:00 +0000</lastBuildDate><atom:link href="//localhost:1313/blog/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>How to Pi Server Rack</title>
+      <link>//localhost:1313/blog/howserver/</link>
+      <pubDate>Wed, 20 Aug 2025 00:00:00 +0000</pubDate>
+      
+      <guid>//localhost:1313/blog/howserver/</guid>
+      <description>How to built a custom server rack/How I built a custom server rack for Rasberry Pi&amp;rsquo;s</description>
+      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="//localhost:1313/blog/howserver/featured.jpg" />
+    </item>
+    
     <item>
       <title>picoEEPROM library</title>
       <link>//localhost:1313/blog/picoeeprom/</link>
