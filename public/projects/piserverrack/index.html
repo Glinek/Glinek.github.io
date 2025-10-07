@@ -110,7 +110,7 @@
     "keywords": ["Raspberry Pi","Other"],
     
     "mainEntityOfPage": "true",
-    "wordCount": "11"
+    "wordCount": "346"
   }]
   </script>
 
@@ -628,11 +628,11 @@ window.addEventListener('load', () => {
     class="min-w-[220px] py-2 border-dotted border-neutral-300 ltr:-ml-5 ltr:border-l ltr:pl-5 rtl:-mr-5 rtl:border-r rtl:pr-5 dark:border-neutral-600">
     <nav id="TableOfContents">
   <ul>
-    <li>
-      <ul>
-        <li><a href="#for-now-some-photos-later-i-will-post-more-details">For now some photos, later I will post more details</a></li>
-      </ul>
-    </li>
+    <li><a href="#overview">Overview</a></li>
+    <li><a href="#features">Features</a></li>
+    <li><a href="#hardware-components">Hardware Components</a></li>
+    <li><a href="#software-and-tools">Software and Tools</a></li>
+    <li><a href="#gallery">Gallery</a></li>
   </ul>
 </nav>
   </div>
@@ -646,11 +646,11 @@ window.addEventListener('load', () => {
     class="py-2 border-dotted border-neutral-300 ltr:-ml-5 ltr:border ltr:pl-5 rtl:-mr-5 rtl:border rtl:pr-5 dark:border-neutral-600">
     <nav id="TableOfContents">
   <ul>
-    <li>
-      <ul>
-        <li><a href="#for-now-some-photos-later-i-will-post-more-details">For now some photos, later I will post more details</a></li>
-      </ul>
-    </li>
+    <li><a href="#overview">Overview</a></li>
+    <li><a href="#features">Features</a></li>
+    <li><a href="#hardware-components">Hardware Components</a></li>
+    <li><a href="#software-and-tools">Software and Tools</a></li>
+    <li><a href="#gallery">Gallery</a></li>
   </ul>
 </nav>
   </div>
@@ -669,16 +669,130 @@ window.addEventListener('load', () => {
         <div class="article-content max-w-prose mb-20">
           
 
-<h3 class="relative group">For now some photos, later I will post more details 
-    <div id="for-now-some-photos-later-i-will-post-more-details" class="anchor"></div>
+<h2 class="relative group">Overview 
+    <div id="overview" class="anchor"></div>
     
     <span
         class="absolute top-0 w-6 transition-opacity opacity-0 ltr:-left-6 rtl:-right-6 not-prose group-hover:opacity-100">
         <a class="group-hover:text-primary-300 dark:group-hover:text-neutral-700"
-            style="text-decoration-line: none !important;" href="#for-now-some-photos-later-i-will-post-more-details" aria-label="Anchor">#</a>
+            style="text-decoration-line: none !important;" href="#overview" aria-label="Anchor">#</a>
     </span>        
     
-</h3>
+</h2>
+<p>This project has been made out of necessity, I needed a place to keep my GitLab server that I have been hosting till that moment on Obsium.mk2. My rack is not a typical rack nor a mini-rack, individual <code>modules</code> are stacked horizontally, not vertically bc I had a very limited space with a very limited height. The frame of my rack has been made out of leftover 20x20 v-slot extrusion, this allows me for a very easy installation of <code>nodes</code>. At the moment I have only two of this<code>nodes</code> (an ethernet switch module and a GitLab module). Later I plan to add a PiVPN to be able to connect to my server remotely.</p>
+
+
+<h2 class="relative group">Features 
+    <div id="features" class="anchor"></div>
+    
+    <span
+        class="absolute top-0 w-6 transition-opacity opacity-0 ltr:-left-6 rtl:-right-6 not-prose group-hover:opacity-100">
+        <a class="group-hover:text-primary-300 dark:group-hover:text-neutral-700"
+            style="text-decoration-line: none !important;" href="#features" aria-label="Anchor">#</a>
+    </span>        
+    
+</h2>
+<p>My Pi-Rack main features are:</p>
+<ul>
+<li>Built using V-slots to allow for an easy assembly and expandability</li>
+<li>One-wire (technically speaking two) design. Connect it with one wire to mains voltage and with another one to ethernet. That’s all!</li>
+<li>Technically speaking, portable &#x1f643;</li>
+</ul>
+
+
+<h2 class="relative group">Hardware Components 
+    <div id="hardware-components" class="anchor"></div>
+    
+    <span
+        class="absolute top-0 w-6 transition-opacity opacity-0 ltr:-left-6 rtl:-right-6 not-prose group-hover:opacity-100">
+        <a class="group-hover:text-primary-300 dark:group-hover:text-neutral-700"
+            style="text-decoration-line: none !important;" href="#hardware-components" aria-label="Anchor">#</a>
+    </span>        
+    
+</h2>
+<table>
+<thead>
+<tr>
+<th>Component</th>
+<th>Description</th>
+<th>Quantity</th>
+<th>Notes</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>V-slot extrusion</td>
+<td>The entire frame is made out of it</td>
+<td>2/3m should be enough for something this size</td>
+<td></td>
+</tr>
+<tr>
+<td>T-nuts and other v-slot stuff</td>
+<td>All of the things used to put together the frame</td>
+<td>30ish, you are gonna need some for mounting the nodes to the frame</td>
+<td></td>
+</tr>
+<tr>
+<td>An ethernet switch</td>
+<td>Bc you need networking</td>
+<td>1</td>
+<td>I’m using cudy GS105 5-port switch</td>
+</tr>
+<tr>
+<td>Ethernet cables</td>
+<td>self explanatory</td>
+<td>Depends on how many nodes you have</td>
+<td></td>
+</tr>
+<tr>
+<td>Power strip</td>
+<td>So that you only have one cable for powering the server</td>
+<td>1</td>
+<td></td>
+</tr>
+<tr>
+<td>IEC cable extender</td>
+<td>I have changed the wire on the power strip to have a connector for mains voltage</td>
+<td></td>
+<td>BE EXTREMELY CAREFUL WHEN WORKING WITH AC VOLTAGE. I’m a certified electrician but if you don’t know what you’re doing. Don’t do it!</td>
+</tr>
+<tr>
+<td>Raspberry Pi stuff per one server</td>
+<td>This depends on what you need, but generally a raspberry pi, SSD/SD, power supply, etc.</td>
+<td>1</td>
+<td></td>
+</tr>
+</tbody>
+</table>
+
+
+<h2 class="relative group">Software and Tools 
+    <div id="software-and-tools" class="anchor"></div>
+    
+    <span
+        class="absolute top-0 w-6 transition-opacity opacity-0 ltr:-left-6 rtl:-right-6 not-prose group-hover:opacity-100">
+        <a class="group-hover:text-primary-300 dark:group-hover:text-neutral-700"
+            style="text-decoration-line: none !important;" href="#software-and-tools" aria-label="Anchor">#</a>
+    </span>        
+    
+</h2>
+<ul>
+<li>FreeCAD - used to design the frame and the individual <code>nodes</code></li>
+<li>RJ45 tester and other tools to make ethernet work</li>
+<li>Hot Glue to mount everything &#x1fae3;</li>
+</ul>
+
+
+<h2 class="relative group">Gallery 
+    <div id="gallery" class="anchor"></div>
+    
+    <span
+        class="absolute top-0 w-6 transition-opacity opacity-0 ltr:-left-6 rtl:-right-6 not-prose group-hover:opacity-100">
+        <a class="group-hover:text-primary-300 dark:group-hover:text-neutral-700"
+            style="text-decoration-line: none !important;" href="#gallery" aria-label="Anchor">#</a>
+    </span>        
+    
+</h2>
 
 
 <div id="gallery-b78fd32aa89af594d195027282b596c8" class="gallery">
@@ -758,6 +872,28 @@ window.addEventListener('load', () => {
           
         </span>
         <span>
+          
+            <a class="flex text-right group ml-3" href="/projects/custom-keyboard/">
+              <span class="flex flex-col">
+                <span
+                  class="mt-[0.1rem] leading-6 group-hover:underline group-hover:decoration-primary-500"
+                  >My custom keyboard</span
+                >
+                <span class="mt-[0.1rem] text-xs text-neutral-500 dark:text-neutral-400">
+                  
+                    <time datetime="2025-09-20T00:00:00&#43;00:00">20 September 2025</time>
+                  
+                </span>
+              </span>
+              <span
+                class="ml-3 text-neutral-700 group-hover:text-primary-600 ltr:inline rtl:hidden dark:text-neutral dark:group-hover:text-primary-400"
+                >&rarr;</span
+              >
+              <span
+                class="mr-3 text-neutral-700 group-hover:text-primary-600 ltr:hidden rtl:inline dark:text-neutral dark:group-hover:text-primary-400"
+                >&larr;</span
+              >
+            </a>
           
         </span>
       </div>

@@ -7,25 +7,17 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
     <copyright>© 2024-2025 Szymon Glinka | This website does NOT use any cookies for tracking.</copyright>
-    <lastBuildDate>Tue, 11 Feb 2025 00:00:00 +0000</lastBuildDate><atom:link href="//localhost:1313/tags/pcb/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Thu, 02 Oct 2025 00:00:00 +0000</lastBuildDate><atom:link href="//localhost:1313/tags/pcb/index.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title>Otsi - PCBs rev2</title>
-      <link>//localhost:1313/otsi_mk2/otsi-pcb-rev2/</link>
-      <pubDate>Tue, 11 Feb 2025 00:00:00 +0000</pubDate>
+      <title>Project Title</title>
+      <link>//localhost:1313/projects/piserverrack/</link>
+      <pubDate>Thu, 02 Oct 2025 00:00:00 +0000</pubDate>
       
-      <guid>//localhost:1313/otsi_mk2/otsi-pcb-rev2/</guid>
-      <description>Project log for Otsi.mk2 focusing on the second revision of PCB&amp;rsquo;s.</description>
-      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="//localhost:1313/otsi_mk2/otsi-pcb-rev2/featured.png" />
-    </item>
-    
-    <item>
-      <title>Otsi -  PCB rev1</title>
-      <link>//localhost:1313/otsi_mk2/otsi_pcb/</link>
-      <pubDate>Fri, 03 Jan 2025 00:00:00 +0000</pubDate>
-      
-      <guid>//localhost:1313/otsi_mk2/otsi_pcb/</guid>
-      <description>This is the first project-log of Otsi.mk2 showcasing our first PCB.</description>
-      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="//localhost:1313/otsi_mk2/otsi_pcb/featured.png" />
+      <guid>//localhost:1313/projects/piserverrack/</guid>
+      <description>Overview #Provide a clear and concise overview of the project.
+Explain the problem it solves, what it does, and its main functionality.
+Features #Summarize the main capabilities of the system.</description>
+      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="//localhost:1313/projects/piserverrack/featured.jpg" />
     </item>
     
   </channel>

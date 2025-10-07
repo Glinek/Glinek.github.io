@@ -13,7 +13,4 @@ heroStyle: "background"
 {{< github repo="Glinek/picoEEPROM" >}}
 &nbsp;
 
-### Why I made it
-My motivation for making this library was to create something to simplify usage of EEPROM with Pico-based boards in Arduino IDE.
-
-### To Write... Sorry...
+## Will be added soon!

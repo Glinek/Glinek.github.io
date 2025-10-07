@@ -25,7 +25,7 @@ And at home I love programming Arduinos/ESPs/RaspberryPis, 3D printing (my curre
 ### What I use to make stuff - Software
 * [FreeCAD](https://www.freecad.org/) - for creating 3D models, since version 1.0 It's working rly nice, though it's not beginner friendly.
 * [KiCAD](https://www.kicad.org/) - for making schematics and PCBs, has some downsides but is the best free tool, and it also runs on Linux.
-* [Visual Studio Code](https://code.visualstudio.com/) - for coding, the best IDE there is.
+* [Visual Studio Code](https://code.visualstudio.com/) - for coding, for me the best IDE though my friends disagree.
 * [Arduino IDE 2](https://www.arduino.cc/en/software) - for programming Arduino, Pi Pico and ESP32
 * Other software to keep me organized([Obsidian](https://obsidian.md/)), slice my 3D models([Cura](https://ultimaker.com/software/ultimaker-cura/)) and make backups([Kopia](https://kopia.io))
 ### What I use to make stuff - Hardware
@@ -40,8 +40,6 @@ You will see that many of my projects while being made by me have label on them 
 
 ### What is ANUlab?
 Anulab (or ANU for short) is an organization created by me in the beginning of 2022. As I said/wrote earlier, right now It's a place to host/post my projects and ones created with my friends, e.g. Hackathon projects. 
-### ANUlab's website
-Click [here](https://anulab.glinek.tech) to go to ANUlab's website where you will find project created by my fiends and me.
 <br/><br/>
 
 **That is all there is about me. I wish you the very best and I'm hoping to see you here again later**        
