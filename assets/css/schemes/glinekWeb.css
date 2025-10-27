@@ -3,7 +3,7 @@
 
   --color-neutral-50: 209, 213, 218;
   --color-neutral-100: 195, 200, 207;
-  --color-neutral-200: 70, 107, 73;
+  --color-neutral-200: 31, 71, 50;
   --color-neutral-300: 138, 147, 162;
   --color-neutral-400: 111, 121, 138;
   --color-neutral-500: 88, 97, 110;
@@ -12,15 +12,17 @@
   --color-neutral-800: 20, 22, 25;
   --color-neutral-900: 13, 15, 16;
 
-  --color-primary-100: 82, 119, 85;
-  --color-primary-200: 72, 110, 75;
-  --color-primary-300: 65, 98, 67;
-  --color-primary-400: 57, 87, 59;
-  --color-primary-500: 50, 75, 51;
-  --color-primary-600: 41, 64, 44;
-  --color-primary-700: 34, 52, 35;
-  --color-primary-800: 26, 41, 28;
-  --color-primary-900: 19, 29, 20;
+  --color-primary-50:  225, 236, 229;   /* soft light green tint */
+  --color-primary-100: 170, 202, 176;   /* pale sage highlight */
+  --color-primary-200: 44, 88, 66;      /* main suit green */
+  --color-primary-300: 38, 76, 57;      /* rich forest tone */
+  --color-primary-400: 32, 65, 49;      /* deep pine */
+  --color-primary-500: 26, 54, 41;      /* dark evergreen */
+  --color-primary-600: 21, 44, 33;      /* deep shadow */
+  --color-primary-700: 17, 36, 27;      /* darker fold tone */
+  --color-primary-800: 13, 28, 21;      /* very dark green-black */
+  --color-primary-900: 9, 21, 16;       /* near-black forest */
+  
 
   --color-secondary-50: 209, 225, 246;
   --color-secondary-100: 192, 214, 242;
