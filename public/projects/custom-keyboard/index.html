@@ -28,8 +28,8 @@
   
   
   
-  <link type="text/css" rel="stylesheet" href="/css/main.bundle.min.e7a32766305cb83f191f34a06e1954bb052168a84bc49978c3b4bce874e86e3a9ef036a7d4b986909fa8e68737ff3795e6751476d8d1a2b326a7b2a10294ecd1.css"
-    integrity="sha512-56MnZjBcuD8ZHzSgbhlUuwUhaKhLxJl4w7S86HTobjqe8Dan1LmGkJ&#43;o5oc3/zeV5nUUdtjRorMmp7KhApTs0Q==" />
+  <link type="text/css" rel="stylesheet" href="/css/main.bundle.min.884dfb9ab4cd51a83d59c0d962bc8aca0fc5d504055f4caa3eb4a4effed9b233e3ff73f56ab0000d9ef86e2f74e3e6a28b430a72ee7b3d414ff0c3775862fcab.css"
+    integrity="sha512-iE37mrTNUag9WcDZYryKyg/F1QQFX0yqPrSk7/7ZsjPj/3P1arAADZ74bi904&#43;aii0MKcu57PUFP8MN3WGL8qw==" />
   
   
   <script type="text/javascript" src="/js/appearance.min.516a16745bea5a9bd011138d254cc0fd3973cd55ce6e15f3dec763e7c7c2c7448f8fe7b54cca811cb821b0c7e12cd161caace1dd794ac3d34d40937cbcc9ee12.js"
@@ -112,7 +112,7 @@
     "keywords": ["Keyboard","Other","Calculator","Arduino"],
     
     "mainEntityOfPage": "true",
-    "wordCount": "5"
+    "wordCount": "398"
   }]
   </script>
 
@@ -123,7 +123,7 @@
   
   
   
-  <link href="mailto:glinek@anulab.tech" rel="me" />
+  <link href="mailto:simon@anulab.tech" rel="me" />
   
   
   <link href="https://github.com/Glinek" rel="me" />
@@ -639,7 +639,9 @@ window.addEventListener('load', () => {
     class="min-w-[220px] py-2 border-dotted border-neutral-300 ltr:-ml-5 ltr:border-l ltr:pl-5 rtl:-mr-5 rtl:border-r rtl:pr-5 dark:border-neutral-600">
     <nav id="TableOfContents">
   <ul>
-    <li><a href="#will-be-added-soon">Will be added soon!</a></li>
+    <li><a href="#overview">Overview</a></li>
+    <li><a href="#hardware-components">Hardware components</a></li>
+    <li><a href="#software-and-tools">Software and Tools</a></li>
   </ul>
 </nav>
   </div>
@@ -653,7 +655,9 @@ window.addEventListener('load', () => {
     class="py-2 border-dotted border-neutral-300 ltr:-ml-5 ltr:border ltr:pl-5 rtl:-mr-5 rtl:border rtl:pr-5 dark:border-neutral-600">
     <nav id="TableOfContents">
   <ul>
-    <li><a href="#will-be-added-soon">Will be added soon!</a></li>
+    <li><a href="#overview">Overview</a></li>
+    <li><a href="#hardware-components">Hardware components</a></li>
+    <li><a href="#software-and-tools">Software and Tools</a></li>
   </ul>
 </nav>
   </div>
@@ -672,16 +676,105 @@ window.addEventListener('load', () => {
         <div class="article-content max-w-prose mb-20">
           
 
-<h2 class="relative group">Will be added soon! 
-    <div id="will-be-added-soon" class="anchor"></div>
+<h2 class="relative group">Overview 
+    <div id="overview" class="anchor"></div>
     
     <span
         class="absolute top-0 w-6 transition-opacity opacity-0 ltr:-left-6 rtl:-right-6 not-prose group-hover:opacity-100">
         <a class="group-hover:text-primary-300 dark:group-hover:text-neutral-700"
-            style="text-decoration-line: none !important;" href="#will-be-added-soon" aria-label="Anchor">#</a>
+            style="text-decoration-line: none !important;" href="#overview" aria-label="Anchor">#</a>
     </span>        
     
 </h2>
+<p>After almost a year of parts sitting in my closet I’ve finally made my own keyboard. This is also one of the projects made out of necessity. It was mainly created to improve my experience while working in various CAD softwares. Hence the numpad on the left though I’m right-handed. While using CAD I use my mouse almost for everything except for inputting dimensions. While I had my numpad on the right I had to swap between using a mouse or a numpad (left hand was useless, SO INEFFICIENT). Now I can comfortably use both at the same time.
+Features
+I have already mentioned one of the features. Numpad on the left. But some might notice that there is also a small display and a weird power switch. That’s bc this numpad is also a CALCULATOR. And that rocker switch is used to change between calculator and numpad.</p>
+
+
+<h2 class="relative group">Hardware components 
+    <div id="hardware-components" class="anchor"></div>
+    
+    <span
+        class="absolute top-0 w-6 transition-opacity opacity-0 ltr:-left-6 rtl:-right-6 not-prose group-hover:opacity-100">
+        <a class="group-hover:text-primary-300 dark:group-hover:text-neutral-700"
+            style="text-decoration-line: none !important;" href="#hardware-components" aria-label="Anchor">#</a>
+    </span>        
+    
+</h2>
+<table>
+<thead>
+<tr>
+<th>Component</th>
+<th>Description</th>
+<th>Quantity</th>
+<th>Notes</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Keyboard</td>
+<td>A keyboard, 75% works best for me, you can make one yourself or by one like I did</td>
+<td>1x</td>
+<td>I bought my keyboard from <a href="https://www.tindie.com/products/baigel/minimilistic-mechanical-keyboard/" target="_blank">Baigel Labs on Tindie</a> and it’s great!</td>
+</tr>
+<tr>
+<td>Raspberry Pi Pico</td>
+<td>A microcontroller used to make the numpad/calculator combo</td>
+<td>1x</td>
+<td>I just love Pi Picos, they are great and work as HID without any issues</td>
+</tr>
+<tr>
+<td>I2C OLED display</td>
+<td>To display the calculator stuff</td>
+<td>1x</td>
+<td>I am using <a href="https://pl.aliexpress.com/item/1005006365845676.html" target="_blank">0.91 inch oled for arduino</a></td>
+</tr>
+<tr>
+<td>Buttons and switches</td>
+<td>Used to make the numpad/calculator</td>
+<td>1x rocker switch, 19x mx brown</td>
+<td>Make sure that the rocker switch has 3 pins!</td>
+</tr>
+<tr>
+<td>USB stuff</td>
+<td>Things used to connect all of it together, USB hub, USB C cables, USB C port</td>
+<td>1x usb hub, 2x usb cables, 1x usb port</td>
+<td>I am using USB 2.0 HUB</td>
+</tr>
+<tr>
+<td>3D printed case</td>
+<td>Self explanatory</td>
+<td>1x</td>
+<td>I also have an acrylic sheet as a base plate</td>
+</tr>
+<tr>
+<td>Keycaps</td>
+<td>Any keycaps that suit you</td>
+<td>1x</td>
+<td>Make sure to buy a set with some extra ones. I bought a set of 109ish</td>
+</tr>
+</tbody>
+</table>
+
+
+<h2 class="relative group">Software and Tools 
+    <div id="software-and-tools" class="anchor"></div>
+    
+    <span
+        class="absolute top-0 w-6 transition-opacity opacity-0 ltr:-left-6 rtl:-right-6 not-prose group-hover:opacity-100">
+        <a class="group-hover:text-primary-300 dark:group-hover:text-neutral-700"
+            style="text-decoration-line: none !important;" href="#software-and-tools" aria-label="Anchor">#</a>
+    </span>        
+    
+</h2>
+<ul>
+<li>Arduino IDE - my IDE of choice for programming Arduinos/Picos</li>
+<li>FreeCAD/other CAD - to design the case, anything that works for you</li>
+<li>Soldering stuff - you still need to do some soldering, especially on the numpad.</li>
+</ul>
+<p>And that’s it, it is not very difficult project but takes patience to make it right and make it visually pleasing.</p>
+<p><strong>Have a great day and keep making stuff</strong><br>
+<strong>~Simon</strong></p>
 
           
           
@@ -776,7 +869,7 @@ window.addEventListener('load', () => {
       <ul class="flex flex-col list-none sm:flex-row">
         
         <li class="flex mb-1 ltr:text-right rtl:text-left sm:mb-0 ltr:sm:mr-7 ltr:sm:last:mr-0 rtl:sm:ml-7 rtl:sm:last:ml-0">
-          <a class="decoration-primary-500 hover:underline hover:decoration-2 hover:underline-offset-2 flex items-center" href="mailto:glinek@anulab.tech"
+          <a class="decoration-primary-500 hover:underline hover:decoration-2 hover:underline-offset-2 flex items-center" href="mailto:simon@anulab.tech"
             title="">
             
             Email Me

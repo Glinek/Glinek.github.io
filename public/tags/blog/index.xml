@@ -20,12 +20,12 @@
     
     <item>
       <title>picoEEPROM library</title>
-      <link>//localhost:1313/blog/picoeeprom/</link>
+      <link>//localhost:1313/projects/picoeeprom/</link>
       <pubDate>Mon, 18 Aug 2025 00:00:00 +0000</pubDate>
       
-      <guid>//localhost:1313/blog/picoeeprom/</guid>
+      <guid>//localhost:1313/projects/picoeeprom/</guid>
       <description>picoEEPROM is library developed by me to simplify usage of EEPROM with Arduino-Pico boards</description>
-      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="//localhost:1313/blog/picoeeprom/featured.png" />
+      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="//localhost:1313/projects/picoeeprom/featured.png" />
     </item>
     
   </channel>

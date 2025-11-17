@@ -8,14 +8,14 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <meta http-equiv="X-UA-Compatible" content="ie=edge" />
   
-  <title>One-key keyboard &middot; Glinek</title>
-  <meta name="title" content="One-key keyboard &middot; Glinek" />
+  <title>picoEEPROM library &middot; Glinek</title>
+  <meta name="title" content="picoEEPROM library &middot; Glinek" />
   
-  <meta name="description" content="This is yet another project made for a contest hosted by Cyberdeck Cafe. The objective was to create a keyboard that, as the name suggests, has only one button." />
-  <meta name="keywords" content="Arduino, keyboard, Open Source, " />
+  <meta name="description" content="picoEEPROM is library developed by me to simplify usage of EEPROM with Arduino-Pico boards" />
+  <meta name="keywords" content="blog, Arduino, " />
   
   
-  <link rel="canonical" href="//localhost:1313/projects/one-key-keyboard/" />
+  <link rel="canonical" href="//localhost:1313/projects/picoeeprom/" />
   
   
   
@@ -66,25 +66,24 @@
   
   
   
-  <meta property="og:url" content="//localhost:1313/projects/one-key-keyboard/">
+  <meta property="og:url" content="//localhost:1313/projects/picoeeprom/">
   <meta property="og:site_name" content="Glinek">
-  <meta property="og:title" content="One-key keyboard">
-  <meta property="og:description" content="One key keyboard for a Cyberdeck Cafe&#39;s contest">
+  <meta property="og:title" content="picoEEPROM library">
+  <meta property="og:description" content="picoEEPROM is library developed by me to simplify usage of EEPROM">
   <meta property="og:locale" content="en">
   <meta property="og:type" content="article">
     <meta property="article:section" content="projects">
-    <meta property="article:published_time" content="2023-02-20T00:00:00+00:00">
-    <meta property="article:modified_time" content="2023-02-20T00:00:00+00:00">
+    <meta property="article:published_time" content="2025-08-18T00:00:00+00:00">
+    <meta property="article:modified_time" content="2025-08-18T00:00:00+00:00">
+    <meta property="article:tag" content="Blog">
     <meta property="article:tag" content="Arduino">
-    <meta property="article:tag" content="Keyboard">
-    <meta property="article:tag" content="Open Source">
-    <meta property="og:image" content="//localhost:1313/projects/one-key-keyboard/featured.jpg">
+    <meta property="og:image" content="//localhost:1313/projects/picoeeprom/featured.png">
 
   
   <meta name="twitter:card" content="summary_large_image">
-  <meta name="twitter:image" content="//localhost:1313/projects/one-key-keyboard/featured.jpg">
-  <meta name="twitter:title" content="One-key keyboard">
-  <meta name="twitter:description" content="One key keyboard for a Cyberdeck Cafe&#39;s contest">
+  <meta name="twitter:image" content="//localhost:1313/projects/picoeeprom/featured.png">
+  <meta name="twitter:title" content="picoEEPROM library">
+  <meta name="twitter:description" content="picoEEPROM is library developed by me to simplify usage of EEPROM">
 
   
   <script type="application/ld+json">
@@ -92,26 +91,26 @@
     "@context": "https://schema.org",
     "@type": "Article",
     "articleSection": "My Projects",
-    "name": "One-key keyboard",
-    "headline": "One-key keyboard",
-    "description": "One key keyboard for a Cyberdeck Cafe\u0027s contest",
-    "abstract": "This is yet another project made for a contest hosted by Cyberdeck Cafe. The objective was to create a keyboard that, as the name suggests, has only one button.",
+    "name": "picoEEPROM library",
+    "headline": "picoEEPROM library",
+    "description": "picoEEPROM is library developed by me to simplify usage of EEPROM",
+    "abstract": "picoEEPROM is library developed by me to simplify usage of EEPROM with Arduino-Pico boards",
     "inLanguage": "en",
-    "url" : "\/\/localhost:1313\/projects\/one-key-keyboard\/",
+    "url" : "\/\/localhost:1313\/projects\/picoeeprom\/",
     "author" : {
       "@type": "Person",
       "name": "Simon aka. Glinek"
     },
-    "copyrightYear": "2023",
-    "dateCreated": "2023-02-20T00:00:00\u002b00:00",
-    "datePublished": "2023-02-20T00:00:00\u002b00:00",
+    "copyrightYear": "2025",
+    "dateCreated": "2025-08-18T00:00:00\u002b00:00",
+    "datePublished": "2025-08-18T00:00:00\u002b00:00",
     
-    "dateModified": "2023-02-20T00:00:00\u002b00:00",
+    "dateModified": "2025-08-18T00:00:00\u002b00:00",
     
-    "keywords": ["Arduino","keyboard","Open Source"],
+    "keywords": ["blog","Arduino"],
     
     "mainEntityOfPage": "true",
-    "wordCount": "238"
+    "wordCount": "744"
   }]
   </script>
 
@@ -146,13 +145,6 @@
 
 
 
-
-    
-    <script defer src="/lib/packery/packery.pkgd.min.js" integrity=""></script>
-
-    
-    
-    <script type="text/javascript" src="/js/shortcodes/gallery.min.9b4cb28f931ed922c26fb9b2510c2debb370f6a63305050c2af81740b2919883715e24efbbdf3a081496718ec751df3a72729d4d0bc71d6071297563a97ce1ee.js" integrity="sha512-m0yyj5Me2SLCb7myUQwt67Nw9qYzBQUMKvgXQLKRmINxXiTvu986CBSWcY7HUd86cnKdTQvHHWBxKXVjqXzh7g=="></script>
 
 
 
@@ -442,7 +434,7 @@ window.addEventListener('load', () => {
 
     
     <div class="fixed inset-x-0 top-0 h-[800px] single_hero_background nozoom"
-    style="background-image:url(/projects/one-key-keyboard/featured_hu34ee9d4e1f2705b0b6ab1acb5b1b7bef_1178459_1200x0_resize_q75_box.jpg);">
+    style="background-image:url(/projects/picoeeprom/featured_hu6fbbd612c73d0ee24eaec39c9d9ab6ce_208677_1200x0_resize_box_3.png);">
     
 
 
@@ -495,8 +487,8 @@ window.addEventListener('load', () => {
   <li class="inline hidden">
     <a
       class="hover:underline decoration-neutral-300 dark:underline-neutral-600"
-      href="/projects/one-key-keyboard/"
-      >One-key keyboard</a
+      href="/projects/picoeeprom/"
+      >picoEEPROM library</a
     ><span class="px-1 text-primary-500">/</span>
   </li>
 
@@ -505,7 +497,7 @@ window.addEventListener('load', () => {
 
     
     <h1 class="mt-0 text-4xl font-extrabold text-neutral-900 dark:text-neutral">
-      One-key keyboard
+      picoEEPROM library
     </h1>
     <div class="mt-1 mb-6 text-base text-neutral-500 dark:text-neutral-400 print:hidden">
       
@@ -544,7 +536,7 @@ window.addEventListener('load', () => {
 <div class="flex flex-row flex-wrap items-center">
   
   
-  <time datetime="2023-02-20T00:00:00&#43;00:00">20 February 2023</time>
+  <time datetime="2025-08-18T00:00:00&#43;00:00">18 August 2025</time>
   
 
   
@@ -568,26 +560,18 @@ window.addEventListener('load', () => {
   
   
   
+  <span style="margin-top:0.5rem" class="mr-2 cursor-pointer" onclick="window.open(&#34;/tags/blog/&#34;,'_self');">
+    <span class="flex" style="cursor: pointer;">
+  <span class="rounded-md border border-primary-400 px-1 py-[1px] text-xs font-normal text-primary-700 dark:border-primary-600 dark:text-primary-400">
+    Blog
+  </span>
+</span>
+  </span>
+  
   <span style="margin-top:0.5rem" class="mr-2 cursor-pointer" onclick="window.open(&#34;/tags/arduino/&#34;,'_self');">
     <span class="flex" style="cursor: pointer;">
   <span class="rounded-md border border-primary-400 px-1 py-[1px] text-xs font-normal text-primary-700 dark:border-primary-600 dark:text-primary-400">
     Arduino
-  </span>
-</span>
-  </span>
-  
-  <span style="margin-top:0.5rem" class="mr-2 cursor-pointer" onclick="window.open(&#34;/tags/keyboard/&#34;,'_self');">
-    <span class="flex" style="cursor: pointer;">
-  <span class="rounded-md border border-primary-400 px-1 py-[1px] text-xs font-normal text-primary-700 dark:border-primary-600 dark:text-primary-400">
-    Keyboard
-  </span>
-</span>
-  </span>
-  
-  <span style="margin-top:0.5rem" class="mr-2 cursor-pointer" onclick="window.open(&#34;/tags/open-source/&#34;,'_self');">
-    <span class="flex" style="cursor: pointer;">
-  <span class="rounded-md border border-primary-400 px-1 py-[1px] text-xs font-normal text-primary-700 dark:border-primary-600 dark:text-primary-400">
-    Open Source
   </span>
 </span>
   </span>
@@ -637,13 +621,28 @@ window.addEventListener('load', () => {
     class="min-w-[220px] py-2 border-dotted border-neutral-300 ltr:-ml-5 ltr:border-l ltr:pl-5 rtl:-mr-5 rtl:border-r rtl:pr-5 dark:border-neutral-600">
     <nav id="TableOfContents">
   <ul>
-    <li><a href="#creation-process">Creation process</a></li>
-    <li><a href="#how-it-works">How it works</a></li>
-    <li><a href="#make-your-own">Make your own</a></li>
-    <li><a href="#gallery">Gallery</a>
+    <li><a href="#github-repo">Github repo</a></li>
+    <li><a href="#overview">Overview</a></li>
+    <li><a href="#features">Features</a></li>
+    <li><a href="#target-device">Target device</a></li>
+    <li><a href="#docs">Docs</a>
       <ul>
-        <li><a href="#happy-making">Happy making</a></li>
-        <li><a href="#simon">~Simon</a></li>
+        <li><a href="#initializing-library">Initializing library</a></li>
+        <li><a href="#functions">Functions</a>
+          <ul>
+            <li><a href="#begineeprom_size">begin(eeprom_size)</a></li>
+            <li><a href="#putemptybyteaddress">putEmptyByte(address)</a></li>
+            <li><a href="#putemptybytesnum_of_bytes-address">putEmptyBytes(num_of_bytes, address)</a></li>
+            <li><a href="#putintvalue-address">putInt(value, address)</a></li>
+            <li><a href="#getintaddress">getInt(address)</a></li>
+            <li><a href="#putboolvalue-bit-address">putBool(value, bit, address)</a></li>
+            <li><a href="#getboolbit-address">getBool(bit, address)</a></li>
+            <li><a href="#putstring20value-address">putString20(value, address)</a></li>
+            <li><a href="#getstring20address">getString20(address)</a></li>
+            <li><a href="#putstringvalue-address">putString(value, address)</a></li>
+            <li><a href="#getstringstring_size-address">getString(string_size, address)</a></li>
+          </ul>
+        </li>
       </ul>
     </li>
   </ul>
@@ -659,13 +658,28 @@ window.addEventListener('load', () => {
     class="py-2 border-dotted border-neutral-300 ltr:-ml-5 ltr:border ltr:pl-5 rtl:-mr-5 rtl:border rtl:pr-5 dark:border-neutral-600">
     <nav id="TableOfContents">
   <ul>
-    <li><a href="#creation-process">Creation process</a></li>
-    <li><a href="#how-it-works">How it works</a></li>
-    <li><a href="#make-your-own">Make your own</a></li>
-    <li><a href="#gallery">Gallery</a>
+    <li><a href="#github-repo">Github repo</a></li>
+    <li><a href="#overview">Overview</a></li>
+    <li><a href="#features">Features</a></li>
+    <li><a href="#target-device">Target device</a></li>
+    <li><a href="#docs">Docs</a>
       <ul>
-        <li><a href="#happy-making">Happy making</a></li>
-        <li><a href="#simon">~Simon</a></li>
+        <li><a href="#initializing-library">Initializing library</a></li>
+        <li><a href="#functions">Functions</a>
+          <ul>
+            <li><a href="#begineeprom_size">begin(eeprom_size)</a></li>
+            <li><a href="#putemptybyteaddress">putEmptyByte(address)</a></li>
+            <li><a href="#putemptybytesnum_of_bytes-address">putEmptyBytes(num_of_bytes, address)</a></li>
+            <li><a href="#putintvalue-address">putInt(value, address)</a></li>
+            <li><a href="#getintaddress">getInt(address)</a></li>
+            <li><a href="#putboolvalue-bit-address">putBool(value, bit, address)</a></li>
+            <li><a href="#getboolbit-address">getBool(bit, address)</a></li>
+            <li><a href="#putstring20value-address">putString20(value, address)</a></li>
+            <li><a href="#getstring20address">getString20(address)</a></li>
+            <li><a href="#putstringvalue-address">putString(value, address)</a></li>
+            <li><a href="#getstringstring_size-address">getString(string_size, address)</a></li>
+          </ul>
+        </li>
       </ul>
     </li>
   </ul>
@@ -684,38 +698,19 @@ window.addEventListener('load', () => {
 
 
         <div class="article-content max-w-prose mb-20">
-          <p>
-  
+          
 
-
-
-<div
-  
-    class="flex px-4 py-3 rounded-md bg-primary-100 dark:bg-primary-900"
-  >
-
-  <span
+<h2 class="relative group">Github repo 
+    <div id="github-repo" class="anchor"></div>
     
-      class="text-primary-400 ltr:pr-3 rtl:pl-3 flex items-center"
-    >
-
+    <span
+        class="absolute top-0 w-6 transition-opacity opacity-0 ltr:-left-6 rtl:-right-6 not-prose group-hover:opacity-100">
+        <a class="group-hover:text-primary-300 dark:group-hover:text-neutral-700"
+            style="text-decoration-line: none !important;" href="#github-repo" aria-label="Anchor">#</a>
+    </span>        
     
-
-  <span class="relative block icon">
-    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512"><path fill="currentColor" d="M506.3 417l-213.3-364c-16.33-28-57.54-28-73.98 0l-213.2 364C-10.59 444.9 9.849 480 42.74 480h426.6C502.1 480 522.6 445 506.3 417zM232 168c0-13.25 10.75-24 24-24S280 154.8 280 168v128c0 13.25-10.75 24-23.1 24S232 309.3 232 296V168zM256 416c-17.36 0-31.44-14.08-31.44-31.44c0-17.36 14.07-31.44 31.44-31.44s31.44 14.08 31.44 31.44C287.4 401.9 273.4 416 256 416z"/></svg>
-
-  </span>
-
-
-  </span>
-
-  <span
-    
-      class="dark:text-neutral-300"
-    ><strong>Warning!</strong> This project is no longer developed</span>
-</div>
-  <br>
-<a id="github-107fa6564c969b79627192e0cf41cc85" target="_blank" href="https://github.com/A-N-Ulab/One-key-keyboard" class="cursor-pointer">
+</h2>
+<p><a id="github-331920de132273e57192d37c4272e1cf" target="_blank" href="https://github.com/Glinek/picoEEPROM" class="cursor-pointer">
   <div
     class="w-full md:w-auto pt-3 p-5 border border-neutral-200 dark:border-neutral-700 border rounded-md shadow-2xl">
 
@@ -731,14 +726,14 @@ window.addEventListener('load', () => {
 
       </span>
       <div
-        id="github-107fa6564c969b79627192e0cf41cc85-full_name"
+        id="github-331920de132273e57192d37c4272e1cf-full_name"
         class="m-0 font-bold text-xl text-neutral-800 decoration-primary-500 hover:underline hover:underline-offset-2 dark:text-neutral">
-        A-N-Ulab/One-key-keyboard
+        Glinek/picoEEPROM
       </div>
     </div>
 
-    <p id="github-107fa6564c969b79627192e0cf41cc85-description" class="m-0 mt-2 text-md text-neutral-800 dark:text-neutral">
-      One key keyboard for Virtcon 2023
+    <p id="github-331920de132273e57192d37c4272e1cf-description" class="m-0 mt-2 text-md text-neutral-800 dark:text-neutral">
+      A library for Arduino-Pico boards that simplifies EEPROM use
     </p>
 
     <div class="m-0 mt-2 flex items-center">
@@ -758,8 +753,8 @@ window.addEventListener('load', () => {
 
 
       </span>
-      <div id="github-107fa6564c969b79627192e0cf41cc85-stargazers" class="m-0 mr-5 text-md text-neutral-800 dark:text-neutral">
-        1
+      <div id="github-331920de132273e57192d37c4272e1cf-stargazers" class="m-0 mr-5 text-md text-neutral-800 dark:text-neutral">
+        0
       </div>
 
       <span class="text-md mr-1 text-neutral-800 dark:text-neutral">
@@ -771,7 +766,7 @@ window.addEventListener('load', () => {
 
 
       </span>
-      <div id="github-107fa6564c969b79627192e0cf41cc85-forks" class="m-0 mr-5 text-md text-neutral-800 dark:text-neutral">
+      <div id="github-331920de132273e57192d37c4272e1cf-forks" class="m-0 mr-5 text-md text-neutral-800 dark:text-neutral">
         0
       </div>
 
@@ -779,114 +774,256 @@ window.addEventListener('load', () => {
 
   </div>
   <script>
-    fetch("https://api.github.com/repos/Glinek/One-key-keyboard", {
+    fetch("https://api.github.com/repos/Glinek/picoEEPROM", {
       headers: new Headers({
         'User-agent': 'Mozilla/4.0 Custom User Agent'
       })
     })
       .then(response => response.json())
       .then(data => {
-        document.getElementById('github-107fa6564c969b79627192e0cf41cc85-full_name').innerHTML = data.full_name;
-        document.getElementById('github-107fa6564c969b79627192e0cf41cc85-description').innerHTML = data.description;
-        document.getElementById('github-107fa6564c969b79627192e0cf41cc85-stargazers').innerHTML = data.stargazers_count;
-        document.getElementById('github-107fa6564c969b79627192e0cf41cc85-forks').innerHTML = data.forks;
+        document.getElementById('github-331920de132273e57192d37c4272e1cf-full_name').innerHTML = data.full_name;
+        document.getElementById('github-331920de132273e57192d37c4272e1cf-description').innerHTML = data.description;
+        document.getElementById('github-331920de132273e57192d37c4272e1cf-stargazers').innerHTML = data.stargazers_count;
+        document.getElementById('github-331920de132273e57192d37c4272e1cf-forks').innerHTML = data.forks;
       })
       .catch(error => console.error(error))
   </script>
-</a></p>
-<ul>
-<li><a href="https://cyberdeck.cafe/" target="_blank">Cyberdeck Cafe&rsquo;s website</a></li>
-<li><a href="https://discord.com/invite/JK76KBsfuR" target="_blank">Cyberdeck Cafe&rsquo;s discord</a></li>
-</ul>
+</a>
+ </p>
 
 
-<h2 class="relative group">Creation process 
-    <div id="creation-process" class="anchor"></div>
+<h2 class="relative group">Overview 
+    <div id="overview" class="anchor"></div>
     
     <span
         class="absolute top-0 w-6 transition-opacity opacity-0 ltr:-left-6 rtl:-right-6 not-prose group-hover:opacity-100">
         <a class="group-hover:text-primary-300 dark:group-hover:text-neutral-700"
-            style="text-decoration-line: none !important;" href="#creation-process" aria-label="Anchor">#</a>
+            style="text-decoration-line: none !important;" href="#overview" aria-label="Anchor">#</a>
     </span>        
     
 </h2>
-<p>This project took a few weeks which is relatively quick considering the fact that It was built after school and other activities. Tbh I don&rsquo;t know why I have decided to make It, I have never actually used it besides while testing it for the contest.</p>
+<p>This project, like many others, has been created out of necessity. While programming PicoCalc I encountered a simple issue, how to save data on Arduino (in this case Pi Pico) so that even after a restart that data will still be there, without using an SD card. The answer is very simple, you should use EEPROM. And that’s what I thought immediately BUT as it turns out Pi Pico only has the built-in EEPROM library which allows you to save 4096 bytes of data by changing the value of each byte. And that’s a problem and that’s how this library was born. I needed a way to save data into EEPROM and the solution was non-existent so I made it myself and shared the solution for everybody to use.</p>
 
 
-<h2 class="relative group">How it works 
-    <div id="how-it-works" class="anchor"></div>
+<h2 class="relative group">Features 
+    <div id="features" class="anchor"></div>
     
     <span
         class="absolute top-0 w-6 transition-opacity opacity-0 ltr:-left-6 rtl:-right-6 not-prose group-hover:opacity-100">
         <a class="group-hover:text-primary-300 dark:group-hover:text-neutral-700"
-            style="text-decoration-line: none !important;" href="#how-it-works" aria-label="Anchor">#</a>
+            style="text-decoration-line: none !important;" href="#features" aria-label="Anchor">#</a>
     </span>        
     
 </h2>
-<p>One-key keyboard (or okk. for short) works by measuring how much light is emitted by the LED onto a photoresistor, while the <code>key</code> is not pressed, the LED is not covered so all the light can shine onto the photoresistor. But when it is pressed by some amount, the <code>key</code> starts blocking some of the light so the photoresistor&rsquo;s resistance changes. And when this photoresistor is connected with another one, and voltage divider is created by them. You can measure this resistance difference (or, to be more accurate, now a voltage drop) with arduino&rsquo;s analog pin. The code can be as short as just a few lines. Additionally I have added another screen, cause It makes okk. look better and also everything nowadays has to have a screen.</p>
+<p>This library is able to save and read Integers, Strings (with dynamic length defined by user and a static length of 20 characters) and Booleans.</p>
 
 
-<h2 class="relative group">Make your own 
-    <div id="make-your-own" class="anchor"></div>
+<h2 class="relative group">Target device 
+    <div id="target-device" class="anchor"></div>
     
     <span
         class="absolute top-0 w-6 transition-opacity opacity-0 ltr:-left-6 rtl:-right-6 not-prose group-hover:opacity-100">
         <a class="group-hover:text-primary-300 dark:group-hover:text-neutral-700"
-            style="text-decoration-line: none !important;" href="#make-your-own" aria-label="Anchor">#</a>
+            style="text-decoration-line: none !important;" href="#target-device" aria-label="Anchor">#</a>
     </span>        
     
 </h2>
-<p>Why would you even want to make your own version? Never mind&hellip; Good-ish documentation can be found on okk.&rsquo;s github page. Link above.</p>
+<p>This project is targeted ONLY for boards from <a href="https://github.com/earlephilhower/arduino-pico" target="_blank">Arduino-Pico library</a>, this means every board with RP2040 and RP235x chip.</p>
 
 
-<h2 class="relative group">Gallery 
-    <div id="gallery" class="anchor"></div>
+<h2 class="relative group">Docs 
+    <div id="docs" class="anchor"></div>
     
     <span
         class="absolute top-0 w-6 transition-opacity opacity-0 ltr:-left-6 rtl:-right-6 not-prose group-hover:opacity-100">
         <a class="group-hover:text-primary-300 dark:group-hover:text-neutral-700"
-            style="text-decoration-line: none !important;" href="#gallery" aria-label="Anchor">#</a>
+            style="text-decoration-line: none !important;" href="#docs" aria-label="Anchor">#</a>
     </span>        
     
 </h2>
+<p>Max allowed EEPROM size 4096 bytes, in this documentation each byte is going to be referred to as address because we need to specify at which byte we will save the data.</p>
 
 
-<div id="gallery-9909b8f1717056f30937003724c559cd" class="gallery">
-  
-  <img src="gallery/1.jpg" class="grid-w33" />
-  <img src="gallery/2.jpg" class="grid-w33" />
-  <img src="gallery/3.jpg" class="grid-w33" />
-  <img src="gallery/4.jpg" class="grid-w33" />
-  <img src="gallery/5.jpg" class="grid-w33" />
-  <img src="gallery/6.jpg" class="grid-w33" />
-  <img src="gallery/7.jpg" class="grid-w33" />
-
-</div>
-
-
-<h3 class="relative group">Happy making 
-    <div id="happy-making" class="anchor"></div>
+<h3 class="relative group">Initializing library 
+    <div id="initializing-library" class="anchor"></div>
     
     <span
         class="absolute top-0 w-6 transition-opacity opacity-0 ltr:-left-6 rtl:-right-6 not-prose group-hover:opacity-100">
         <a class="group-hover:text-primary-300 dark:group-hover:text-neutral-700"
-            style="text-decoration-line: none !important;" href="#happy-making" aria-label="Anchor">#</a>
+            style="text-decoration-line: none !important;" href="#initializing-library" aria-label="Anchor">#</a>
+    </span>        
+    
+</h3>
+<p>At the beginning of your Arduino program you need to initialize this library and create an object e.g.:</p>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-cpp" data-lang="cpp"><span class="line"><span class="cl"><span class="cp">#include</span> <span class="cpf">&lt;picoEEPROM.h&gt;</span><span class="cp">
+</span></span></span><span class="line"><span class="cl"><span class="cp"></span><span class="n">picoEEPROM</span> <span class="n">picoEEPROM</span><span class="p">;</span>
+</span></span></code></pre></div>
+
+<h3 class="relative group">Functions 
+    <div id="functions" class="anchor"></div>
+    
+    <span
+        class="absolute top-0 w-6 transition-opacity opacity-0 ltr:-left-6 rtl:-right-6 not-prose group-hover:opacity-100">
+        <a class="group-hover:text-primary-300 dark:group-hover:text-neutral-700"
+            style="text-decoration-line: none !important;" href="#functions" aria-label="Anchor">#</a>
     </span>        
     
 </h3>
 
 
-<h3 class="relative group">~Simon 
-    <div id="simon" class="anchor"></div>
+<h4 class="relative group">begin(eeprom_size) 
+    <div id="begineeprom_size" class="anchor"></div>
     
     <span
         class="absolute top-0 w-6 transition-opacity opacity-0 ltr:-left-6 rtl:-right-6 not-prose group-hover:opacity-100">
         <a class="group-hover:text-primary-300 dark:group-hover:text-neutral-700"
-            style="text-decoration-line: none !important;" href="#simon" aria-label="Anchor">#</a>
+            style="text-decoration-line: none !important;" href="#begineeprom_size" aria-label="Anchor">#</a>
     </span>        
     
-</h3>
+</h4>
+<p><code>begin</code> function takes one argument - size of eeprom, max allowed size is 4096. <code>begin</code> function returns 0 if everything worked and 1 if eeprom size is invalid. E.g.</p>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-cpp" data-lang="cpp"><span class="line"><span class="cl"><span class="n">picoEEPROM</span><span class="p">.</span><span class="n">begin</span><span class="p">(</span><span class="mi">4096</span><span class="p">);</span> <span class="c1">//begin eeprom with it&#39;s max allowed size
+</span></span></span></code></pre></div>
 
+<h4 class="relative group">putEmptyByte(address) 
+    <div id="putemptybyteaddress" class="anchor"></div>
+    
+    <span
+        class="absolute top-0 w-6 transition-opacity opacity-0 ltr:-left-6 rtl:-right-6 not-prose group-hover:opacity-100">
+        <a class="group-hover:text-primary-300 dark:group-hover:text-neutral-700"
+            style="text-decoration-line: none !important;" href="#putemptybyteaddress" aria-label="Anchor">#</a>
+    </span>        
+    
+</h4>
+<p><code>putEmptyByte</code> puts one empty byte at a specified address</p>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-cpp" data-lang="cpp"><span class="line"><span class="cl"><span class="n">picoEEPROM</span><span class="p">.</span><span class="n">putEmptyByte</span><span class="p">(</span><span class="mi">0</span><span class="p">);</span>
+</span></span></code></pre></div>
+
+<h4 class="relative group">putEmptyBytes(num_of_bytes, address) 
+    <div id="putemptybytesnum_of_bytes-address" class="anchor"></div>
+    
+    <span
+        class="absolute top-0 w-6 transition-opacity opacity-0 ltr:-left-6 rtl:-right-6 not-prose group-hover:opacity-100">
+        <a class="group-hover:text-primary-300 dark:group-hover:text-neutral-700"
+            style="text-decoration-line: none !important;" href="#putemptybytesnum_of_bytes-address" aria-label="Anchor">#</a>
+    </span>        
+    
+</h4>
+<p><code>putEmptyBytes</code> takes two arguments, number of empty bytes and starting address. It puts a specified number of empty bytes starting at a given address.</p>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-cpp" data-lang="cpp"><span class="line"><span class="cl"><span class="n">picoEEPROM</span><span class="p">.</span><span class="n">putEmptyBytes</span><span class="p">(</span><span class="mi">7</span><span class="p">,</span> <span class="mi">1</span><span class="p">);</span>
+</span></span></code></pre></div>
+
+<h4 class="relative group">putInt(value, address) 
+    <div id="putintvalue-address" class="anchor"></div>
+    
+    <span
+        class="absolute top-0 w-6 transition-opacity opacity-0 ltr:-left-6 rtl:-right-6 not-prose group-hover:opacity-100">
+        <a class="group-hover:text-primary-300 dark:group-hover:text-neutral-700"
+            style="text-decoration-line: none !important;" href="#putintvalue-address" aria-label="Anchor">#</a>
+    </span>        
+    
+</h4>
+<p><code>putInt</code> takes two arguments, integer value and EEPROM address. Important! This function takes 4 bytes/4 EEPROM addresses to store one integer starting at a given address. <code>putInt</code> returns 1 if value is out of range, 2 if commiting to eeprom failed and 0 if everything worked.</p>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-cpp" data-lang="cpp"><span class="line"><span class="cl"><span class="n">picoEEPROM</span><span class="p">.</span><span class="n">putInt</span><span class="p">(</span><span class="mi">555</span><span class="p">,</span> <span class="mi">0</span><span class="p">);</span> <span class="c1">//puts int = 555 starting at address 0
+</span></span></span></code></pre></div>
+
+<h4 class="relative group">getInt(address) 
+    <div id="getintaddress" class="anchor"></div>
+    
+    <span
+        class="absolute top-0 w-6 transition-opacity opacity-0 ltr:-left-6 rtl:-right-6 not-prose group-hover:opacity-100">
+        <a class="group-hover:text-primary-300 dark:group-hover:text-neutral-700"
+            style="text-decoration-line: none !important;" href="#getintaddress" aria-label="Anchor">#</a>
+    </span>        
+    
+</h4>
+<p><code>getInt()</code> takes one argument, EEPROM address (the same address as in <code>putInt</code>). This function returns int read from EEPROM. If something is wrong with retrieved int check if the correct address is specified.</p>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-cpp" data-lang="cpp"><span class="line"><span class="cl"><span class="kt">int</span> <span class="n">valueRead</span> <span class="o">=</span> <span class="n">picoEEPROM</span><span class="p">.</span><span class="n">getInt</span><span class="p">(</span><span class="mi">0</span><span class="p">);</span> <span class="c1">//reads int from address 0
+</span></span></span></code></pre></div>
+
+<h4 class="relative group">putBool(value, bit, address) 
+    <div id="putboolvalue-bit-address" class="anchor"></div>
+    
+    <span
+        class="absolute top-0 w-6 transition-opacity opacity-0 ltr:-left-6 rtl:-right-6 not-prose group-hover:opacity-100">
+        <a class="group-hover:text-primary-300 dark:group-hover:text-neutral-700"
+            style="text-decoration-line: none !important;" href="#putboolvalue-bit-address" aria-label="Anchor">#</a>
+    </span>        
+    
+</h4>
+<p><code>putBool</code> takes three arguments, boolean value, bit at which value will be stored and EEPROM address. This function returns 1 if bit is not between 0-7, 2 if commiting to eeprom failed and 0 if everything worked,</p>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-cpp" data-lang="cpp"><span class="line"><span class="cl"><span class="n">picoEEPROM</span><span class="p">.</span><span class="n">putBool</span><span class="p">(</span><span class="nb">true</span><span class="p">,</span> <span class="mi">0</span><span class="p">,</span> <span class="mi">5</span><span class="p">);</span> <span class="c1">//saving false at bit 0 at EEPROM address 5
+</span></span></span></code></pre></div>
+
+<h4 class="relative group">getBool(bit, address) 
+    <div id="getboolbit-address" class="anchor"></div>
+    
+    <span
+        class="absolute top-0 w-6 transition-opacity opacity-0 ltr:-left-6 rtl:-right-6 not-prose group-hover:opacity-100">
+        <a class="group-hover:text-primary-300 dark:group-hover:text-neutral-700"
+            style="text-decoration-line: none !important;" href="#getboolbit-address" aria-label="Anchor">#</a>
+    </span>        
+    
+</h4>
+<p><code>getBool</code> takes 2 arguments, bit at which value is stored and EEPROM address. This function returns a boolean value read from EEPROM.</p>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-cpp" data-lang="cpp"><span class="line"><span class="cl"><span class="kt">bool</span> <span class="n">boolRead</span> <span class="o">=</span> <span class="n">picoEEPROM</span><span class="p">.</span><span class="n">getBool</span><span class="p">(</span><span class="mi">0</span><span class="p">,</span> <span class="mi">5</span><span class="p">);</span> <span class="c1">//reads bool from bit 0 at EEPROM address 5
+</span></span></span></code></pre></div>
+
+<h4 class="relative group">putString20(value, address) 
+    <div id="putstring20value-address" class="anchor"></div>
+    
+    <span
+        class="absolute top-0 w-6 transition-opacity opacity-0 ltr:-left-6 rtl:-right-6 not-prose group-hover:opacity-100">
+        <a class="group-hover:text-primary-300 dark:group-hover:text-neutral-700"
+            style="text-decoration-line: none !important;" href="#putstring20value-address" aria-label="Anchor">#</a>
+    </span>        
+    
+</h4>
+<p><code>putString20</code> takes two arguments, string value and EEPROM address. This function will always take 20 bytes from EEPROM to save a given string even if it&rsquo;s e.g. 4 characters long. Keep this in mind when allocating addresses. This function returns 1 if the string is larger than 20, 2 if committing to EEPROM failed and 0 if everything worked.</p>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-cpp" data-lang="cpp"><span class="line"><span class="cl"><span class="n">picoEEPROM</span><span class="p">.</span><span class="n">putString20</span><span class="p">(</span><span class="s">&#34;testingStuff&#34;</span><span class="p">,</span> <span class="mi">6</span><span class="p">);</span> <span class="c1">//puts string starting at address 6
+</span></span></span></code></pre></div>
+
+<h4 class="relative group">getString20(address) 
+    <div id="getstring20address" class="anchor"></div>
+    
+    <span
+        class="absolute top-0 w-6 transition-opacity opacity-0 ltr:-left-6 rtl:-right-6 not-prose group-hover:opacity-100">
+        <a class="group-hover:text-primary-300 dark:group-hover:text-neutral-700"
+            style="text-decoration-line: none !important;" href="#getstring20address" aria-label="Anchor">#</a>
+    </span>        
+    
+</h4>
+<p><code>getString20</code> takes one argument, EEPROM address and returns a string read starting at that address.</p>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-cpp" data-lang="cpp"><span class="line"><span class="cl"><span class="n">String</span> <span class="n">firstStringRead</span> <span class="o">=</span> <span class="n">picoEEPROM</span><span class="p">.</span><span class="n">getString20</span><span class="p">(</span><span class="mi">6</span><span class="p">);</span> <span class="c1">//reads string stored at addresses 6 to 26
+</span></span></span></code></pre></div>
+
+<h4 class="relative group">putString(value, address) 
+    <div id="putstringvalue-address" class="anchor"></div>
+    
+    <span
+        class="absolute top-0 w-6 transition-opacity opacity-0 ltr:-left-6 rtl:-right-6 not-prose group-hover:opacity-100">
+        <a class="group-hover:text-primary-300 dark:group-hover:text-neutral-700"
+            style="text-decoration-line: none !important;" href="#putstringvalue-address" aria-label="Anchor">#</a>
+    </span>        
+    
+</h4>
+<p><code>putString</code> takes 2 arguments, string of any value smaller than 4096 bytes and EEPROM address. This function returns 1 if string is larger than 4096, 2 if committing to EEPROM failed and <strong>String length!</strong> if everything worked. This data can be used with <code>getString</code> function.</p>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-cpp" data-lang="cpp"><span class="line"><span class="cl"><span class="kt">int</span> <span class="n">stringLength</span> <span class="o">=</span> <span class="n">picoEEPROM</span><span class="p">.</span><span class="n">putString</span><span class="p">(</span><span class="s">&#34;this string is longer than 20 characters&#34;</span><span class="p">,</span> <span class="mi">27</span><span class="p">)</span> <span class="c1">//puts string starting at address 27
+</span></span></span></code></pre></div>
+
+<h4 class="relative group">getString(string_size, address) 
+    <div id="getstringstring_size-address" class="anchor"></div>
+    
+    <span
+        class="absolute top-0 w-6 transition-opacity opacity-0 ltr:-left-6 rtl:-right-6 not-prose group-hover:opacity-100">
+        <a class="group-hover:text-primary-300 dark:group-hover:text-neutral-700"
+            style="text-decoration-line: none !important;" href="#getstringstring_size-address" aria-label="Anchor">#</a>
+    </span>        
+    
+</h4>
+<p><code>getString</code> takes 2 arguments, string length and EEPROM address. String length is returned when saving a given string to eeprom using the <code>putString</code> function. This function returns a string read from EEPROM.</p>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-cpp" data-lang="cpp"><span class="line"><span class="cl"><span class="n">String</span> <span class="n">secondStringRead</span> <span class="o">=</span> <span class="n">picoEEPROM</span><span class="p">.</span><span class="n">getString</span><span class="p">(</span><span class="n">stringLength</span><span class="p">,</span> <span class="mi">27</span><span class="p">);</span> <span class="c1">//reads string stored at addresses 27 to 27+stringLength
+</span></span></span></code></pre></div>
           
           
           
@@ -908,8 +1045,8 @@ window.addEventListener('load', () => {
           
         
       <script>
-        var oid = "views_Projects\\One-key-keyboard\\index.md"
-        var oid_likes = "likes_Projects\\One-key-keyboard\\index.md"
+        var oid = "views_Projects\\picoEEPROM\\index.md"
+        var oid_likes = "likes_Projects\\picoEEPROM\\index.md"
       </script>
       
       
@@ -929,18 +1066,40 @@ window.addEventListener('load', () => {
       <div class="flex justify-between pt-3">
         <span>
           
-        </span>
-        <span>
-          
-            <a class="flex text-right group ml-3" href="/projects/obsium/">
+            <a class="flex group mr-3" href="/projects/picocalc-mod/">
+              <span
+                class="mr-3 text-neutral-700 group-hover:text-primary-600 ltr:inline rtl:hidden dark:text-neutral dark:group-hover:text-primary-400"
+                >&larr;</span
+              >
+              <span
+                class="ml-3 text-neutral-700 group-hover:text-primary-600 ltr:hidden rtl:inline dark:text-neutral dark:group-hover:text-primary-400"
+                >&rarr;</span
+              >
               <span class="flex flex-col">
                 <span
                   class="mt-[0.1rem] leading-6 group-hover:underline group-hover:decoration-primary-500"
-                  >Obsium mk1</span
+                  >PicoCalc mod</span
                 >
                 <span class="mt-[0.1rem] text-xs text-neutral-500 dark:text-neutral-400">
                   
-                    <time datetime="2023-08-01T00:00:00&#43;00:00">1 August 2023</time>
+                    <time datetime="2025-07-09T00:00:00&#43;00:00">9 July 2025</time>
+                  
+                </span>
+              </span>
+            </a>
+          
+        </span>
+        <span>
+          
+            <a class="flex text-right group ml-3" href="/projects/piserverrack/">
+              <span class="flex flex-col">
+                <span
+                  class="mt-[0.1rem] leading-6 group-hover:underline group-hover:decoration-primary-500"
+                  >Server Rack...ish</span
+                >
+                <span class="mt-[0.1rem] text-xs text-neutral-500 dark:text-neutral-400">
+                  
+                    <time datetime="2025-08-20T00:00:00&#43;00:00">20 August 2025</time>
                   
                 </span>
               </span>
