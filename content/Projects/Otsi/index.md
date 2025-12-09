@@ -13,7 +13,7 @@ heroStyle: "background"
 {{< alert >}}
 **Warning!** Otsi mk1 is no longer under development. Check [Otsi.mk2](https://anulab.glinek.tech/projects/otsi.mk2/otsi-info/)
 {{< /alert >}}   
-{{< github repo="A-N-Ulab/OTSI-cyberpet" >}}
+{{< github repo="Glinek/OTSI-cyberpet" >}}
 
 ## Links and credits
 This project wouldn’t have been possible without the awesome Cyberdeck Cafe community

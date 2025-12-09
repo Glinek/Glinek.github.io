@@ -11,7 +11,7 @@ summary: An Arduino Photo-Frame based on Raspberry Pi Pico W and ILI9341 3.2inch
 
 #
 ## Github Repo
-{{< github repo="A-N-Ulab/Arduino-PhotoFrame" >}}
+{{< github repo="Glinek/Arduino-PhotoFrame" >}}
 
 #
 # Quick story behind making this project

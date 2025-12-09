@@ -7,7 +7,17 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
     <copyright>© 2024-2025 Szymon Glinka | This website does NOT use any cookies for tracking.</copyright>
-    <lastBuildDate>Sat, 04 Oct 2025 00:00:00 +0000</lastBuildDate><atom:link href="//localhost:1313/blog/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Mon, 08 Dec 2025 00:00:00 +0000</lastBuildDate><atom:link href="//localhost:1313/blog/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Conventions I went to</title>
+      <link>//localhost:1313/blog/conventions/</link>
+      <pubDate>Mon, 08 Dec 2025 00:00:00 +0000</pubDate>
+      
+      <guid>//localhost:1313/blog/conventions/</guid>
+      <description>Here I am going to post all the conventions I participated in!</description>
+      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="//localhost:1313/blog/conventions/featured.jpg" />
+    </item>
+    
     <item>
       <title>My time at HackYeah2025</title>
       <link>//localhost:1313/blog/hackyeah2025/</link>
@@ -16,16 +26,6 @@
       <guid>//localhost:1313/blog/hackyeah2025/</guid>
       <description>I have participated in a hackyeah2025 hackathon in Crocow this october and it was a blast!</description>
       <media:content xmlns:media="http://search.yahoo.com/mrss/" url="//localhost:1313/blog/hackyeah2025/featured.png" />
-    </item>
-    
-    <item>
-      <title>How to Pi Server Rack</title>
-      <link>//localhost:1313/blog/howserver/</link>
-      <pubDate>Wed, 20 Aug 2025 00:00:00 +0000</pubDate>
-      
-      <guid>//localhost:1313/blog/howserver/</guid>
-      <description>How to built a custom server rack/How I built a custom server rack for Rasberry Pi&amp;rsquo;s</description>
-      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="//localhost:1313/blog/howserver/featured.jpg" />
     </item>
     
   </channel>
