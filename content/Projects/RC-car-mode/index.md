@@ -13,7 +13,6 @@ showTaxonomies: True
 {{< alert >}}
 **Warning!** This project is not well documented. 
 {{< /alert >}}     
-{{< github repo="A-N-Ulab/RC_car-LoRa_driven" >}}
 
 ## Story
 This project is another simple-ish build but more time than I would like to admit. It all started when my cousin asked me to repair his RC car bc It's not working anymore. So I did. I added a 12V battery, better H-bridge and LoRa communication between this car and the remote. There were a few problems. There got to be some problems. As I learned, classic Arduino Uno is sometimes the best. ESP 32 is 3v3 based so controlling the H-bridge had to be done via transistors, way too complicated. Arduino pro micro has too small memory capacity and don't even get me started on connecting LoRa modules to them. It was a nightmare. That's why sometimes It's better to go with the classic, especially when you don't need so much CPU power.
