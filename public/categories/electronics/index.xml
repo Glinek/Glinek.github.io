@@ -1,24 +1,0 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?>
-<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
-  <channel>
-    <title>Electronics on Glinek</title>
-    <link>//localhost:1313/categories/electronics/</link>
-    <description>Recent content in Electronics on Glinek</description>
-    <generator>Hugo -- gohugo.io</generator>
-    <language>en</language>
-    <copyright>© 2024-2025 Szymon Glinka | This website does NOT use any cookies for tracking.</copyright>
-    <lastBuildDate>Thu, 02 Oct 2025 00:00:00 +0000</lastBuildDate><atom:link href="//localhost:1313/categories/electronics/index.xml" rel="self" type="application/rss+xml" />
-    <item>
-      <title>Project Title</title>
-      <link>//localhost:1313/projects/piserverrack/</link>
-      <pubDate>Thu, 02 Oct 2025 00:00:00 +0000</pubDate>
-      
-      <guid>//localhost:1313/projects/piserverrack/</guid>
-      <description>Overview #Provide a clear and concise overview of the project.
-Explain the problem it solves, what it does, and its main functionality.
-Features #Summarize the main capabilities of the system.</description>
-      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="//localhost:1313/projects/piserverrack/featured.jpg" />
-    </item>
-    
-  </channel>
-</rss>
