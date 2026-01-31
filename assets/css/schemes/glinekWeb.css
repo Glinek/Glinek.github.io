@@ -12,17 +12,16 @@
   --color-neutral-800: 20, 22, 25;
   --color-neutral-900: 13, 15, 16;
 
-  --color-primary-50:  225, 236, 229;   /* soft light green tint */
-  --color-primary-100: 170, 202, 176;   /* pale sage highlight */
-  --color-primary-200: 44, 88, 66;      /* main suit green */
-  --color-primary-300: 38, 76, 57;      /* rich forest tone */
-  --color-primary-400: 32, 65, 49;      /* deep pine */
-  --color-primary-500: 26, 54, 41;      /* dark evergreen */
-  --color-primary-600: 21, 44, 33;      /* deep shadow */
-  --color-primary-700: 17, 36, 27;      /* darker fold tone */
-  --color-primary-800: 13, 28, 21;      /* very dark green-black */
-  --color-primary-900: 9, 21, 16;       /* near-black forest */
-  
+  --color-primary-50:  65, 98, 67;   /* #416243 - start base (moss green) */
+  --color-primary-100: 61, 95, 65;   /* deep herbal green */
+  --color-primary-200: 57, 92, 63;   /* muted forest */
+  --color-primary-300: 54, 89, 61;   /* dark olive tone */
+  --color-primary-400: 50, 86, 59;   /* deep organic green */
+  --color-primary-500: 46, 83, 58;   /* dark pine base */
+  --color-primary-600: 42, 80, 56;   /* shadowy leaf */
+  --color-primary-700: 38, 77, 54;   /* deep forest shadow */
+  --color-primary-800: 35, 74, 52;   /* very dark green */
+  --color-primary-900: 31, 71, 50;   /* #1f4732 - target deepest */
 
   --color-secondary-50: 209, 225, 246;
   --color-secondary-100: 192, 214, 242;

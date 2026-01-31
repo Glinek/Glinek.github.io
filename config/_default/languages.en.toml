@@ -9,7 +9,7 @@ isoCode = "en"
 rtl = false
 description = "Glinek's portfolio website"
 dateFormat = "2 January 2006"
-copyright = "© 2024-2025 Szymon Glinka | This website does NOT use any cookies for tracking."
+copyright = "© 2024-2026 Szymon Glinka | This website does NOT use any cookies for tracking."
 logo = "logo.png"
 
 [params.author]

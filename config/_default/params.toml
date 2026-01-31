@@ -24,6 +24,7 @@ highlightCurrentMenuArea = false
     cardView = true
     cardViewScreenWidth = false
     layoutBackgroundBlur = false
+    disableHeroImageFilter = false
 
 [article]
     showDate = true
