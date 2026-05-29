@@ -73,7 +73,6 @@ document.addEventListener('DOMContentLoaded', () => {
     const prevButton = document.querySelector('.left-arrow');
     const dotsNav = document.querySelector('.carousel-dots');
     
-    // ZMIANA: Zmieniono nazwę na carouselDots, żeby nie było błędu!
     const carouselDots = Array.from(dotsNav ? dotsNav.children : []); 
 
     if (track && slides.length > 0) {
@@ -112,8 +111,40 @@ document.addEventListener('DOMContentLoaded', () => {
             });
         }
 
-        const startAutoPlay = () => { autoPlayInterval = setInterval(moveToNextSlide, 5000); };
+        const startAutoPlay = () => { autoPlayInterval = setInterval(moveToNextSlide, 15000); };
         const resetAutoPlay = () => { clearInterval(autoPlayInterval); startAutoPlay(); };
+        
+        // --- NOWOŚĆ: OBSŁUGA DOTYKU (SWIPE) NA TELEFONACH ---
+        let touchStartX = 0;
+        let touchEndX = 0;
+
+        // Kiedy użytkownik dotyka ekranu
+        track.addEventListener('touchstart', e => {
+            touchStartX = e.changedTouches[0].screenX;
+            clearInterval(autoPlayInterval); // Zatrzymujemy automatyczne przewijanie na czas dotyku
+        }, { passive: true });
+
+        // Kiedy użytkownik odrywa palec od ekranu
+        track.addEventListener('touchend', e => {
+            touchEndX = e.changedTouches[0].screenX;
+            handleSwipe();
+            startAutoPlay(); // Wznawiamy automatyczne przewijanie
+        }, { passive: true });
+
+        // Funkcja obliczająca kierunek przesunięcia palcem
+        const handleSwipe = () => {
+            const swipeThreshold = 50; // Minimalna długość przesunięcia palcem (w pikselach), by zaliczyć swipe'a
+            
+            // Jeśli palec przesunął się w lewo (następny projekt)
+            if (touchEndX < touchStartX - swipeThreshold) {
+                moveToNextSlide();
+            }
+            // Jeśli palec przesunął się w prawo (poprzedni projekt)
+            if (touchEndX > touchStartX + swipeThreshold) {
+                moveToPrevSlide();
+            }
+        };
+
         startAutoPlay();
     }
   
@@ -162,28 +193,75 @@ document.addEventListener('DOMContentLoaded', () => {
         sections.forEach(section => observer.observe(section));
     }
     /* =========================================
-       5. AUTO-SCROLL LONG PROJECT TITLES
+       5. AUTO-SCROLL LONG PROJECT TITLES (ZAPĘTLONE)
     ========================================= */
     const projectTitles = document.querySelectorAll('.project-card h3');
     
-    projectTitles.forEach(title => {
-        // Uruchamiamy animację TYLKO, jeśli tekst fizycznie wystaje za kontener
-        if (title.scrollWidth > title.clientWidth) {
-            let scrollPos = 0;
-            let direction = 1;
-            
-            setInterval(() => {
-                scrollPos += direction * 1; // Zmień z 1 na np. 2, aby tekst przewijał się szybciej
-                title.scrollLeft = scrollPos;
+    const initTitleScroll = () => {
+        projectTitles.forEach(title => {
+            // Zatrzymujemy poprzednią animację, jeśli istnieje
+            if (title.scrollIntervalId) {
+                clearInterval(title.scrollIntervalId);
+            }
+
+            // Zapisujemy oryginalny tekst projektu przy pierwszym uruchomieniu
+            if (!title.dataset.originalText) {
+                title.dataset.originalText = title.innerHTML;
+            }
+
+            // Wrzucamy czysty, oryginalny tekst z powrotem do pomiarów
+            // (Jest to niezbędne, jeśli ktoś obróci ekran i zniknie potrzeba przewijania)
+            title.innerHTML = title.dataset.originalText;
+
+            // Sprawdzamy, czy tekst ucieka poza ramkę
+            if (title.scrollWidth > title.clientWidth) {
+                title.style.textAlign = 'left'; 
                 
-                // Odbijanie się od krawędzi (Ping-Pong)
-                if (scrollPos >= (title.scrollWidth - title.clientWidth)) {
-                    direction = -1; // Zaczyna wracać w lewo
-                } else if (scrollPos <= 0) {
-                    direction = 1; // Zaczyna znów iść w prawo
-                }
-            }, 30); // 30ms to płynność animacji (ok 30 klatek na sekundę)
-        }
+                // --- MAGIA NIESKOŃCZONEJ PĘTLI ---
+                const text = title.dataset.originalText;
+                
+                // Duplikujemy tekst, zawijając w osobne spany z odstępem (padding-right)
+                title.innerHTML = `
+                    <span class="scroll-part" style="padding-right: 3rem;">${text}</span>
+                    <span class="scroll-part" style="padding-right: 3rem;">${text}</span>
+                `;
+                
+                let scrollPos = 0;
+                // Pobieramy długość pierwszego kawałka tekstu
+                const firstPart = title.querySelector('.scroll-part');
+                
+                title.scrollIntervalId = setInterval(() => {
+                    scrollPos += 2; // Szybkość przesuwania (możesz zmienić na 2, żeby było szybciej)
+                    title.scrollLeft = scrollPos;
+                    
+                    // Jeśli pierwszy tekst w całości zjechał w lewo, niezauważalnie resetujemy pozycję na 0
+                    if (scrollPos >= firstPart.offsetWidth) {
+                        scrollPos = 0;
+                    }
+                }, 30);
+                
+            } else {
+                // Jeśli tekst się mieści (np. duże ekrany), przywracamy normę
+                title.style.textAlign = '';
+                title.scrollLeft = 0;
+            }
+        });
+    };
+
+    // Odpalamy po załadowaniu czcionek
+    window.addEventListener('load', initTitleScroll);
+    
+    // Przeliczamy w razie zmiany wymiarów okna (np. obrót telefonu)
+    window.addEventListener('resize', () => {
+        setTimeout(initTitleScroll, 300);
+    });
+
+    // Odpalamy po PEŁNYM załadowaniu zasobów (gdy czcionki nadadzą ostateczną szerokość literom)
+    window.addEventListener('load', initTitleScroll);
+    
+    // Przeliczamy ponownie w razie obrotu telefonu lub zmiany rozmiaru okna
+    window.addEventListener('resize', () => {
+        setTimeout(initTitleScroll, 300);
     });
 
     // Pobieramy wszystkie kafelki galerii oraz elementy lightboxa
