@@ -2,9 +2,8 @@ name: Deploy 11ty site to GitHub Pages
 
 on:
   push:
-    branches: ["main"] # Zmień na "master", jeśli tak nazywa się Twoja główna gałąź
+    branches: ["master"]
 
-# Uprawnienia potrzebne do wrzucenia strony
 permissions:
   contents: read
   pages: write
@@ -24,19 +23,18 @@ jobs:
       - name: Setup Node.js
         uses: actions/setup-node@v4
         with:
-          node-version: "20" # Używamy stabilnej wersji Node.js
+          node-version: "20"
           
       - name: Install dependencies
         run: npm install
         
       - name: Build Eleventy
-        # Odpala 11ty. Jeśli w package.json masz skrypt "build", możesz użyć "npm run build"
         run: npx @11ty/eleventy 
         
       - name: Upload artifact
         uses: actions/upload-pages-artifact@v3
         with:
-          path: "_site" # Domyślny folder wyjściowy 11ty. Zmień, jeśli w konfiguracji 11ty masz ustawiony inny!
+          path: "_site"
 
   deploy:
     environment:
