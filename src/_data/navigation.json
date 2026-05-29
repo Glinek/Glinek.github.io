@@ -1,0 +1,43 @@
+{
+	"itemsHeader": [
+		{
+			"text": "Tycho Project",
+			"url": "https://tycho.anulab.tech"
+		},
+		{
+			"text": "My Blog",
+			"url": "/blog/"
+		}
+	],
+	"itemsFooter": [
+		{
+			"text": "Home",
+			"url": "/"
+		},
+		{
+			"text": "Tycho Project",
+			"url": "https://tycho.anulab.tech"
+		},
+		{
+			"text": "My Blog",
+			"url": "/blog/"
+		},
+		{
+			"text": "About Me",
+			"url": "#about"
+		},
+		{
+			"text": "My Projects",
+			"url": "#projects"
+		},
+		{
+			"text": "Contact",
+			"url": "#contact"
+		}
+	],
+	"logo": {
+		"src": "/images/logo.png",
+		"alt": "My Logo",
+		"url": "/"
+	}
+}

@@ -1,0 +1,774 @@
+/* /css/home.css */
+
+/* =========================================
+   1. MAIN LAYOUT & BASE SECTIONS
+========================================= */
+.home-container {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+}
+
+.home-section {
+    min-height: 100vh;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    padding: 2rem;
+    box-sizing: border-box;
+    color: var(--color-text-main) !important;
+    scroll-snap-align: start;
+    scroll-snap-stop: always;
+}
+
+.home-section .content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    max-width: 850px; /* Default for most sections */
+    margin: 0 auto;
+}
+
+.home-section h1, 
+.home-section p {
+    color: var(--color-text-main) !important;
+    margin: 0 0 1rem 0;
+}
+
+/* Nowy, proporcjonalny wygląd nagłówków sekcji (np. My Projects) */
+.home-section h2 {
+    color: var(--color-text-main);
+    font-size: 2rem; /* Znacznie większy */
+    font-weight: var(--fw-regular);
+    margin: 0 0 3rem 0; /* Więcej miejsca pod tytułem */
+    letter-spacing: 2px;
+}
+/* =========================================
+   2. HERO SECTION
+========================================= */
+.hero-content {
+    min-height: 70vh;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: center; 
+    transform: translateY(0);
+}
+
+.hero-greeting {
+    font-size: var(--fs-xxl);
+    font-weight: var(--fw-semibold);
+    margin-bottom: 0;
+    line-height: 1.2; 
+}
+
+.highlight {
+    color: var(--color-primary-blue) !important; 
+    text-shadow: 0 0 20px var(--color-primary-glow-strong); 
+    font-size: var(--fs-xl);
+    font-family: var(--font-pixel); 
+    position: relative;
+    top: 6px;
+}
+
+.hero-subtext {
+    font-weight: var(--fw-light);
+    font-size: var(--fs-lg);
+    max-width: 600px; 
+    margin: 1.5rem auto 3rem auto; 
+    color: var(--color-text-muted) !important; 
+    line-height: 1.6;
+}
+
+.hero-role {
+    margin: 0 0 4rem 0 !important;
+    line-height: 1.4; /* Lekko zwiększony odstęp, by tekst miał oddech */
+    margin-top: -15px !important; 
+}
+
+/* =========================================
+   3. TYPING EFFECT (Colors)
+========================================= */
+.typing-text, .cursor {
+    font-size: 3rem; /* Kursor teraz też dziedziczy te 4rem! */
+    font-family: var(--font-pixel); 
+    transition: color 0.3s ease, text-shadow 0.3s ease; 
+    word-break: break-word; 
+}
+
+.cursor {
+    display: inline-block;
+    /* Usunęliśmy width: 3px, żeby znak pionowej kreski mógł swobodnie oddychać */
+    animation: blink 1s step-end infinite;
+    margin-left: 8px; /* Zwiększyłem lekko margines, żeby nie kleił się do liter */
+}
+
+.text-blue {
+    color: var(--color-primary-blue) !important; 
+    text-shadow: 0 0 20px var(--color-primary-glow-strong);
+}
+
+.text-yellow {
+    color: var(--color-secondary-yellow) !important; 
+    text-shadow: 0 0 20px var(--color-secondary-glow-strong);
+}
+
+@keyframes blink {
+    0%, 100% { opacity: 1; }
+    50% { opacity: 0; }
+}
+
+/* =========================================
+   4. "LEARN MORE" BUTTON (Hero Section)
+========================================= */
+.learn-more-btn {
+    position: absolute;
+    bottom: -2rem; 
+    display: inline-flex;
+    align-items: center;
+    gap: 0.5rem;
+    padding: 0.8rem 2rem;
+    color: var(--color-primary-blue); 
+    text-decoration: none;
+    font-size: var(--fs-md);
+    font-weight: var(--fw-semi);
+    font-family: var(--font-main);
+    border: 2px solid var(--color-primary-blue); 
+    border-radius: 50px;
+    background-color: transparent;
+    transition: all 0.3s ease;
+}
+
+.learn-more-btn:hover {
+    background-color: var(--color-primary-hover); 
+    transform: translateY(-3px); 
+    box-shadow: 0 5px 15px var(--color-primary-glow); 
+}
+
+.learn-more-btn span {
+    animation: bounce-arrow 2s infinite;
+}
+
+@keyframes bounce-arrow {
+    0%, 20%, 50%, 80%, 100% { transform: translateY(0); }
+    40% { transform: translateY(5px); }
+    60% { transform: translateY(3px); }
+}
+
+/* =========================================
+   5. HEXAGON NAVIGATION (Right side screen)
+========================================= */
+.dot-nav {
+    position: fixed;
+    right: 3rem;
+    top: 50%;
+    transform: translateY(-50%);
+    display: flex;
+    flex-direction: column;
+    gap: 1.5rem;
+    z-index: 1000;
+}
+
+.dot {
+    width: 16px;
+    height: 18px; 
+    display: block;
+    cursor: pointer;
+    text-decoration: none;
+    transition: all 0.3s ease;
+    filter: drop-shadow(0 0 4px var(--color-primary-glow)); 
+}
+
+.dot::before {
+    content: "";
+    display: block;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(15, 73, 190, 0.3); 
+    clip-path: polygon(50% 0%, 100% 25%, 100% 75%, 50% 100%, 0% 75%, 0% 25%);
+    transition: all 0.3s ease;
+}
+
+.dot.active {
+    transform: scale(1.4);
+    filter: drop-shadow(0 0 10px rgba(15, 73, 190, 0.9));
+}
+
+.dot.active::before {
+    background-color: var(--color-primary-blue); 
+}
+
+.dot:hover:not(.active) {
+    transform: scale(1.2);
+    filter: drop-shadow(0 0 6px var(--color-primary-glow-strong));
+}
+
+.dot:hover:not(.active)::before {
+    background-color: rgba(15, 73, 190, 0.6); 
+}
+
+/* =========================================
+   ABOUT ME SECTION (Asymetryczny Layout)
+========================================= */
+.about-container {
+    flex-direction: row !important; 
+    max-width: 1200px !important; 
+    gap: 4rem; 
+    align-items: stretch; 
+    
+    /* ======== MAGIA OMIJANIA KROPEK ======== */
+    width: calc(100% - 7rem) !important; /* 100% szerokości minus miejsce na heksagony */
+    margin: 0 5rem 0 2rem !important; /* 2rem z lewej, duży bufor 5rem z prawej! */
+}
+
+/* LEWA STRONA: Zdjęcie */
+.about-image-wrapper {
+    flex: 0 0 35%; /* Zdjęcie zajmuje sztywno 35% szerokości */
+    border-radius: 8px;
+    border: 1px solid var(--color-border);
+    overflow: hidden;
+    background-color: rgba(20, 20, 20, 0.7);
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.5);
+}
+
+.about-image {
+    width: 100%;
+    height: 100%;
+    object-fit: cover; /* Wypełnia całą ramkę bez spłaszczania zdjęcia */
+    display: block;
+}
+
+/* PRAWA STRONA: Kontener na bloki tekstu */
+.about-content {
+    flex: 1; /* Zajmuje resztę (65%) miejsca */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 2rem;
+}
+
+/* Wygląd szklanych bloków z tekstem */
+.about-block {
+    background-color: rgba(20, 20, 20, 0.7);
+    border: 1px solid var(--color-border);
+    border-radius: 8px;
+    padding: 2rem 2.5rem;
+    text-align: left;
+    transition: border-color 0.3s ease, box-shadow 0.3s ease;
+}
+
+/*
+.about-block:hover {
+    border-color: var(--color-primary-blue);
+    box-shadow: 0 0 15px var(--color-primary-hover);
+}
+*/
+
+.about-block h2, 
+.about-block h3 {
+    font-family: var(--font-pixel);
+    color: var(--color-primary-blue) !important;
+    margin-bottom: 1.5rem !important;
+    margin-top: 0 !important;
+}
+
+.about-block h2 {
+    font-size: 2.5rem;
+}
+
+.about-block h3 {
+    font-size: 1.5rem;
+}
+
+.about-block p {
+    color: var(--color-text-muted) !important;
+    font-size: var(--fs-md);
+    line-height: 1.6;
+    margin: 0 !important;
+}
+
+/* ======== MAGIA ASYMETRII ======== */
+.block-1 {
+    transform: translateX(-3rem); /* Przesunięcie pierwszego bloku w lewo w stronę zdjęcia */
+}
+
+.block-2 {
+    transform: translateX(3rem); /* Przesunięcie drugiego bloku w prawo */
+    margin-right: 1rem;
+}
+
+/* =========================================
+   SOCIAL LINKS (W sekcji My Skills)
+========================================= */
+.social-links {
+    display: flex;
+    gap: 1rem;
+    margin-top: 1rem; /* Odstęp od tekstu umiejętności */
+    align-items: center;
+    justify-content: flex-start; /* Wyrównanie do lewej strony */
+}
+
+/* Kształt przycisku (szklane koło) */
+.social-icon {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 45px;
+    height: 45px;
+    background-color: transparent;
+    border: 1px solid var(--color-border);
+    border-radius: 50%;
+    color: var(--color-text-muted); /* Zgaszony kolor bazowy */
+    transition: all 0.3s ease;
+    text-decoration: none;
+}
+
+/* Wymiary ikony SVG */
+.social-icon svg {
+    width: 20px;
+    height: 20px;
+    transition: all 0.3s ease;
+}
+
+/* Efekt najechania myszką (Glow + Podniesienie) */
+.social-icon:hover {
+    border-color: var(--color-primary-blue);
+    color: var(--color-primary-blue);
+    box-shadow: 0 0 15px var(--color-primary-glow);
+    transform: translateY(-3px);
+}
+
+
+/* =========================================
+   6. PROJECTS CAROUSEL (Slider)
+========================================= */
+.carousel-container {
+    position: relative;
+    /* Zamiast centrowania, robimy asymetryczne marginesy! */
+    width: calc(100% - 7rem) !important; /* 100% szerokości minus miejsce na heksagony */
+    margin: 0 5rem 0 2rem !important; /* 2rem z lewej, 5rem z prawej */
+    max-width: 1600px !important; 
+}
+
+.carousel-track-container {
+    overflow: hidden; 
+    width: 100%;
+    position: relative;
+    margin-top: 2rem;
+}
+
+.carousel-track {
+    display: flex;
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    transition: transform 0.5s ease-in-out;
+}
+
+.carousel-slide {
+    min-width: 100%;
+    box-sizing: border-box;
+    /* Usunięto padding boczny, bo strzałek tu już nie ma */
+    padding: 0; 
+}
+
+/* Horizontal Project Card */
+.project-card {
+    background-color: rgba(20, 20, 20, 0.7);
+    border: 1px solid var(--color-border);
+    border-radius: 8px;
+    display: flex;
+    flex-direction: row; 
+    
+    /* MAGIA: Zmusza obie połówki karty do posiadania tej samej wysokości */
+    align-items: stretch; 
+    
+    transition: box-shadow 0.3s ease, border-color 0.3s ease;
+    overflow: hidden; 
+    min-height: 400px; 
+    text-align: left;
+}
+
+/*
+.project-card:hover {
+    border-color: var(--color-primary-blue);
+    box-shadow: 0 0 15px var(--color-primary-hover);
+}
+*/
+
+/* 45% Image Left */
+.project-image-wrapper {
+    width: 45%; /* Zdjęcie zajmuje 45% szerokości, tekst 55% */
+    margin: 0;
+    border-radius: 0;
+    border: none;
+    border-right: 1px solid var(--color-border);
+    background-color: rgba(0, 0, 0, 0.5);
+    overflow: hidden;
+}
+
+.project-image {
+    width: 100%;
+    height: 100%;
+    /* Wypełnia cały wrapper bez zachwiania proporcji (obcina nadmiar) */
+    object-fit: cover; 
+    object-position: center;
+    transition: transform 0.4s ease;
+    display: block;
+}
+
+/*
+.project-card:hover .project-image {
+    transform: scale(1.05); 
+}
+*/
+
+/* 55% Text Right */
+.project-info {
+    width: 55%;
+    padding: 4rem; /* Więcej oddechu dla szerokiej karty */
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+.project-card h3 {
+    font-family: var(--font-pixel);
+    font-size: 1.8rem; /* Tytuł jest teraz znacznie większy */
+    color: var(--color-text-main);
+    margin: 0 0 1.5rem 0;
+    
+    /* Wymuszamy jedną linię i przewijanie */
+    width: 100%;
+    white-space: nowrap;
+    overflow-x: hidden;
+    padding-bottom: 0.8rem; /* Robi miejsce na pasek scrolla */
+}
+
+
+.project-card p {
+    color: var(--color-text-muted) !important;
+    font-size: var(--fs-md);
+    line-height: 1.6;
+    margin-bottom: 2rem !important;
+}
+
+/* Independent Card Button */
+.card-btn {
+    display: inline-flex;
+    align-items: center;
+    gap: 0.5rem;
+    padding: 0.5rem 1.2rem; /* Mniejszy padding */
+    color: var(--color-primary-blue);
+    text-decoration: none;
+    font-size: var(--fs-base); /* Mniejsza czcionka (zamiast var(--fs-md)) */
+    font-weight: var(--fw-semi);
+    font-family: var(--font-main);
+    border: 2px solid var(--color-primary-blue);
+    border-radius: 50px;
+    background-color: transparent;
+    transition: all 0.3s ease;
+    margin-top: auto; 
+}
+
+.card-btn:hover {
+    background-color: var(--color-primary-hover);
+    transform: translateY(-3px);
+    box-shadow: 0 5px 15px var(--color-primary-glow);
+}
+
+/* =========================================
+   CAROUSEL CONTROLS (Kropki i Strzałki na dole)
+========================================= */
+.carousel-dots {
+    display: flex;
+    justify-content: center;
+    gap: 16px;
+    margin-top: 2.5rem;
+}
+
+.carousel-dot {
+    width: 12px;
+    height: 14px;
+    background-color: transparent;
+    cursor: pointer;
+    border: none;
+    padding: 0;
+    position: relative;
+    transition: all 0.3s ease;
+    /* Zwiększony, widoczny, bazowy glow dla wszystkich heksagonów */
+    filter: drop-shadow(0 0 8px rgba(15, 73, 190, 0.8));
+}
+
+.carousel-dot::before {
+    content: "";
+    display: block;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(15, 73, 190, 0.3);
+    clip-path: polygon(50% 0%, 100% 25%, 100% 75%, 50% 100%, 0% 75%, 0% 25%);
+    transition: all 0.3s ease;
+}
+
+.carousel-dot.active {
+    transform: scale(1.4);
+    /* Potężny glow dla aktywnego heksagonu */
+    filter: drop-shadow(0 0 15px rgba(15, 73, 190, 1));
+}
+.carousel-dot.active::before {
+    background-color: var(--color-primary-blue);
+}
+
+.carousel-dot:hover:not(.active) {
+    transform: scale(1.2);
+    /* Średni glow przy najechaniu myszką */
+    filter: drop-shadow(0 0 12px rgba(15, 73, 190, 0.9));
+}
+.carousel-dot:hover:not(.active)::before {
+    background-color: rgba(15, 73, 190, 0.6);
+}
+
+/* Nowy kontener strzałek na samym dole */
+.carousel-controls {
+    display: flex;
+    justify-content: center;
+    gap: 4rem; /* Odstęp między strzałkami */
+    margin-top: 1.5rem;
+}
+
+.carousel-arrow {
+    background: transparent;
+    border: none;
+    font-size: 2.5rem;
+    color: var(--color-primary-blue);
+    cursor: pointer;
+    /* Strzałki są teraz wyśrodkowane flexboxem, ucinamy stary absolute */
+    position: static; 
+    transform: none;
+    transition: color 0.3s ease, text-shadow 0.3s ease;
+}
+
+.carousel-arrow:hover {
+    color: var(--color-secondary-yellow);
+    text-shadow: 0 0 15px var(--color-secondary-glow-strong);
+}
+
+/* =========================================
+   7. CONTACT SECTION
+========================================= */
+.contact-section {
+    min-height: 55vh; /* Shared space with footer */
+    scroll-snap-align: none;
+}
+
+.contact-intro {
+    font-size: var(--fs-md);
+    color: var(--color-text-muted) !important;
+    font-weight: var(--fw-regular);
+    max-width: 750px;
+    margin: 0 auto 3rem auto;
+    line-height: 1.6;
+}
+
+.contact-methods {
+    display: flex;
+    flex-direction: column;
+    gap: 2.5rem;
+    width: 100%;
+    max-width: 800px;
+}
+
+.contact-method h3 {
+    font-size: var(--fs-lg);
+    font-weight: var(--fw-light);
+    margin-bottom: 0.8rem;
+    color: var(--color-text-main);
+    font-family: var(--font-main);
+}
+
+.contact-box {
+    background-color: rgba(20, 20, 20, 0.7); 
+    border: 1px solid var(--color-border);
+    border-radius: 8px;
+    padding: 1.2rem 1.5rem;
+    text-align: center;
+    white-space: nowrap; 
+    overflow-x: auto; 
+    transition: border-color 0.3s ease, box-shadow 0.3s ease;
+}
+
+.contact-box:hover {
+    border-color: var(--color-primary-blue);
+    box-shadow: 0 0 10px var(--color-primary-hover);
+}
+
+.contact-box code {
+    font-family: var(--font-main);
+    font-size: var(--fs-sm);
+    color: var(--color-text-dimmed);
+}
+
+/* Custom Scrollbar for Contact Boxes */
+.contact-box::-webkit-scrollbar {
+    height: 6px;
+}
+.contact-box::-webkit-scrollbar-track {
+    background: rgba(0, 0, 0, 0.2);
+    border-radius: 4px;
+}
+.contact-box::-webkit-scrollbar-thumb {
+    background: var(--color-primary-blue);
+    border-radius: 4px;
+}
+
+
+/* =========================================
+   UKRYCIE NAWIGACJI NA TABLETACH
+========================================= */
+@media (max-width: 1024px) {
+    .dot-nav { 
+        display: none; 
+    }
+
+    /* Przywracamy karuzelę ORAZ kontener 'About Me' na idealny środek */
+    .carousel-container, .about-container {
+        width: 95% !important;
+        margin: 0 auto !important; 
+    }
+
+    .typing-text, .cursor {
+        font-size: 3rem;
+    }
+
+    /* --- NOWE: Poprawki "About Me" na tablety --- */
+    .about-container {
+        gap: 2rem !important; /* Zmniejszamy wielką wyrwę między zdjęciem a tekstem */
+    }
+
+    .about-image-wrapper {
+        flex: 0 0 40%; /* Dajemy zdjęciu odrobinę więcej miejsca (z 35% na 40%) */
+    }
+
+    .about-block {
+        padding: 1.5rem 2rem; /* Mniejsze odstępy wewnątrz kafelków */
+    }
+
+    /* Skalujemy teksty w dół, żeby dopasowały się do mniejszego zdjęcia */
+    .about-block h2 {
+        font-size: 2rem !important;
+    }
+
+    .about-block h3 {
+        font-size: 1.3rem !important;
+    }
+
+    .about-block p {
+        font-size: 0.95rem !important; 
+    }
+
+    /* Redukujemy drastycznie asymetrię - kafelki rozchodzą się tylko na 1rem zamiast 3rem */
+    .block-1 {
+        transform: translateX(-1rem); 
+    }
+
+    .block-2 {
+        transform: translateX(1rem); 
+        margin-right: 0;
+    }
+}
+/* =========================================
+   8. RESPONSIVE (Mobile)
+========================================= */
+@media (max-width: 768px) {
+    /* 1. Wyłączenie bocznych kropek/heksagonów całkowicie */
+    .dot-nav { 
+        display: none; 
+    }
+
+    /* 2. Wyłączenie "przyklejania" sekcji, by mogły płynnie przewijać się na telefonie */
+    .home-section {
+        scroll-snap-align: none;
+        min-height: 100vh; /* Zmiana z auto na 100vh! To dociśnie "About Me" w dół */
+        padding: 4rem 1.5rem;
+    }
+
+    /* 3. Naprawa wielkich tekstów w sekcji powitalnej */
+    .hero-greeting { 
+        font-size: 1.8rem; 
+    }
+    .highlight {
+        font-size: 1.6rem;
+    }
+    .hero-role { 
+        font-size: 2.2rem; 
+        margin-bottom: 2rem !important;
+    }
+    .typing-text, .cursor {
+        font-size: 1.6rem;
+    }
+    
+    /* 4. Poprawa układu przycisku "Learn More" */
+    .learn-more-btn { 
+        bottom: 0;
+        position: relative; /* Zapobiega nachodzeniu na inne elementy na małym ekranie */
+        margin-top: 2rem;
+    }
+
+    /* 5. Reset karuzeli projektów na telefonie */
+    .carousel-container {
+        /* Wracamy do pełnej szerokości, bo na telefonie nie ma bocznych kropek */
+        width: 100% !important;
+        margin: 0 auto !important; 
+    }
+    
+    .project-card {
+        flex-direction: column;
+        text-align: center;
+        min-height: auto;
+    }
+    
+    .project-image-wrapper {
+        width: 100%;
+        height: 250px;
+        min-height: auto;
+        border-right: none;
+        border-bottom: 1px solid var(--color-border);
+    }
+    
+    .project-info {
+        width: 100%;
+        padding: 2rem 1.5rem;
+        align-items: center; 
+    }
+    .about-container {
+        flex-direction: column !important;
+        gap: 2rem;
+        width: 100% !important;
+    }
+    
+    .about-image-wrapper {
+        flex: none;
+        width: 85%; /* Delikatny margines po bokach (zamiast 100%) */
+        max-width: 380px; /* Zabezpieczenie przed zbytnim rozciągnięciem */
+        margin: 0 auto; /* Idealne wyśrodkowanie */
+        height: auto; /* Zdejmujemy sztywne 400px! */
+        aspect-ratio: 3 / 4; /* Wymusza idealne proporcje portretowe */
+    }
+    
+    .block-1, .block-2 {
+        /* Resetujemy asymetrię na telefonie - wracają na środek! */
+        transform: translateX(0); 
+        padding: 1.5rem;
+        text-align: center;
+        margin-right: 0rem;
+    }
+
+    /* Wyśrodkowanie ikon społecznościowych na telefonach */
+    .social-links {
+        justify-content: center; 
+    }
+}

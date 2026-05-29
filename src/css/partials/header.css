@@ -1,0 +1,136 @@
+/* /css/partials/header.css */
+
+.siteHeader {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem 2rem;
+    
+    background-color: rgba(19, 19, 19, 0.2);
+    backdrop-filter: blur(8px);
+    -webkit-backdrop-filter: blur(8px);
+    
+    width: 100%;
+    box-sizing: border-box;
+    border-bottom: 1px solid var(--color-border);
+
+    /* Sticky behavior */
+    position: sticky; 
+    top: 0; 
+    z-index: 1000; 
+}
+
+.headerLogo a {
+    display: inline-block;
+}
+
+.headerLogo img {
+    max-height: 45px;
+    width: auto;
+    display: block;
+}
+
+.nav__list {
+    display: flex;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    gap: 1.5rem;
+    align-items: center;
+}
+
+.linkHeader {
+    text-decoration: none;
+    color: var(--color-text-main);
+    font-weight: var(--fw-light);
+    font-size: var(--fs-base);
+    transition: color 0.2s ease, opacity 0.2s ease;
+}
+
+.linkHeader:hover {
+    color: var(--color-secondary-hover);
+    font-weight: var(--fw-regular);
+}
+
+/* --- Hamburger Menu --- */
+.hamburger {
+    display: none;
+    cursor: pointer;
+    background: none;
+    border: none;
+    padding: 10px;
+    z-index: 10;
+}
+
+.hamburger-box {
+    width: 30px;
+    height: 24px;
+    display: inline-block;
+    position: relative;
+}
+
+.hamburger-inner,
+.hamburger-inner::before,
+.hamburger-inner::after {
+    width: 30px;
+    height: 3px;
+    background-color: var(--color-text-main);
+    position: absolute;
+    transition: transform 0.15s ease, opacity 0.15s ease;
+}
+
+.hamburger-inner { top: 50%; transform: translateY(-50%); }
+.hamburger-inner::before { content: ""; top: -10px; }
+.hamburger-inner::after { content: ""; bottom: -10px; }
+
+.hamburger.is-active .hamburger-inner { background-color: transparent; }
+.hamburger.is-active .hamburger-inner::before { transform: translateY(10px) rotate(45deg); }
+.hamburger.is-active .hamburger-inner::after { transform: translateY(-10px) rotate(-45deg); }
+
+/* --- CTA Button --- */
+.header-cta-btn {
+    display: inline-block;
+    padding: 0.4rem 1.5rem;
+    margin-left: 1rem; 
+    color: var(--color-primary-blue) !important; 
+    text-decoration: none;
+    font-weight: var(--fw-bold);
+    border: 2px solid var(--color-primary-blue);
+    border-radius: 50px; 
+    transition: all 0.3s ease;
+}
+
+.header-cta-btn:hover {
+    background-color: var(--color-secondary-hover); 
+    border: 2px solid var(--color-secondary-hover);
+    color: var(--color-text-main) !important; 
+    box-shadow: 0 4px 15px var(--color-secondary-glow); 
+    transform: translateY(-2px); 
+}
+
+/* --- Mobile Responsiveness --- */
+@media (max-width: 768px) {
+    .hamburger { display: block; }
+
+    .nav__list {
+        position: absolute;
+        top: 100%;
+        left: 0;
+        width: 100%;
+        flex-direction: column;
+        background-color: rgba(40, 40, 40, 0.95);
+        padding: 2rem 0;
+        gap: 1.5rem;
+        
+        opacity: 0;
+        visibility: hidden;
+        transform: translateY(-15px);
+        transition: all 0.3s ease-in-out;
+    }
+
+    .nav__list.is-active {
+        opacity: 1;
+        visibility: visible;
+        transform: translateY(0);
+    }
+}

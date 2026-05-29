@@ -1,0 +1,49 @@
+{% extends "layouts/base.html" %}
+{% block content %}
+<link rel="stylesheet" href="/css/post.css">
+
+<section class="post-section">
+    <div class="content post-container">
+        
+        <a href="/blog/" class="back-btn"><span class="arrow">&larr;</span> Back to Blog</a>
+
+        <header class="post-header">
+            <h1 class="highlight">{{ title }}</h1>
+            
+            <p class="post-date">Date: {{ page.date.toDateString() }}</p>
+            
+            {% if image %}
+            <div class="post-hero-image">
+                <img src="{{ image }}" alt="{{ title }}">
+            </div>
+            {% endif %}
+        </header>
+
+        <article class="post-content">
+            {{ content | safe }}
+        </article>
+
+       {% if gallery %}
+        <section class="post-gallery-section">
+            <h3>Project Gallery</h3>
+            <div class="gallery-grid" id="project-gallery">
+                {% for img in gallery %}
+                <div class="gallery-item" data-index="{{ loop.index0 }}" data-src="{{ img }}">
+                    <img src="{{ img }}" alt="Gallery Image {{ loop.index }}">
+                    <div class="gallery-overlay"><span>Zoom In</span></div>
+                </div>
+                {% endfor %}
+            </div>
+        </section>
+
+        <div id="lightbox" class="lightbox">
+            <span class="lightbox-close" id="lightbox-close">&times;</span>
+            <button class="lightbox-prev" id="lightbox-prev">&#10094;</button>
+            <img id="lightbox-img" src="" alt="Powiększone zdjęcie">
+            <button class="lightbox-next" id="lightbox-next">&#10095;</button>
+        </div>
+        {% endif %}
+
+    </div>
+</section>
+{% endblock %}

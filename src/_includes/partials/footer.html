@@ -1,0 +1,23 @@
+<link rel="stylesheet" href="/css/partials/footer.css">
+
+<footer class="siteFooter">
+    <div class="footer-bg-layer layer-1"></div>
+    <div class="footer-bg-layer layer-2"></div>
+    <div class="footer-bg-layer layer-3"></div>
+    
+    <ul class="footer-links">
+        {% for item in navigation.itemsFooter %}
+        <li>
+            <a href="{{ item.url }}" {{ helpers.getLinkActiveState(item.url, page.url) | safe }}>
+                {{ item.text }}
+            </a>
+        </li>
+        {% endfor %}
+    </ul>
+
+    <div class="footer-bottom">
+        <p>Made with <span class="heart">💛</span> by Simon</p>
+        <p>Copyright &copy; 2024-2026 Szymon Glinka</p>
+        <p>This site does NOT use cookies for tracking or collect your personal information.</p>
+    </div>
+</footer>

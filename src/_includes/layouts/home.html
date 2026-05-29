@@ -1,0 +1,140 @@
+{% extends "layouts/base.html" %}
+
+{% block content %}
+<link rel="stylesheet" href="/css/home.css">
+
+<nav class="dot-nav">
+  <a href="#welcome" class="dot active" aria-label="Welcome"></a>
+  <a href="#about" class="dot" aria-label="About Me"></a>
+  <a href="#projects" class="dot" aria-label="My Projects"></a>
+  <a href="#contact" class="dot" aria-label="Contact Me"></a>
+</nav>
+
+<div class="home-container">
+  
+  <section id="welcome" class="home-section hero-section">
+    <div class="content hero-content">
+      
+      <h1 class="hero-greeting">
+        {{ welcome_text | safe }}
+      </h1>
+      
+      <h2 class="hero-role" data-roles="{{ dynamic_texts | default([]) | join(',') }}">
+        <span class="typing-text"></span><span class="cursor">|</span>
+      </h2>
+      
+      <p class="subtext">{{ under_welcome_text | safe }}</p>
+      
+      <a href="#about" class="learn-more-btn">
+        Learn more <span>↓</span>
+      </a>
+      
+    </div>
+  </section>
+
+  <section id="about" class="home-section">
+    <div class="content about-container">
+      
+      <div class="about-image-wrapper">
+        <img src="{{ about_image }}" alt="Simon - About Me" class="about-image">
+      </div>
+
+      <div class="about-content">
+        
+        <div class="about-block block-1">
+          <h3>{{ about_title_1 | safe }}</h3>
+          <p>{{ about_text_1 | safe }}</p>
+        </div>
+
+        <div class="about-block block-2">
+          <h3>{{ about_title_2 | safe }}</h3>
+          <p>{{ about_text_2 | safe }}</p>
+
+          <div class="social-links">
+            {% for link in social_links %}
+            <a href="{{ link.url }}" target="_blank" class="social-icon" aria-label="{{ link.name }}">
+              <svg viewBox="0 0 24 24" fill="currentColor">
+                <path d="{{ link.icon_path }}"/>
+              </svg>
+            </a>
+            {% endfor %}
+          </div>
+        </div>
+      </div>
+
+    </div>
+  </section>
+
+  <section id="projects" class="home-section">
+    <div class="content carousel-container">
+      <h2 class="highlight">{{ projects_title | safe }}</h2>
+      
+      <div class="carousel-track-container">
+        <ul class="carousel-track">
+          
+          {% for project in collections.project %}
+          <li class="carousel-slide {% if loop.first %}current-slide{% endif %}">
+            <div class="project-card">
+              
+              {% if project.data.image %}
+              <div class="project-image-wrapper">
+                <img src="{{ project.data.image }}" alt="{{ project.data.title }} preview" class="project-image">
+              </div>
+              {% endif %}
+
+              <div class="project-info">
+                <h3>{{ project.data.title }}</h3>
+                <p>{{ project.data.description }}</p>
+                
+                {% if project.data.show_link == true and project.data.link %}
+                <a href="{{ project.data.link }}" class="card-btn" target="_blank">
+                  View Project <span>→</span>
+                </a>
+                {% endif %}
+              </div>
+
+            </div>
+          </li>
+          {% else %}
+          <p>Nie znaleziono żadnych projektów!</p>
+          {% endfor %}
+
+        </ul>
+      </div>
+
+      <div class="carousel-dots">
+        {% for project in collections.project %}
+        <button class="carousel-dot {% if loop.first %}active{% endif %}" data-index="{{ loop.index0 }}" aria-label="Go to slide {{ loop.index }}"></button>
+        {% endfor %}
+      </div>
+
+      <div class="carousel-controls">
+        <button class="carousel-arrow left-arrow" aria-label="Previous Project">&#10094;</button>
+        <button class="carousel-arrow right-arrow" aria-label="Next Project">&#10095;</button>
+      </div>
+      
+    </div>
+  </section>
+
+  <section id="contact" class="home-section contact-section">
+    <div class="content">
+      <h2 class="highlight">Contact Me</h2>
+      
+      <p class="contact-intro">{{ contact_intro | safe }}</p>
+
+      <div class="contact-methods">
+        {% for option in contact_options %}
+        <div class="contact-method">
+          <h3>{{ option.title }}</h3>
+          <div class="contact-box">
+            <code>{{ option.value }}</code>
+          </div>
+        </div>
+        {% endfor %}
+      </div>
+
+    </div>
+  </section>
+
+</div>
+{% endblock %}

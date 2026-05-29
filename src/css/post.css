@@ -1,0 +1,339 @@
+/* =========================================
+   0. RESET SCROLLOWANIA (Wyłącza snap)
+========================================= */
+html, body, .site-main {
+    scroll-snap-type: none !important;
+    overflow-y: auto !important;
+    height: auto !important;
+}
+
+/* =========================================
+   1. LAYOUT GŁÓWNY (post.css)
+========================================= */
+.post-section {
+    /* Mniejszy odstęp od headera (4.5rem) */
+    padding: 4.5rem 2rem 6rem 2rem; 
+    min-height: 100vh;
+    display: block; 
+}
+
+.post-container {
+    max-width: 1000px;
+    width: 100%;
+    margin: 0 auto;
+}
+
+/* =========================================
+   2. PRZYCISK "BACK TO BLOG"
+========================================= */
+.back-btn {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center; /* Wyśrodkowanie w poziomie */
+    line-height: 1;          /* KLUCZ: Ściąga pikselowy tekst idealnie na środek w pionie */
+    margin-bottom: 3rem;
+    padding: 0.8rem 1.5rem;
+    border: 1px solid var(--color-primary-blue);
+    border-radius: 20px;
+    color: var(--color-primary-blue);
+    text-decoration: none;
+    font-family: var(--font-pixel);
+    font-size: 0.8rem;
+    background-color: transparent;
+    transition: all 0.3s ease;
+}
+
+.back-btn:hover {
+    box-shadow: 0 0 15px var(--color-primary-glow);
+    background-color: rgba(15, 73, 190, 0.1);
+    transform: translateX(-5px); /* Przesunięcie w lewo przy powrocie! */
+}
+
+/* Naprawa strzałki powrotu */
+.back-btn .arrow {
+    font-family: var(--font-main); /* Wyłączamy pikselowy font tylko dla strzałki */
+    font-size: 1.4rem;             /* Powiększamy strzałkę */
+    margin-right: 0.5rem;          /* Odstęp od tekstu "Back to Blog" */
+    position: relative;
+    top: -2px;                     /* Drobna korekta w pionie, żeby strzałka była na środku */
+    line-height: 1;
+}
+
+/* =========================================
+   3. NAGŁÓWEK (Tytuł, Data, Główne zdjęcie)
+========================================= */
+.post-header {
+    margin-bottom: 4rem;
+}
+
+.post-header h1 {
+    font-family: var(--font-pixel) !important;
+    color: var(--color-primary-blue) !important;
+    text-shadow: 0 0 15px var(--color-primary-glow);
+    font-size: 2.5rem;
+    margin-bottom: 1.5rem;
+    line-height: 1.4;
+}
+
+.post-date {
+    color: var(--color-text-dimmed);
+    font-family: var(--font-main);
+    font-size: 0.9rem;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    margin-bottom: 2rem;
+    display: block;
+    border-bottom: 1px solid var(--color-border);
+    padding-bottom: 1rem;
+}
+
+/* Główne zdjęcie u góry z proporcją kinową 16:9 */
+.post-hero-image {
+    width: 100%;
+    aspect-ratio: 16 / 9; 
+    border-radius: 8px;
+    overflow: hidden;
+    border: 1px solid var(--color-border);
+    margin-bottom: 3rem;
+}
+
+.post-hero-image img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    display: block;
+}
+
+/* =========================================
+   4. TREŚĆ ARTYKUŁU (Formatowanie Markdown)
+========================================= */
+.post-content {
+    color: var(--color-text-muted);
+    font-size: 1.1rem;
+    line-height: 1.8;
+    font-family: var(--font-main);
+}
+
+/* Nagłówki generowane z Markdown */
+.post-content h2, 
+.post-content h3 {
+    color: var(--color-text-main);
+    font-family: var(--font-pixel);
+    margin-top: 3rem;
+    margin-bottom: 1.5rem;
+}
+
+.post-content h2 { font-size: 1.8rem; color: var(--color-primary-blue); }
+.post-content h3 { font-size: 1.4rem; }
+
+/* Paragrafy i Listy */
+.post-content p { margin-bottom: 1.5rem; }
+.post-content ul, .post-content ol { margin-bottom: 1.5rem; padding-left: 2rem; }
+.post-content li { margin-bottom: 0.5rem; }
+
+/* Linki w tekście */
+.post-content a {
+    color: var(--color-primary-blue);
+    text-decoration: underline;
+    text-underline-offset: 4px;
+    transition: color 0.3s ease;
+}
+.post-content a:hover { color: var(--color-secondary-yellow); }
+
+/* Bloki Kodu (Code Snippets) */
+.post-content code {
+    background-color: rgba(20, 20, 20, 0.9);
+    padding: 0.2rem 0.4rem;
+    border-radius: 4px;
+    border: 1px solid var(--color-border);
+    color: var(--color-secondary-yellow);
+    font-family: monospace;
+    font-size: 0.9em;
+}
+
+.post-content pre {
+    background-color: rgba(10, 10, 10, 0.9);
+    padding: 1.5rem;
+    border-radius: 8px;
+    border: 1px solid var(--color-border);
+    overflow-x: auto;
+    margin-bottom: 2rem;
+}
+
+.post-content pre code {
+    background-color: transparent;
+    border: none;
+    padding: 0;
+    color: var(--color-text-main);
+}
+
+/* Cytaty (Blockquotes) */
+.post-content blockquote {
+    border-left: 4px solid var(--color-primary-blue);
+    margin: 0 0 2rem 0;
+    padding: 1rem 2rem;
+    background-color: rgba(15, 73, 190, 0.05);
+    border-radius: 0 8px 8px 0;
+    font-style: italic;
+}
+
+/* Dodatkowe obrazki w tekście */
+.post-content img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 8px;
+    margin: 2rem 0;
+    border: 1px solid var(--color-border);
+}
+
+/* =========================================
+   6. GALERIA I LIGHTBOX
+========================================= */
+.post-gallery-section {
+    margin-top: 5rem;
+    border-top: 1px solid var(--color-border);
+    padding-top: 3rem;
+}
+
+.post-gallery-section h3 {
+    font-family: var(--font-pixel);
+    color: var(--color-primary-blue);
+    margin-bottom: 2rem;
+    font-size: 1.5rem;
+    text-shadow: 0 0 10px var(--color-primary-glow);
+}
+
+/* Siatka miniaturek (dopasowuje się sama!) */
+.gallery-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+    gap: 1.5rem;
+}
+
+.gallery-item {
+    position: relative;
+    aspect-ratio: 1 / 1; /* Idealne kwadraty */
+    border-radius: 8px;
+    overflow: hidden;
+    cursor: pointer;
+    border: 1px solid var(--color-border);
+}
+
+.gallery-item img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    transition: transform 0.4s ease;
+}
+
+/* Efekt najechania myszką na miniaturkę */
+.gallery-overlay {
+    position: absolute;
+    top: 0; left: 0; right: 0; bottom: 0;
+    background: rgba(15, 73, 190, 0.4);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    opacity: 0;
+    transition: opacity 0.3s ease;
+}
+
+.gallery-overlay span {
+    font-family: var(--font-pixel);
+    color: white;
+    font-size: 0.8rem;
+    background: rgba(0,0,0,0.7);
+    padding: 0.5rem 1rem;
+    border-radius: 20px;
+}
+
+.gallery-item:hover img {
+    transform: scale(1.1);
+}
+
+.gallery-item:hover .gallery-overlay {
+    opacity: 1;
+}
+
+/* =========================================
+   LIGHTBOX (Pełny ekran)
+========================================= */
+.lightbox {
+    position: fixed;
+    top: 0; left: 0; right: 0; bottom: 0;
+    background: rgba(0, 0, 0, 0.85);
+    backdrop-filter: blur(8px); /* Rozmycie tła strony */
+    z-index: 9999;
+    display: none; /* Ukryte domyślnie */
+    align-items: center;
+    justify-content: center;
+}
+
+.lightbox.active {
+    display: flex;
+}
+
+.lightbox img {
+    max-width: 90%;
+    max-height: 85vh;
+    border-radius: 8px;
+    border: 1px solid var(--color-primary-blue);
+    box-shadow: 0 0 30px var(--color-primary-glow);
+    object-fit: contain;
+}
+
+/* Przyciski i nawigacja */
+.lightbox-close {
+    position: absolute;
+    top: 20px;
+    right: 40px;
+    font-size: 3rem;
+    color: white;
+    cursor: pointer;
+    transition: color 0.3s;
+    font-family: sans-serif;
+}
+
+.lightbox-prev, .lightbox-next {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    background: transparent;
+    border: none;
+    color: rgba(255, 255, 255, 0.5);
+    font-size: 4rem;
+    cursor: pointer;
+    padding: 1rem;
+    transition: all 0.3s;
+}
+
+.lightbox-prev:hover, .lightbox-next:hover, .lightbox-close:hover {
+    color: var(--color-primary-blue);
+    text-shadow: 0 0 15px var(--color-primary-glow);
+}
+
+.lightbox-prev { left: 20px; }
+.lightbox-next { right: 20px; }
+
+/* Drobna korekta na telefony */
+@media (max-width: 768px) {
+    .gallery-grid {
+        grid-template-columns: repeat(2, 1fr); /* Na telefonie 2 kolumny miniaturek */
+        gap: 1rem;
+    }
+    .lightbox-prev, .lightbox-next {
+        font-size: 2.5rem;
+        padding: 0.5rem;
+    }
+}
+
+
+/* =========================================
+   5. RESPONSIVE (Telefony)
+========================================= */
+@media (max-width: 768px) {
+    .post-header h1 { font-size: 1.8rem; }
+    .post-content h2 { font-size: 1.5rem; }
+    .post-content h3 { font-size: 1.2rem; }
+}
+

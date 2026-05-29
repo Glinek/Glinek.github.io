@@ -1,0 +1,149 @@
+/* /css/partials/footer.css */
+
+/* =========================================
+   MAIN FOOTER STYLES
+========================================= */
+.siteFooter {
+    position: relative;
+    color: var(--color-text-dimmed);
+    font-family: var(--font-main);
+    padding: 10rem 2rem 2rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: auto; 
+    overflow: hidden;
+    background: transparent;
+}
+
+/* =========================================
+   ANIMATED BACKGROUND LAYERS
+========================================= */
+.footer-bg-layer {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: 1;
+    pointer-events: none;
+}
+
+.layer-1 {
+    background-color: rgba(30, 30, 30, 0.4);
+    backdrop-filter: blur(4px);
+    -webkit-backdrop-filter: blur(4px);
+    animation: crystalLayer1 8s ease-in-out infinite alternate;
+}
+
+.layer-2 {
+    background-color: rgba(25, 25, 25, 0.8);
+    animation: crystalLayer2 6s ease-in-out infinite alternate;
+}
+
+.layer-3 {
+    background-color: rgba(20, 20, 20, 0.9);
+    animation: crystalLayer3 4s ease-in-out infinite alternate;
+}
+
+@keyframes crystalLayer1 {
+    0% { clip-path: polygon(0% 4vw, 20% 0vw, 45% 5vw, 75% 1vw, 100% 3vw, 100% 100%, 0% 100%); }
+    100% { clip-path: polygon(0% 1vw, 30% 6vw, 60% 1vw, 85% 5vw, 100% 2vw, 100% 100%, 0% 100%); }
+}
+
+@keyframes crystalLayer2 {
+    0% { clip-path: polygon(0% 6vw, 25% 3vw, 55% 8vw, 80% 4vw, 100% 7vw, 100% 100%, 0% 100%); }
+    100% { clip-path: polygon(0% 4vw, 35% 7vw, 50% 3vw, 70% 8vw, 100% 4vw, 100% 100%, 0% 100%); }
+}
+
+@keyframes crystalLayer3 {
+    0% { clip-path: polygon(0% 9vw, 30% 5vw, 50% 10vw, 70% 6vw, 100% 8vw, 100% 100%, 0% 100%); }
+    100% { clip-path: polygon(0% 7vw, 20% 9vw, 45% 6vw, 75% 10vw, 100% 6vw, 100% 100%, 0% 100%); }
+}
+
+/* =========================================
+   FOOTER CONTENT & NAVIGATION
+========================================= */
+.footer-links, .footer-icons, .footer-bottom {
+    position: relative;
+    z-index: 2;
+}
+
+.footer-links {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 1.5rem;
+    margin-bottom: 2rem;
+    
+    /* Resetting default list styles */
+    list-style: none;
+    padding: 0;
+}
+
+.footer-links a {
+    color: var(--color-text-main);
+    text-decoration: none;
+    font-size: var(--fs-base);
+    font-weight: var(--fw-light);
+    transition: color 0.2s;
+}
+
+.footer-links a:hover {
+    color: var(--color-secondary-hover);
+    font-weight: var(--fw-regular);
+}
+
+/* =========================================
+   FOOTER BOTTOM (Copyright info)
+========================================= */
+.footer-bottom {
+    width: 100%;
+    max-width: 800px;
+    border-top: 1px solid var(--color-border);
+    padding-top: 1.5rem;
+    text-align: center;
+    font-size: var(--fs-sm);
+    letter-spacing: 0.5px;
+}
+
+.footer-bottom p {
+    margin: 0;
+}
+
+.heart {
+    color: var(--color-success);
+}
+
+.license {
+    color: var(--color-success);
+    text-decoration: none;
+}
+
+/* =========================================
+   MOBILE RESPONSIVENESS
+========================================= */
+@media (max-width: 768px) {
+    .siteFooter {
+        padding-top: 7rem;
+    }
+    
+    .layer-1 { animation: crystalMobile1 8s ease-in-out infinite alternate; }
+    .layer-2 { animation: crystalMobile2 6s ease-in-out infinite alternate; }
+    .layer-3 { animation: crystalMobile3 4s ease-in-out infinite alternate; }
+}
+
+@keyframes crystalMobile1 {
+    0% { clip-path: polygon(0% 30px, 30% 10px, 60% 35px, 100% 15px, 100% 100%, 0% 100%); }
+    100% { clip-path: polygon(0% 15px, 40% 40px, 70% 15px, 100% 30px, 100% 100%, 0% 100%); }
+}
+
+@keyframes crystalMobile2 {
+    0% { clip-path: polygon(0% 45px, 35% 25px, 65% 50px, 100% 30px, 100% 100%, 0% 100%); }
+    100% { clip-path: polygon(0% 30px, 25% 45px, 55% 25px, 100% 45px, 100% 100%, 0% 100%); }
+}
+
+@keyframes crystalMobile3 {
+    0% { clip-path: polygon(0% 60px, 25% 45px, 50% 65px, 75% 50px, 100% 55px, 100% 100%, 0% 100%); }
+    100% { clip-path: polygon(0% 50px, 35% 60px, 60% 45px, 100% 60px, 100% 100%, 0% 100%); }
+}

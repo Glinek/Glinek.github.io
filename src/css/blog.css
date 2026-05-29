@@ -1,0 +1,269 @@
+/* =========================================
+   1. RESET (Wyłączenie scroll-snap z głównej)
+========================================= */
+html, body, .site-main {
+    scroll-snap-type: none !important;
+    overflow-y: auto !important;
+    height: auto !important;
+}
+
+/* =========================================
+   2. BLOG LAYOUT (Kontenery)
+========================================= */
+.blog-list-section {
+    /* Zmniejszamy 8rem na 4.5rem (lub inną wartość, która Ci się spodoba) */
+    padding: 4.5rem 2rem 6rem 2rem; 
+    min-height: 100vh;
+    display: block; 
+    overflow-x: hidden;
+}
+
+.blog-list-section .content {
+    max-width: 1200px;
+    width: 100%;
+    margin: 0 auto; 
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    position: relative;
+}
+
+.blog-grid {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    gap: 4rem; /* Odstęp między całymi rzędami */
+}
+
+/* =========================================
+   3. TYPOGRAFIA I NAGŁÓWKI (Lata)
+========================================= */
+.main-blog-title {
+    font-family: var(--font-pixel);
+    color: var(--color-primary-blue);
+    text-shadow: 0 0 15px var(--color-primary-glow);
+    font-size: 3rem;
+    text-align: center;
+    margin-bottom: 3rem;
+}
+
+.year-divider {
+    width: 100%;
+    text-align: center;
+    position: relative;
+    margin: -1rem 0; /* Delikatnie łagodzi odstęp przed sekcją kart */
+}
+
+.year-divider h2 {
+    font-family: var(--font-pixel);
+    font-size: 2.5rem;
+    color: var(--color-text-dimmed); 
+    display: inline-block;
+    background-color: var(--color-bg); 
+    padding: 0 1.5rem;
+    position: relative;
+    z-index: 2;
+}
+
+.year-divider::before {
+    content: "";
+    position: absolute;
+    top: 50%;
+    left: 0;
+    right: 0;
+    height: 1px;
+    background: var(--color-border);
+    z-index: 1;
+}
+
+/* =========================================
+   4. KARTA POSTA (Glassmorphism & Asymetria)
+========================================= */
+.blog-card {
+    display: flex;
+    background-color: rgba(20, 20, 20, 0.7);
+    border: 1px solid var(--color-border);
+    border-radius: 8px;
+    overflow: hidden;
+    min-height: 320px;
+    transition: all 0.3s ease;
+}
+
+.blog-card:hover {
+    border-color: var(--color-primary-blue);
+    box-shadow: 0 0 15px var(--color-primary-hover);
+}
+
+.blog-image {
+    flex: 0 0 45%;
+    overflow: hidden;
+    background-color: #111;
+}
+
+.blog-image img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    transition: transform 0.4s ease;
+    display: block;
+}
+
+.blog-card:hover .blog-image img {
+    transform: scale(1.05); /* Zoom przy najechaniu */
+}
+
+.blog-info {
+    flex: 1;
+    padding: 2.5rem 3rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+}
+
+/* --- Przesunięcia (Lewo/Prawo) --- */
+.card-left {
+    transform: translateX(-3rem);
+    flex-direction: row; 
+}
+
+.card-right {
+    transform: translateX(3rem);
+    flex-direction: row-reverse; 
+}
+
+.card-right .blog-info {
+    align-items: flex-end;
+    text-align: right;
+}
+
+/* =========================================
+   5. WNĘTRZE KARTY (Odstępy, Tekst, Tagi)
+========================================= */
+.card-date {
+    font-family: var(--font-main);
+    color: var(--color-primary-blue);
+    font-size: 0.85rem;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    margin-bottom: 0.2rem;
+    display: block;
+}
+
+.blog-info .post-title {
+    font-family: var(--font-pixel);
+    color: var(--color-text-main); 
+    font-size: 1.6rem;
+    margin-top: 0;
+    margin-bottom: 0.5rem;
+}
+
+.blog-info p {
+    color: var(--color-text-muted);
+    font-size: var(--fs-md);
+    line-height: 1.6;
+    margin-top: 0;
+    margin-bottom: 1rem;
+}
+
+/* --- Tagi --- */
+.blog-tags {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+    margin-bottom: 1rem;
+}
+
+.card-right .blog-tags {
+    justify-content: flex-end; /* Klei tagi do prawej na prawej karcie */
+}
+
+.blog-tags .tag {
+    background: rgba(15, 73, 190, 0.15);
+    color: var(--color-primary-blue);
+    padding: 5px 12px;
+    border-radius: 4px;
+    border: 1px solid rgba(15, 73, 190, 0.3);
+    font-size: 0.7rem;
+    font-family: var(--font-pixel);
+}
+
+/* --- Przycisk Read More --- */
+.card-btn {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    line-height: 1;
+    padding: 0.8rem 1.5rem;
+    margin-top: 0.5rem; 
+    border: 1px solid var(--color-primary-blue);
+    border-radius: 20px;
+    color: var(--color-primary-blue);
+    text-decoration: none;
+    font-family: var(--font-pixel);
+    font-size: 0.8rem;
+    background-color: transparent;
+    transition: all 0.3s ease;
+}
+
+.card-btn:hover {
+    box-shadow: 0 0 15px var(--color-primary-glow);
+    color: var(--color-primary-blue);
+    background-color: rgba(15, 73, 190, 0.1);
+    transform: translateY(-2px);
+}
+
+.card-btn .arrow {
+    font-family: var(--font-main); /* Wymuszamy normalną czcionkę zamiast pikselowej */
+    font-size: 1.2rem; /* Powiększamy ją, żeby pasowała do "Read More" */
+    margin-left: 0.4rem; /* Dodajemy lekki odstęp */
+    position: relative;
+    top: -1px; /* Drobna korekta w pionie, żeby środek strzałki zgrywał się z tekstem */
+}
+
+/* =========================================
+   6. RESPONSIVE (Telefony i Tablety)
+========================================= */
+@media (max-width: 1200px) {
+    .blog-grid {
+        gap: 3rem;
+    }
+
+    .card-left, .card-right {
+        transform: translateX(0); /* Wyłączamy rozstrzelenie do boków */
+        flex-direction: column; /* Zdjęcie ląduje nad tekstem */
+    }
+
+    /* Resetujemy wyrównanie tekstów na kartach */
+    .card-right .blog-info {
+        align-items: flex-start;
+        text-align: left;
+    }
+    
+    .card-right .blog-tags {
+        justify-content: flex-start;
+    }
+
+    /* Naprawa zmiażdżonych zdjęć! */
+    .blog-image {
+        aspect-ratio: 16 / 9; /* Zdjęcie zawsze zachowa idealne proporcje */
+        height: auto;         /* Pozwalamy mu rosnąć w pionie */
+        width: 100%;
+        flex: none;
+    }
+
+    .blog-info {
+        padding: 2rem;
+    }
+}
+
+/* Opcjonalnie: Jeszcze ciaśniej na bardzo małych telefonach */
+@media (max-width: 480px) {
+    .blog-info {
+        padding: 1.5rem;
+    }
+    
+    .blog-info .post-title {
+        font-size: 1.3rem;
+    }
+}

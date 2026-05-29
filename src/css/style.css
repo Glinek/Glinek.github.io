@@ -1,0 +1,103 @@
+/* /css/style.css */
+
+:root {
+    /* --- Colors --- */
+    --color-bg-dark: #222;
+    --color-primary-blue: #0f49be;
+    --color-primary-glow: rgba(15, 73, 190, 0.4);
+    --color-primary-glow-strong: rgba(15, 73, 190, 0.6);
+    --color-primary-hover: rgba(15, 73, 190, 0.1);
+    --color-primary-hover-text: #0f49be;
+
+    /* Blue hover */
+    --color-secondary-yellow: #0f49be;
+    --color-secondary-hover: #0f49be;
+    --color-secondary-hover-bg: rgba(15, 73, 190, 0.1);
+    --color-secondary-glow: rgba(15, 73, 190, 0.4);
+    --color-secondary-glow-strong: rgba(15, 73, 190, 0.6);
+    
+
+    /* Yellow hover 
+    --color-secondary-yellow: #ffd700;
+    --color-secondary-hover: #ffd700;
+    --color-secondary-hover-bg: rgba(255, 215, 0, 0.1);
+    --color-secondary-glow: rgba(255, 215, 0, 0.4);
+    --color-secondary-glow-strong: rgba(255, 215, 0, 0.6);
+    */
+    
+    --color-text-main: #ffffff;
+    --color-text-secondary: #000000;
+    --color-text-muted: #cccccc;
+    --color-text-dimmed: #e0e0e0;
+    --color-success: #2ecc71;
+    
+    --color-border: rgba(255, 255, 255, 0.15);
+
+    /* --- Typography: Font Families --- */
+    --font-main: 'Roboto Mono', monospace;
+    --font-pixel: 'Press Start 2P', Courier, monospace;
+
+    /* --- Typography: Font Weights --- */
+    --fw-light: 200;
+    --fw-regular: 400;
+    --fw-semi: 600;
+    --fw-bold: 700;
+
+    /* --- Typography: Font Sizes --- */
+    --fs-sm: 0.9rem;
+    --fs-base: 1rem;
+    --fs-md: 1.1rem;
+    --fs-lg: 1.2rem;
+    --fs-xl: 2.7rem;
+    --fs-xxl: 3.5rem;
+    --fs-xxxl: 4.5rem;
+}
+
+/* Browser default margin reset */
+html, body {
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    font-family: var(--font-main);
+}
+
+html {
+    /* "y" means vertical scrolling, "mandatory" forces snapping */
+    scroll-snap-type: y mandatory; 
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+    background-image: url('/images/bg.png');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed; 
+    background-color: var(--color-bg-dark);
+}
+
+.site-main {
+    flex: 1 0 auto; 
+    width: 100%;
+}
+
+*, *::before, *::after {
+    box-sizing: border-box;
+}
+
+.siteFooter {
+    /* Sticks the bottom of the footer to the bottom of the screen */
+    scroll-snap-align: end; 
+}
+
+/* =========================================
+   RESPONSYWNOŚĆ GLOBALNA
+========================================= */
+@media (max-width: 768px) {
+    html {
+        /* Wyłącza twarde przeskakiwanie (scroll-snap) na telefonach - przywraca płynne przewijanie */
+        scroll-snap-type: none; 
+    }
+}

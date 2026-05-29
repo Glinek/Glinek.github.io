@@ -1,0 +1,48 @@
+{% extends "layouts/base.html" %}
+{% block content %}
+<link rel="stylesheet" href="/css/blog.css">
+
+<section class="blog-list-section">
+    <div class="content">
+        <h1 class="main-blog-title">{{ title }}</h1>
+        
+        <div class="blog-grid">
+            {% set currentYear = "" %}
+            
+            {% for post in collections.post | reverse %}
+                {% set postYear = post.date.getFullYear() %}
+                
+                {% if postYear != currentYear %}
+                    <div class="year-divider">
+                        <h2>{{ postYear }}</h2>
+                    </div>
+                    {% set currentYear = postYear %}
+                {% endif %}
+
+                <div class="blog-card {% if loop.index0 % 2 == 0 %}card-left{% else %}card-right{% endif %}">
+                    
+                    <div class="blog-image">
+                        <img src="{{ post.data.image }}" alt="{{ post.data.title }}">
+                    </div>
+                    
+                    <div class="blog-info">
+                        <span class="card-date">{{ post.date.toDateString() }}</span>
+                        <h2 class="post-title">{{ post.data.title }}</h2>
+                        <p>{{ post.data.description }}</p>
+                        
+                        <div class="blog-tags">
+                            {% for tag in post.data.article_tags %}
+                                <span class="tag">{{ tag }}</span>
+                            {% endfor %}
+                        </div>
+
+                        <a href="{{ post.url }}" class="card-btn">Read More <span class="arrow">&rarr;</span></a>
+                    </div>
+
+                </div>
+            {% endfor %}
+        </div>
+    </div>
+</section>
+
+{% endblock %}
