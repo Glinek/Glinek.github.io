@@ -4,7 +4,7 @@ tags: ["post"]
 title: "How to setup and use IcePi Zero FPGA"
 date: "2026-07-02"
 description: "A tutorial on setting up IcePi Zero on Windows"
-image: "/cover.jpg"
+image: "cover.jpg"
 article_tags: ["Tutorial", "IcePiZero"]
 ---
 
@@ -15,14 +15,14 @@ In this tutorial I will help you get your IcePi Zero setup and working on Window
 - Download [this demo code](https://github.com/cheyao/icepi-zero/raw/refs/heads/main/documentation/fire-v.bit)
 - Download [zadig](https://zadig.akeo.ie/)
 - Open [this website](https://ofl.trabucayre.com/) use **CHROME!**
-2. Open zadig, select IcePi zero (you might need to select `list all devices` in options) and replace driver with WinUSB
+2. Open zadig, select IcePi zero (you might need to select `list all devices` in options) and replace driver with WinUSB   
 ![alt text](images/1.png)
 ![alt text](images/2.png)
 3. Unplug the board for a few seconds
-4. Open the website, in automatic operations select IcePi Zero and the demo file fire-v.bit
+4. Open the website, in automatic operations select IcePi Zero and the demo file fire-v.bit   
 ![alt text](images/3.png)
 ![alt text](images/5.png)
-5. Upload, If you have done everything right you should see information about successful upload!
+5. Upload, If you have done everything right you should see information about successful upload!   
 ![alt text](images/4.png)
 
 
