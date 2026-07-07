@@ -40,7 +40,7 @@ When you download IceStudio v1.0 or higher It's pretty straight forward from the
 ![alt text](images/10.png)
 
 <br><br>
-If you want to print the same case as on this blog's picture you can download it [here](https://github.com/Glinek/IcePiZero-case)  
+If you want to print the same case as on this blog's picture, it is avaiable on [github](https://github.com/Glinek/IcePiZero-case) or [Printables](https://www.printables.com/model/1774644-icepi-zero-case-housing)
 Thank you for reading! I hope I helped a little :)  
 ~Simon
 
