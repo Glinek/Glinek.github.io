@@ -314,4 +314,174 @@ document.addEventListener('DOMContentLoaded', () => {
             if (e.target === lightbox) lightbox.classList.remove('active');
         });
     }
+
+    /* =========================================
+       6. GLOBALNY LIGHTBOX (DELEGACJA ZDARZEŃ)
+    ========================================= */
+    
+    // Sprawdzamy na starcie, czy w ogóle mamy na stronie kontener artykułu
+    const postContent = document.querySelector('.post-content');
+
+    if (postContent) {
+        
+        // 1. Zawsze ładujemy strukturę Lightboxa do DOM
+        if (!document.getElementById('global-custom-lightbox')) {
+             const lightboxHTML = `
+                <div id="global-custom-lightbox" class="custom-lightbox-overlay">
+                    <span class="custom-lightbox-close">&times;</span>
+                    <button class="custom-lightbox-btn custom-lightbox-prev">&#10094;</button>
+                    <img class="custom-lightbox-image" src="" alt="Powiększenie">
+                    <button class="custom-lightbox-btn custom-lightbox-next">&#10095;</button>
+                </div>
+            `;
+            document.body.insertAdjacentHTML('beforeend', lightboxHTML);
+        }
+
+        const globalLightbox = document.getElementById('global-custom-lightbox');
+        const customLightboxImg = globalLightbox.querySelector('.custom-lightbox-image');
+        const customCloseBtn = globalLightbox.querySelector('.custom-lightbox-close');
+        const customPrevBtn = globalLightbox.querySelector('.custom-lightbox-prev');
+        const customNextBtn = globalLightbox.querySelector('.custom-lightbox-next');
+        
+        let customCurrentIndex = 0;
+        let customImgSources = [];
+
+        // 2. Delegacja zdarzeń - nasłuchujemy kliknięć w całym artykule
+        postContent.addEventListener('click', (event) => {
+            const clickedImg = event.target.closest('.custom-clickable-img');
+            
+            if (clickedImg) {
+                // Gdy ktoś kliknie, na świeżo pobieramy wszystkie zdjęcia (odporne na opóźnienia)
+                const allInlineImages = document.querySelectorAll('.custom-clickable-img');
+                customImgSources = Array.from(allInlineImages).map(img => img.getAttribute('data-src'));
+                
+                // Znajdujemy, które to z kolei zdjęcie
+                customCurrentIndex = customImgSources.indexOf(clickedImg.getAttribute('data-src'));
+                
+                customLightboxImg.src = customImgSources[customCurrentIndex];
+                globalLightbox.classList.add('active');
+            }
+        });
+
+        // 3. Logika nawigacji (strzałki i zamykanie)
+        const showNextInlineImage = () => { 
+            if (customImgSources.length === 0) return;
+            customCurrentIndex = (customCurrentIndex + 1) % customImgSources.length; 
+            customLightboxImg.src = customImgSources[customCurrentIndex]; 
+        };
+        
+        const showPrevInlineImage = () => { 
+            if (customImgSources.length === 0) return;
+            customCurrentIndex = (customCurrentIndex - 1 + customImgSources.length) % customImgSources.length; 
+            customLightboxImg.src = customImgSources[customCurrentIndex]; 
+        };
+
+        customCloseBtn.addEventListener('click', () => globalLightbox.classList.remove('active'));
+        customNextBtn.addEventListener('click', (e) => { e.stopPropagation(); showNextInlineImage(); });
+        customPrevBtn.addEventListener('click', (e) => { e.stopPropagation(); showPrevInlineImage(); });
+        
+        globalLightbox.addEventListener('click', (e) => { 
+            if (e.target === globalLightbox) globalLightbox.classList.remove('active'); 
+        });
+
+        document.addEventListener('keydown', (e) => {
+            if (!globalLightbox.classList.contains('active')) return;
+            if (e.key === 'ArrowRight') showNextInlineImage();
+            if (e.key === 'ArrowLeft') showPrevInlineImage();
+            if (e.key === 'Escape') globalLightbox.classList.remove('active');
+        });
+    }
+
+    /* =========================================
+       7. AUTOMATYCZNE POBIERANIE OPISU Z GITHUBA
+    ========================================= */
+    const githubCards = document.querySelectorAll('.github-card');
+    
+    if (githubCards.length > 0) {
+        githubCards.forEach(card => {
+            const repo = card.getAttribute('data-repo');
+            const descTarget = card.querySelector('.github-desc-target');
+            
+            if (repo && descTarget) {
+                // Odpytujemy darmowe API GitHuba o dane tego repozytorium
+                fetch(`https://api.github.com/repos/${repo}`)
+                    .then(response => response.json())
+                    .then(data => {
+                        if (data.description) {
+                            descTarget.textContent = data.description;
+                        } else {
+                            descTarget.textContent = "To repozytorium nie posiada opisu.";
+                        }
+                    })
+                    .catch(error => {
+                        console.error('Błąd pobierania danych z GitHuba:', error);
+                        descTarget.textContent = "Nie udało się połączyć z serwerem GitHuba.";
+                    });
+            }
+        });
+    }
+
+    /* =========================================
+       8. GLOBALNY LIGHTBOX DLA GALERII INLINE
+    ========================================= */
+    const allInlineImages = document.querySelectorAll('.custom-clickable-img');
+
+    if (allInlineImages.length > 0) {
+        // Zamiast wklejać HTML do post.html, generujemy go automatycznie w JS!
+        const lightboxHTML = `
+            <div id="global-custom-lightbox" class="custom-lightbox-overlay">
+                <span class="custom-lightbox-close">&times;</span>
+                <button class="custom-lightbox-btn custom-lightbox-prev">&#10094;</button>
+                <img class="custom-lightbox-image" src="" alt="Powiększenie">
+                <button class="custom-lightbox-btn custom-lightbox-next">&#10095;</button>
+            </div>
+        `;
+        document.body.insertAdjacentHTML('beforeend', lightboxHTML);
+
+        // Obsługa logiki
+        const globalLightbox = document.getElementById('global-custom-lightbox');
+        const customLightboxImg = globalLightbox.querySelector('.custom-lightbox-image');
+        const customCloseBtn = globalLightbox.querySelector('.custom-lightbox-close');
+        const customPrevBtn = globalLightbox.querySelector('.custom-lightbox-prev');
+        const customNextBtn = globalLightbox.querySelector('.custom-lightbox-next');
+        
+        let customCurrentIndex = 0;
+        // Zbieramy ścieżki (src) wszystkich zdjęć na stronie
+        const customImgSources = Array.from(allInlineImages).map(img => img.getAttribute('data-src'));
+
+        allInlineImages.forEach((img, index) => {
+            img.addEventListener('click', () => {
+                customCurrentIndex = index;
+                customLightboxImg.src = customImgSources[customCurrentIndex];
+                globalLightbox.classList.add('active');
+            });
+        });
+
+        const showNextInlineImage = () => { 
+            customCurrentIndex = (customCurrentIndex + 1) % customImgSources.length; 
+            customLightboxImg.src = customImgSources[customCurrentIndex]; 
+        };
+        
+        const showPrevInlineImage = () => { 
+            customCurrentIndex = (customCurrentIndex - 1 + customImgSources.length) % customImgSources.length; 
+            customLightboxImg.src = customImgSources[customCurrentIndex]; 
+        };
+
+        customCloseBtn.addEventListener('click', () => globalLightbox.classList.remove('active'));
+        customNextBtn.addEventListener('click', (e) => { e.stopPropagation(); showNextInlineImage(); });
+        customPrevBtn.addEventListener('click', (e) => { e.stopPropagation(); showPrevInlineImage(); });
+        
+        // Zamykanie po kliknięciu w puste tło
+        globalLightbox.addEventListener('click', (e) => { 
+            if (e.target === globalLightbox) globalLightbox.classList.remove('active'); 
+        });
+
+        // Obsługa strzałek na klawiaturze
+        document.addEventListener('keydown', (e) => {
+            if (!globalLightbox.classList.contains('active')) return;
+            if (e.key === 'ArrowRight') showNextInlineImage();
+            if (e.key === 'ArrowLeft') showPrevInlineImage();
+            if (e.key === 'Escape') globalLightbox.classList.remove('active');
+        });
+    }
 });

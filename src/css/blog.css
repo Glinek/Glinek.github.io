@@ -132,6 +132,11 @@ html, body, .site-main {
     flex-direction: row-reverse; 
 }
 
+.card-center {
+    transform: translateX(0); /* Zeruje przesunięcie */
+    flex-direction: row;      /* Układ standardowy (zdjęcie po lewej) */
+}
+
 .card-right .blog-info {
     align-items: flex-end;
     text-align: right;
@@ -229,9 +234,9 @@ html, body, .site-main {
         gap: 3rem;
     }
 
-    .card-left, .card-right {
-        transform: translateX(0); /* Wyłączamy rozstrzelenie do boków */
-        flex-direction: column; /* Zdjęcie ląduje nad tekstem */
+    .card-left, .card-right, .card-center {
+        transform: translateX(0); 
+        flex-direction: column; 
     }
 
     /* Resetujemy wyrównanie tekstów na kartach */

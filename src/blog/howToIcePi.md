@@ -4,7 +4,7 @@ tags: ["post"]
 title: "How to setup and use IcePi Zero FPGA"
 date: "2026-07-02"
 description: "A tutorial on setting up IcePi Zero on Windows"
-image: "cover.jpg"
+image: "/images/blog/howToIcePi/cover.jpg"
 article_tags: ["Tutorial", "IcePiZero"]
 ---
 
@@ -15,15 +15,21 @@ In this tutorial I will help you get your IcePi Zero setup and working on Window
 - Download [this demo code](https://github.com/cheyao/icepi-zero/raw/refs/heads/main/documentation/fire-v.bit)
 - Download [zadig](https://zadig.akeo.ie/)
 - Open [this website](https://ofl.trabucayre.com/) use **CHROME!**
-2. Open zadig, select IcePi zero (you might need to select `list all devices` in options) and replace driver with WinUSB   
-![alt text](images/1.png)
-![alt text](images/2.png)
+2. Open zadig, select IcePi zero (you might need to select `list all devices` in options) and replace driver with WinUSB  
+
+{% set images = ["/images/blog/howToIcePi/images/1.png", "/images/blog/howToIcePi/images/2.png"] %}
+{% include "partials/inline-images.njk" %}
+
 3. Unplug the board for a few seconds
 4. Open the website, in automatic operations select IcePi Zero and the demo file fire-v.bit   
-![alt text](images/3.png)
-![alt text](images/5.png)
-5. Upload, If you have done everything right you should see information about successful upload!   
-![alt text](images/4.png)
+
+{% set images = ["/images/blog/howToIcePi/images/3.png", "/images/blog/howToIcePi/images/5.png"] %}
+{% include "partials/inline-images.njk" %}
+
+5. Upload, If you have done everything right you should see information about successful upload!  
+ 
+{% set images = ["/images/blog/howToIcePi/images/4.png"] %}
+{% include "partials/inline-images.njk" %}
 
 
 ## Programming IcePi Zero
@@ -33,14 +39,20 @@ There are multiple ways to program FPGA boards, especially ones like IcePi Zero.
 <br><br>
 When you download IceStudio v1.0 or higher It's pretty straight forward from there. Just follow the installation guide (screenshots below :) ) and upload a test code. Icestudio might not recognize the board at first but It should upload without a problem and you should see your board blinking.
 
-![alt text](images/6.png)
-![alt text](images/7.png)
-![alt text](images/8.png)
-![alt text](images/9.png)
-![alt text](images/10.png)
+{% set images = ["/images/blog/howToIcePi/images/6.png", "/images/blog/howToIcePi/images/7.png", "/images/blog/howToIcePi/images/8.png", "/images/blog/howToIcePi/images/9.png", "/images/blog/howToIcePi/images/10.png"] %}
+{% include "partials/inline-images.njk" %}
 
 <br><br>
-If you want to print the same case as on this blog's picture, it is avaiable on [github](https://github.com/Glinek/IcePiZero-case) or [Printables](https://www.printables.com/model/1774644-icepi-zero-case-housing)
+If you want to print the same case as on this blog's picture, it is avaiable below:
+
+{% set title = "IcePi Zero Case" %}
+{% set desc = "Custom 3D printed case for the IcePi Zero FPGA board" %}
+{% set url = "https://www.printables.com/model/1774644-icepi-zero-case-housing" %}
+{% include "partials/printables-card.njk" %}
+
+{% set repo = "Glinek/IcePiZero-case" %}
+{% include "partials/github-card.njk" %}
+
 Thank you for reading! I hope I helped a little :)  
 ~Simon
 

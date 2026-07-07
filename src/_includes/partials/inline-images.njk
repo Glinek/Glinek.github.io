@@ -1,0 +1,20 @@
+{% set total = images | length %}
+<div class="custom-inline-gallery {% if total == 1 %}single-img{% endif %}">
+    {%- for img in images -%}
+        {%- if loop.index <= 2 -%}
+            <div class="custom-img-wrapper">
+                <img src="{{ img }}" alt="Ilustracja do artykułu" class="custom-clickable-img" data-src="{{ img }}">
+                
+                {%- if loop.index == 2 and total > 2 -%}
+                    <div class="more-overlay">
+                        <span>+{{ total - 1 }}</span>
+                    </div>
+                {%- else -%}
+                    <div class="custom-zoom-hint">🔍 Zoom In</div>
+                {%- endif -%}
+            </div>
+        {%- else -%}
+            <img src="{{ img }}" class="custom-clickable-img hidden-img" data-src="{{ img }}" style="display:none;">
+        {%- endif -%}
+    {%- endfor -%}
+</div>

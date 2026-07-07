@@ -7,10 +7,21 @@
         <h1 class="main-blog-title">{{ title }}</h1>
         
         <div class="blog-grid">
+            {% set postsList = collections.post | reverse %}
             {% set currentYear = "" %}
             
-            {% for post in collections.post | reverse %}
+            {% for post in postsList %}
                 {% set postYear = post.date.getFullYear() %}
+                
+                {% set prevYear = "" %}
+                {% if loop.index0 > 0 %}
+                    {% set prevYear = postsList[loop.index0 - 1].date.getFullYear() %}
+                {% endif %}
+                
+                {% set nextYear = "" %}
+                {% if not loop.last %}
+                    {% set nextYear = postsList[loop.index0 + 1].date.getFullYear() %}
+                {% endif %}
                 
                 {% if postYear != currentYear %}
                     <div class="year-divider">
@@ -19,7 +30,16 @@
                     {% set currentYear = postYear %}
                 {% endif %}
 
-                <div class="blog-card {% if loop.index0 % 2 == 0 %}card-left{% else %}card-right{% endif %}">
+                {% set cardClass = "" %}
+                {% if postYear != prevYear and postYear != nextYear %}
+                    {% set cardClass = "card-center" %} {# Jedyny post w roku = środek #}
+                {% elif loop.index0 % 2 == 0 %}
+                    {% set cardClass = "card-left" %}   {# Parzyste = lewo #}
+                {% else %}
+                    {% set cardClass = "card-right" %}  {# Nieparzyste = prawo #}
+                {% endif %}
+
+                <div class="blog-card {{ cardClass }}">
                     
                     <div class="blog-image">
                         <img src="{{ post.data.image }}" alt="{{ post.data.title }}">
