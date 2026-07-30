@@ -2,6 +2,7 @@ export default function (eleventyConfig) {
 	eleventyConfig.setInputDirectory('src');
 	eleventyConfig.setOutputDirectory('dist');
 	eleventyConfig.addPassthroughCopy('src/images');
+	eleventyConfig.addPassthroughCopy('src/blog/data');
 	eleventyConfig.addPassthroughCopy("src/css"); 
 	eleventyConfig.addPassthroughCopy("src/js"); 
 }

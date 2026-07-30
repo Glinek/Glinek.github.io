@@ -484,4 +484,24 @@ document.addEventListener('DOMContentLoaded', () => {
             if (e.key === 'Escape') globalLightbox.classList.remove('active');
         });
     }
+    /* =========================================
+    ABOUT ME IMAGE SLIDER
+    ========================================= */
+    const aboutSlides = document.querySelectorAll('.about-slide');
+
+    // Uruchamiamy slider tylko, jeśli mamy więcej niż jedno zdjęcie
+    if (aboutSlides.length > 1) {
+        let currentAboutIndex = 0;
+        
+        setInterval(() => {
+            // Usuwamy klasę active z obecnego zdjęcia
+            aboutSlides[currentAboutIndex].classList.remove('active');
+            
+            // Przechodzimy do następnego zdjęcia (zapętlamy za pomocą modulo)
+            currentAboutIndex = (currentAboutIndex + 1) % aboutSlides.length;
+            
+            // Dodajemy klasę active do nowego zdjęcia
+            aboutSlides[currentAboutIndex].classList.add('active');
+        }, 4000); // 4000 milisekund = zmiana co 4 sekundy
+    }
 });

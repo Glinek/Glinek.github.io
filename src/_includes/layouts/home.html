@@ -4,7 +4,7 @@
 <link rel="stylesheet" href="/css/home.css">
 
 <nav class="dot-nav">
-  <a href="#welcome" class="dot active" aria-label="Welcome"></a>
+  <a href="#welcome" class="dot active" aria-label="Home"></a>
   <a href="#about" class="dot" aria-label="About Me"></a>
   <a href="#projects" class="dot" aria-label="My Projects"></a>
   <a href="#contact" class="dot" aria-label="Contact Me"></a>
@@ -36,7 +36,9 @@
     <div class="content about-container">
       
       <div class="about-image-wrapper">
-        <img src="{{ about_image }}" alt="Simon - About Me" class="about-image">
+        {% for img in about_images %}
+          <img src="{{ img }}" alt="Simon - About Me {{ loop.index }}" class="about-image about-slide {% if loop.first %}active{% endif %}">
+        {% endfor %}
       </div>
 
       <div class="about-content">

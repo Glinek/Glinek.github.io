@@ -11,10 +11,13 @@ dynamic_texts:
 welcome_text: "Welcome to my website!<br>I'm <span class='highlight'>Simon</span> and&nbsp;I&nbsp;am&nbsp;a"
 under_welcome_text: "Why ANUlab? Because I prefer when my projects are made under some brand."
 
-about_image: "/images/Me.jpg"
+about_images:
+  - "/images/Me.jpg"
+  - "/images/Me2.jpg"
+  - "/images/Me3.jpg"
 about_title_1: "A little bit about me"
 about_title_2: "Skills & Socials"
-about_text_1: "My journey into making stuff started in 2020 when I got my 3D printer. Since then I have been fascinated with the world of making and kept learning new things. I am most comfortable with coding and 3D design but I started learning more about PCB design and advance electronic circuits"
+about_text_1: "My journey into making stuff started in 2020 when I got my 3D printer. Since then I have been fascinated with the world of making and kept learning new things. I am most comfortable with coding and 3D design but I started learning more about PCB design and electronic circuits"
 about_text_2: "I primarily do programming (Python, Arduino) and 3D design (Fusion360, FreeCAD)"
 social_links:
   - name: "GitHub"
@@ -24,7 +27,7 @@ social_links:
     url: "https://www.printables.com/@GlinekTronic_5080773"
     icon_path: "M3.678 4.8 12 9.6v9.6l8.322-4.8V4.8L12 0ZM12 19.2l-8.322-4.8V24Z"
   - name: "Youtube"
-    url: "https://www.youtube.com/@GlinekTRONIC/videos"
+    url: "https://www.youtube.com/@SimonfromANUlab"
     icon_path: "M23.498 6.186a3.016 3.016 0 0 0-2.122-2.136C19.505 3.545 12 3.545 12 3.545s-7.505 0-9.377.505A3.017 3.017 0 0 0 .502 6.186C0 8.07 0 12 0 12s0 3.93.502 5.814a3.016 3.016 0 0 0 2.122 2.136c1.871.505 9.376.505 9.376.505s7.505 0 9.377-.505a3.015 3.015 0 0 0 2.122-2.136C24 15.93 24 12 24 12s0-3.93-.502-5.814zM9.545 15.568V8.432L15.818 12l-6.273 3.568z"
 
 projects_title: "My best Projects yet!"

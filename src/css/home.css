@@ -19,8 +19,8 @@
     padding: 2rem;
     box-sizing: border-box;
     color: var(--color-text-main) !important;
-    scroll-snap-align: start;
-    scroll-snap-stop: always;
+    /*scroll-snap-align: start;
+    scroll-snap-stop: always;*/
 }
 
 .home-section .content {
@@ -56,7 +56,7 @@
     display: flex;
     flex-direction: column;
     justify-content: center; 
-    transform: translateY(0);
+    transform: translateY(-1vh); /* Przesunięcie do góry o 8% wysokości ekranu */
 }
 
 .hero-greeting {
@@ -225,15 +225,33 @@
     margin: 0 5rem 0 2rem !important; /* 2rem z lewej, duży bufor 5rem z prawej! */
 }
 
-/* LEWA STRONA: Zdjęcie */
+/* Kontener zdjęć zamieniamy na CSS Grid */
 .about-image-wrapper {
-    flex: 0 0 35%; /* Zdjęcie zajmuje sztywno 35% szerokości */
+    flex: 0 0 35%;
     border-radius: 8px;
     border: 1px solid var(--color-border);
     overflow: hidden;
     background-color: rgba(20, 20, 20, 0.7);
     box-shadow: 0 0 20px rgba(0, 0, 0, 0.5);
+    display: grid; /* <--- ZMIANA: używamy siatki zamiast relative */
 }
+
+/* Aktualizujemy klasę zdjęcia */
+.about-image.about-slide {
+    grid-area: 1 / 1; /* <--- ZMIANA: zmusza wszystkie zdjęcia do ułożenia się w tej samej komórce siatki (jedno na drugim) */
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    display: block;
+    opacity: 0; /* Domyślnie niewidoczne */
+    transition: opacity 1s ease-in-out; /* Płynne przenikanie */
+}
+
+/* Klasa dla aktualnie wyświetlanego zdjęcia */
+.about-image.about-slide.active {
+    opacity: 1; 
+    z-index: 2; /* Upewniamy się, że aktywne zdjęcie jest na wierzchu */
+}ż
 
 .about-image {
     width: 100%;
@@ -562,7 +580,7 @@
 ========================================= */
 .contact-section {
     min-height: 55vh; /* Shared space with footer */
-    scroll-snap-align: none;
+    /*scroll-snap-align: none;*/
 }
 
 .contact-intro {
@@ -623,6 +641,51 @@
 .contact-box::-webkit-scrollbar-thumb {
     background: var(--color-primary-blue);
     border-radius: 4px;
+}
+
+/* =========================================
+   TOOLTIPY DLA HEKSAGONÓW (Nawigacja)
+========================================= */
+
+/* Upewniamy się, że kropka jest punktem odniesienia dla pozycjonowania dymku */
+.dot {
+    position: relative;
+}
+
+/* Tworzymy dymek wyciągając tekst z atrybutu aria-label */
+.dot::after {
+    content: attr(aria-label);
+    position: absolute;
+    right: 20px; /* Początkowa pozycja - blisko heksagonu */
+    top: 50%;
+    
+    /* Zmniejszamy bazowo dymek, bo sam heksagon rośnie (scale) przy :hover */
+    transform: translateY(-50%) scale(0.85); 
+    transform-origin: right center;
+    
+    /* Wygląd dymka */
+    background-color: rgba(15, 15, 15, 0.95);
+    color: var(--color-text-main);
+    padding: 0.3rem 0.8rem;
+    border-radius: 4px;
+    border: 1px solid var(--color-primary-blue);
+    font-family: var(--font-main);
+    font-size: var(--fs-sm);
+    white-space: nowrap; /* Zapobiega łamaniu tekstu na dwie linijki */
+    
+    /* Ukrywamy dymek domyślnie */
+    opacity: 0;
+    visibility: hidden;
+    pointer-events: none; /* Dymek nie będzie blokował kliknięć myszką */
+    
+    transition: all 0.3s ease;
+}
+
+/* Pokazujemy dymek po najechaniu myszką */
+.dot:hover::after {
+    opacity: 1;
+    visibility: visible;
+    right: 32px; /* Lekki efekt płynnego "wjazdu" od prawej do lewej */
 }
 
 
@@ -691,7 +754,7 @@
 
     /* 2. Wyłączenie "przyklejania" sekcji, by mogły płynnie przewijać się na telefonie */
     .home-section {
-        scroll-snap-align: none;
+        /*scroll-snap-align: none;*/
         min-height: 100vh; /* Zmiana z auto na 100vh! To dociśnie "About Me" w dół */
         padding: 4rem 1.5rem;
     }

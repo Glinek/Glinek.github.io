@@ -60,12 +60,12 @@ html, body {
     width: 100%;
     font-family: var(--font-main);
 }
-
+/*
 html {
-    /* "y" means vertical scrolling, "mandatory" forces snapping */
-    scroll-snap-type: y mandatory; 
+     "y" means vertical scrolling, "mandatory" forces snapping */
+    /*scroll-snap-type: y mandatory; 
 }
-
+*/
 body {
     display: flex;
     flex-direction: column;
