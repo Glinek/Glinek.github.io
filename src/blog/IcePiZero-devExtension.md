@@ -4,13 +4,13 @@ tags: ["post"]
 title: "IcePi Zero dev Extension"
 date: "2026-07-17"
 description: "A companion article and a documentation for my extension for IcePi Zero"
-image: "/images/blog/icePiExtension/cover.png"
+image: "/images/blog/icePiExtension/cover.jpg"
 article_tags: ["Documentation", "IcePiZero"]
 ---
 
-## This project is still in the making!
+# This project is still in the making!
 
-### BOM
+## BOM
 | Component | Value | Quantity | Notes | Component reference |
 |-----------|-------|----------|-------|------------------|
 | 7 segment display with 4 digits | - | 1 | KW4-361ASB | U1 |
@@ -22,7 +22,7 @@ article_tags: ["Documentation", "IcePiZero"]
 | Resistor | 22 | 1 | 0603 | R6 |
 | Resistor | 10 | 1 | 0603 | R5, R7 |
 
-### Wiring diagram - just a place holder, not a final version
+## Wiring diagram - just a place holder, not a final version
 {% set title = "Wiring diagram" %}
 {% set url = "/blog/data/schematic-v1-dummy.pdf" %}
 {% include "partials/pdf-embed.njk" %}

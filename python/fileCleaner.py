@@ -17,7 +17,7 @@ def process_images_in_place(root_folder, max_size=(1024, 1024), quality=85):
         for filename in filenames:
             ext = os.path.splitext(filename)[1].lower()
             
-            if ext in valid_extensions:
+            if ext in valid_extensions and filename != "bg.png":
                 # Tworzymy pełną ścieżkę do pliku w jego aktualnym podfolderze
                 file_path = os.path.join(dirpath, filename)
                 

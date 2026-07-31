@@ -10,9 +10,9 @@
         <header class="post-header">
             <h1 class="highlight">{{ title }}</h1>
             
-            <p class="post-date">Date: {{ page.date.toDateString() }}</p>
+            <p class="post-date">{{ page.date.toDateString().slice(4) }}</p>
             
-            {% if image %}
+            {% if image and not hide_image %}
             <div class="post-hero-image">
                 <img src="{{ image }}" alt="{{ title }}">
             </div>

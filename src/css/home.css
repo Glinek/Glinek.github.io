@@ -215,14 +215,15 @@
    ABOUT ME SECTION (Asymetryczny Layout)
 ========================================= */
 .about-container {
-    flex-direction: row !important; 
+    display: flex;
+    flex-direction: row !important; /* To wymusza układ obok siebie! */
     max-width: 1200px !important; 
     gap: 4rem; 
     align-items: stretch; 
     
-    /* ======== MAGIA OMIJANIA KROPEK ======== */
-    width: calc(100% - 7rem) !important; /* 100% szerokości minus miejsce na heksagony */
-    margin: 0 5rem 0 2rem !important; /* 2rem z lewej, duży bufor 5rem z prawej! */
+    /* ======== SYMETRYCZNE MARGINESY ======== */
+    width: calc(100% - 10rem) !important; /* 100% minus po 5rem z obu stron */
+    margin: 0 5rem !important; /* 5rem z lewej i 5rem z prawej */
 }
 
 /* Kontener zdjęć zamieniamy na CSS Grid */
@@ -366,10 +367,11 @@
 ========================================= */
 .carousel-container {
     position: relative;
-    /* Zamiast centrowania, robimy asymetryczne marginesy! */
-    width: calc(100% - 7rem) !important; /* 100% szerokości minus miejsce na heksagony */
-    margin: 0 5rem 0 2rem !important; /* 2rem z lewej, 5rem z prawej */
     max-width: 1600px !important; 
+    
+    /* ======== ZMIENIONE NA SYMETRYCZNE ======== */
+    width: calc(100% - 10rem) !important; /* 100% minus po 5rem z obu stron */
+    margin: 0 5rem !important; /* 5rem z lewej i 5rem z prawej */
 }
 
 .carousel-track-container {
@@ -595,7 +597,7 @@
 .contact-methods {
     display: flex;
     flex-direction: column;
-    gap: 2.5rem;
+    gap: 1rem;
     width: 100%;
     max-width: 800px;
 }
@@ -833,5 +835,28 @@
     /* Wyśrodkowanie ikon społecznościowych na telefonach */
     .social-links {
         justify-content: center; 
+    }
+}
+
+/* =========================================
+   FLOATING SOCIAL LINKS
+========================================= */
+.social-nav-floating {
+    position: fixed;
+    left: 1rem; /* <--- Zmniejszone z 3rem na 1rem */
+    top: 50%;
+    transform: translateY(-50%);
+    z-index: 1000;
+}
+
+.social-links-vertical {
+    display: flex;
+    flex-direction: column;
+    gap: 1.5rem;
+}
+
+@media (max-width: 1024px) {
+    .social-nav-floating { 
+        display: none; 
     }
 }

@@ -520,7 +520,7 @@ html, body, .site-main {
     overflow: hidden;
     text-decoration: none;
     max-width: 600px; 
-    margin: 3rem auto !important; /* KLUCZ: auto wyśrodkowuje kartę w pionie i poziomie */
+    margin: 1rem auto !important; /* KLUCZ: auto wyśrodkowuje kartę w pionie i poziomie */
     transition: border-color 0.3s ease, box-shadow 0.3s ease, transform 0.3s ease;
 }
 
@@ -591,7 +591,7 @@ html, body, .site-main {
     width: max-content; /* Tabela zajmie tylko tyle miejsca, ile potrzebuje tekst, a nie całą stronę */
     max-width: 100%;    /* Zabezpieczenie przed rozsadzeniem ekranu */
     border-collapse: collapse;
-    margin: 2rem auto;  /* Wyśrodkowuje tabelę na stronie */
+    margin: 1rem auto;  /* Wyśrodkowuje tabelę na stronie */
     background: rgba(10, 10, 10, 0.4); /* Bardziej przezroczyste, dyskretne tło */
     border: 1px solid var(--color-border);
     border-radius: 6px;
@@ -651,7 +651,7 @@ html, body, .site-main {
     border: 1px solid var(--color-border);
     border-radius: 8px;
     overflow: hidden;
-    margin: 3rem auto;
+    margin: 1rem auto;
     max-width: 1000px;
     box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2);
     transition: all 0.3s ease;
@@ -768,4 +768,77 @@ html, body, .site-main {
     .embed-pdf-title {
         flex-wrap: wrap; /* Zezwala podpowiedzi na spadek niżej przy wąskim ekranie */
     }
+}
+
+/* =========================================
+   10. WYRÓŻNIENIA W TEKŚCIE (B / I)
+========================================= */
+.post-content strong,
+.post-content b {
+    color: var(--color-text-yellow); /* Wyraźny, technologiczny żółty */
+    font-weight: 700;
+}
+
+.post-content em,
+.post-content i {
+    color: var(--color-text-cyan); /* Neonowy cyjan - pasuje do mrocznego, technicznego klimatu */
+    font-style: italic;
+}
+
+/* Połączenie pogrubienia z kursywą (***tekst***) - np. dla bardzo ważnych ostrzeżeń */
+.post-content strong em,
+.post-content em strong,
+.post-content b i,
+.post-content i b {
+    color: var(--color-text-highlight); /* Pomarańczowy akcent (jak w Printables) */
+    text-shadow: 0 0 8px rgba(250, 104, 49, 0.4);
+}
+
+/* =========================================
+   11. NAGŁÓWKI W ARTYKUŁACH (H1 - H4)
+========================================= */
+
+/* Wspólny niebieski kolor i normalna czcionka dla wszystkich nagłówków w tekście */
+.post-content h1,
+.post-content h2,
+.post-content h3,
+.post-content h4 {
+    line-height: 1.3;
+    font-family: var(--font-main, sans-serif); /* Domyślnie zwykła czcionka dla wszystkich */
+}
+
+/* H1: Czcionka Press Start (pixelowa), 2.5 raza większy, pogrubiony, tylko margines u góry */
+.post-content h1 {
+    color: var(--color-primary-blue);
+    font-family: var(--font-pixel, monospace); /* Wymuszenie pikselowej czcionki tylko dla H1 */
+    text-align: center; /* Wyśrodkowanie */
+    font-size: 2rem;
+    font-weight: 700;
+    margin: 3.5rem 0 0 0 !important; 
+}
+
+/* H2: 1.5 raza większy, pogrubiony, tylko margines u góry */
+.post-content h2 {
+    color: var(--color-text-main);
+    text-align: center; /* Wyśrodkowanie */
+    font-size: 1.5rem;
+    font-weight: 700;
+    margin: 3rem 0 0 0 !important;
+}
+
+/* H3: Jak normalna czcionka (1rem), pogrubiony, bez marginesów */
+.post-content h3 {
+    color: var(--color-text-main);
+    font-size: 1rem;
+    font-weight: 700;
+    margin: 0 !important;
+}
+
+/* H4: Jak normalna czcionka (1rem), normalna grubość, kursywa, bez marginesów */
+.post-content h4 {
+    color: var(--color-text-highlight);
+    font-size: 1rem;
+    font-weight: normal;
+    font-style: italic;
+    margin: 0 !important;
 }

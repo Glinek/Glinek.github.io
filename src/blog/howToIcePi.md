@@ -5,7 +5,7 @@ title: "How to setup and use IcePi Zero FPGA"
 date: "2026-07-02"
 description: "A tutorial on setting up IcePi Zero on Windows"
 image: "/images/blog/howToIcePi/cover.jpg"
-article_tags: ["Tutorial", "IcePiZero"]
+article_tags: ["IcePiZero", "Tutorial"]
 ---
 
 In this tutorial I will help you get your IcePi Zero setup and working on Windows!
@@ -35,7 +35,7 @@ In this tutorial I will help you get your IcePi Zero setup and working on Window
 ## Programming IcePi Zero
 There are multiple ways to program FPGA boards, especially ones like IcePi Zero. Some are more advanced than others and with this also comes the step-up in difficulty. If you are like me (new to FPGA and just want to play with it) you might want to try [IceStudio](https://icestudio.io/). Its main selling point is that it's easy for beginners to learn. So let's download it!
 <br><br>
-**Important** As of writing this tutorial (02.07.2026). I was able to program IcePi using the nightly build of IceStudio. You want to be using at least version 1.0, which is, right now, a nightly build. Be aware that Windows Defender might flag it as a virus. After some investigation I came to the conclusion that It might be a false alarm but be aware and proceed at your own risk!
+**Important!** As of writing this tutorial (02.07.2026). I was able to program IcePi using the nightly build of IceStudio. You want to be using at least version 1.0, which is, right now, a nightly build. Be aware that Windows Defender might flag it as a virus. After some investigation I came to the conclusion that It might be a false alarm but be aware and proceed at your own risk!
 <br><br>
 When you download IceStudio v1.0 or higher It's pretty straight forward from there. Just follow the installation guide (screenshots below :) ) and upload a test code. Icestudio might not recognize the board at first but It should upload without a problem and you should see your board blinking.
 
@@ -53,8 +53,8 @@ If you want to print the same case as on this blog's picture, it is avaiable bel
 {% set repo = "Glinek/IcePiZero-case" %}
 {% include "partials/github-card.njk" %}
 
-Thank you for reading! I hope I helped a little :)  
-~Simon
+#### Thank you for reading! I hope I helped a little :)  
+#### ~Simon
 
 
 

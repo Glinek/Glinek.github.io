@@ -26,6 +26,9 @@
     */
     
     --color-text-main: #ffffff;
+    --color-text-yellow: #ffcc00;
+    --color-text-cyan: #00e5ff;
+    --color-text-highlight: #fa6831;
     --color-text-secondary: #000000;
     --color-text-muted: #cccccc;
     --color-text-dimmed: #e0e0e0;

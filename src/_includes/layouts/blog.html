@@ -46,7 +46,7 @@
                     </div>
                     
                     <div class="blog-info">
-                        <span class="card-date">{{ post.date.toDateString() }}</span>
+                        <span class="card-date">{{ post.date.toDateString().slice(4) }}</span>
                         <h2 class="post-title">{{ post.data.title }}</h2>
                         <p>{{ post.data.description }}</p>
                         

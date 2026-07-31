@@ -10,6 +10,18 @@
   <a href="#contact" class="dot" aria-label="Contact Me"></a>
 </nav>
 
+<div class="social-nav-floating">
+  <div class="social-links-vertical">
+    {% for link in social_links %}
+    <a href="{{ link.url }}" target="_blank" class="social-icon" aria-label="{{ link.name }}">
+      <svg viewBox="0 0 24 24" fill="currentColor">
+        <path d="{{ link.icon_path }}"/>
+      </svg>
+    </a>
+    {% endfor %}
+  </div>
+</div>
+
 <div class="home-container">
   
   <section id="welcome" class="home-section hero-section">
@@ -51,16 +63,6 @@
         <div class="about-block block-2">
           <h3>{{ about_title_2 | safe }}</h3>
           <p>{{ about_text_2 | safe }}</p>
-
-          <div class="social-links">
-            {% for link in social_links %}
-            <a href="{{ link.url }}" target="_blank" class="social-icon" aria-label="{{ link.name }}">
-              <svg viewBox="0 0 24 24" fill="currentColor">
-                <path d="{{ link.icon_path }}"/>
-              </svg>
-            </a>
-            {% endfor %}
-          </div>
         </div>
       </div>
 
@@ -134,7 +136,6 @@
         </div>
         {% endfor %}
       </div>
-
     </div>
   </section>
 
