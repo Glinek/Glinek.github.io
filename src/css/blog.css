@@ -272,3 +272,31 @@ html, body, .site-main {
         font-size: 1.3rem;
     }
 }
+
+/* 1. Ustawiamy kartę jako "bazę" dla niewidzialnej warstwy */
+.blog-card {
+    position: relative;
+}
+
+/* 2. Rozciągamy klikalny obszar z linku "Read more" na całą kartę */
+.blog-card .card-btn::after {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: 1; /* Kładzie klikalną warstwę na samym wierzchu karty */
+}
+
+/* 3. EFEKT HOVER (Opcjonalne, ale bardzo polecane)
+   Sprawia, że cała karta delikatnie się podświetla/unosi, gdy najedziesz na nią myszką,
+   dając użytkownikowi wyraźny sygnał, że cała jest klikalna */
+.blog-card:hover {
+    transform: translateY(-4px);
+    box-shadow: 0 8px 20px rgba(15, 73, 190, 0.15); /* Delikatna niebieska poświata */
+    transition: all 0.3s ease;
+}
+.blog-card {
+    transition: all 0.3s ease; /* Płynny powrót do pierwotnego stanu */
+}

@@ -17,7 +17,7 @@ about_images:
   - "/images/Me3.jpg"
 about_title_1: "A little bit about me"
 about_title_2: "What can I do"
-about_text_1: "I started making stuff for real when I got my first 3D printer (the OG Ender3) and since then It has turned into a hobby and my passion. I love designing things and bringing them into the real world! But sometimes I need a break from PC and then I like to hike :)"
+about_text_1: "I started making stuff for real when I got my first 3D printer (the OG Ender3) and since then it has turned into a hobby and my passion. I love designing things and bringing them into the real world! But sometimes I need a break from PC and then I like to hike :)"
 about_text_2: "I'm most comfortable with programming (Python, C++) and 3D design (Fusion, FreeCAD). Lately I have also started learning PCB design to elevate my electronic projects. Besides that I am a robotics technician and I'm studying microelectronics."
 social_links:
   - name: "GitHub"
