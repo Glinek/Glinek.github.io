@@ -20,7 +20,7 @@ article_tags: ["Documentation", "IcePiZero"]
 | Resistor | 10k | 11 | 0603 | R8-R10, R13-R20 |
 | Resistor | 330 | 4 | 0603 | R1-R4 |
 | Resistor | 22 | 1 | 0603 | R6 |
-| Resistor | 10 | 1 | 0603 | R5, R7 |
+| Resistor | 10 | 2 | 0603 | R5, R7 |
 
 ## Wiring diagram - just a place holder, not a final version
 {% set title = "Wiring diagram" %}
