@@ -410,12 +410,12 @@ document.addEventListener('DOMContentLoaded', () => {
                         if (data.description) {
                             descTarget.textContent = data.description;
                         } else {
-                            descTarget.textContent = "To repozytorium nie posiada opisu.";
+                            descTarget.textContent = "This repo does not have a description.";
                         }
                     })
                     .catch(error => {
-                        console.error('Błąd pobierania danych z GitHuba:', error);
-                        descTarget.textContent = "Nie udało się połączyć z serwerem GitHuba.";
+                        console.error('Error fetching data from GitHub:', error);
+                        descTarget.textContent = "Failed to connect to GitHub server.";
                     });
             }
         });
