@@ -842,3 +842,80 @@ html, body, .site-main {
     font-style: italic;
     margin: 0 !important;
 }
+/* =========================================
+   12. ZWIJANE TABELE W MARKDOWNIE
+========================================= */
+.custom-table-accordion {
+    background: rgba(15, 15, 15, 0.85);
+    border: 1px solid var(--color-border);
+    border-radius: 8px;
+    margin: 0.5rem auto !important; /* Zmniejszamy margines górny i dolny do minimum */
+    overflow: hidden;
+    max-width: 100%;
+}
+
+/* Usuwamy domyślny margines z tekstu/akapitu, który znajduje się zaraz pod tabelą */
+.custom-table-accordion + p {
+    margin-top: 0 !important;
+}
+
+/* Pasek tytułowy tabeli */
+.custom-table-accordion summary {
+    padding: 1rem 1.5rem;
+    cursor: pointer;
+    font-family: var(--font-pixel, monospace);
+    font-size: 0.9rem;
+    color: var(--color-text-main);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    list-style: none; /* Ukrywa systemowy trójkącik w Firefox */
+    background: rgba(20, 20, 20, 0.9);
+    transition: background 0.3s ease;
+}
+
+/* Ukrywa systemowy trójkącik w Chrome/Edge */
+.custom-table-accordion summary::-webkit-details-marker {
+    display: none;
+}
+
+.custom-table-accordion summary:hover {
+    background: rgba(255, 255, 255, 0.03);
+}
+
+/* Własna, animowana strzałka w czystym CSS (bez dodawania SVG) */
+.custom-table-accordion summary::after {
+    content: "";
+    display: inline-block;
+    width: 8px;
+    height: 8px;
+    border-right: 2px solid var(--color-primary-blue);
+    border-bottom: 2px solid var(--color-primary-blue);
+    transform: rotate(45deg);
+    transition: transform 0.3s ease;
+    margin-left: 15px;
+}
+
+/* Animacja strzałki przy otwarciu */
+.custom-table-accordion[open] summary::after {
+    transform: rotate(-135deg);
+    margin-top: 5px;
+}
+
+/* Gdy tabela jest otwarta, dodajemy linię pod nagłówkiem */
+.custom-table-accordion[open] summary {
+    border-bottom: 1px solid var(--color-border);
+}
+
+/* Reset stylów dla tabeli, żeby idealnie wpasowała się w nowe "pudełko" */
+.custom-table-accordion table {
+    margin: 0 !important;
+    border: none !important;
+    border-radius: 0 !important;
+    background: transparent !important;
+    width: 100% !important;
+}
+
+.custom-table-accordion th {
+    background: rgba(15, 73, 190, 0.05); /* Lżejsze tło dla nagłówków wewnątrz akordeonu */
+}
