@@ -2,7 +2,7 @@
 layout: "layouts/post.html"
 tags: ["post"]
 title: "IcePi Zero dev Extension"
-date: "2026-07-17"
+date: "2026-08-13"
 description: "A companion article and a documentation for my extension for IcePi Zero"
 image: "/images/blog/icePiExtension/cover.jpg"
 article_tags: ["Documentation", "IcePiZero"]
