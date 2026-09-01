@@ -859,63 +859,80 @@ html, body, .site-main {
     margin-top: 0 !important;
 }
 
-/* Pasek tytułowy tabeli */
+/* Pasek tytułowy tabeli (układ identyczny jak w PDF) */
 .custom-table-accordion summary {
     padding: 1rem 1.5rem;
     cursor: pointer;
     font-family: var(--font-pixel, monospace);
-    font-size: 0.9rem;
+    font-size: 1rem; /* Powiększone do 1rem, aby pasowało do PDF */
     color: var(--color-text-main);
     display: flex;
-    justify-content: space-between;
+    justify-content: flex-start; /* Równa tytuł i podpowiedź do lewej */
     align-items: center;
-    list-style: none; /* Ukrywa systemowy trójkącik w Firefox */
+    list-style: none;
     background: rgba(20, 20, 20, 0.9);
     transition: background 0.3s ease;
 }
 
-/* Ukrywa systemowy trójkącik w Chrome/Edge */
 .custom-table-accordion summary::-webkit-details-marker {
     display: none;
 }
 
-.custom-table-accordion summary:hover {
-    background: rgba(255, 255, 255, 0.03);
-}
-
-/* Własna, animowana strzałka w czystym CSS (bez dodawania SVG) */
-.custom-table-accordion summary::after {
+/* 1. Wstrzyknięta ikona pliku przed tytułem (identyczna jak w PDF) */
+.custom-table-accordion summary::before {
     content: "";
     display: inline-block;
-    width: 8px;
-    height: 8px;
-    border-right: 2px solid var(--color-primary-blue);
-    border-bottom: 2px solid var(--color-primary-blue);
-    transform: rotate(45deg);
-    transition: transform 0.3s ease;
-    margin-left: 15px;
+    width: 20px;
+    height: 20px;
+    margin-right: 12px;
+    background-color: var(--color-text-main);
+    /* Używamy maski, aby narysować SVG z zachowaniem koloru tekstu */
+    -webkit-mask: url('data:image/svg+xml;utf8,<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8z"></path><polyline points="14 2 14 8 20 8"></polyline><line x1="16" y1="13" x2="8" y2="13"></line><line x1="16" y1="17" x2="8" y2="17"></line><polyline points="10 9 9 9 8 9"></polyline></svg>') no-repeat center;
+    mask: url('data:image/svg+xml;utf8,<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8z"></path><polyline points="14 2 14 8 20 8"></polyline><line x1="16" y1="13" x2="8" y2="13"></line><line x1="16" y1="17" x2="8" y2="17"></line><polyline points="10 9 9 9 8 9"></polyline></svg>') no-repeat center;
 }
 
-/* Animacja strzałki przy otwarciu */
+/* 2. Tekst CLICK TO EXPAND + strzałka wstrzyknięte zaraz za tytułem */
+.custom-table-accordion summary::after {
+    content: "CLICK TO EXPAND \25BE"; /* \25BE to trójkąt w dół (▾) */
+    font-family: var(--font-main, sans-serif);
+    font-size: 0.75rem;
+    color: var(--color-text-muted);
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    margin-left: 12px;
+    
+    /* Resetujemy stare zachowanie strzałki rysowanej z borderów */
+    border: none;
+    width: auto;
+    height: auto;
+    transform: none;
+    transition: color 0.3s ease;
+}
+
+/* Stan otwarty: Zmiana koloru i odwrócenie trójkąta */
 .custom-table-accordion[open] summary::after {
-    transform: rotate(-135deg);
-    margin-top: 5px;
+    content: "CLICK TO EXPAND \25B4"; /* \25B4 to trójkąt w górę (▴) */
+    color: var(--color-primary-blue);
+    margin-top: 0;
+    transform: none;
 }
 
-/* Gdy tabela jest otwarta, dodajemy linię pod nagłówkiem */
 .custom-table-accordion[open] summary {
     border-bottom: 1px solid var(--color-border);
 }
 
-/* Reset stylów dla tabeli, żeby idealnie wpasowała się w nowe "pudełko" */
+/* Reset stylów dla tabeli (zostaje bez zmian) */
 .custom-table-accordion table {
     margin: 0 !important;
     border: none !important;
     border-radius: 0 !important;
     background: transparent !important;
     width: 100% !important;
+    margin-top: 0 !important;
+    margin-bottom: 0 !important;
 }
 
 .custom-table-accordion th {
-    background: rgba(15, 73, 190, 0.05); /* Lżejsze tło dla nagłówków wewnątrz akordeonu */
+    background: rgba(15, 73, 190, 0.05);
 }
+

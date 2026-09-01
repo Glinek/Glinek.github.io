@@ -504,4 +504,6 @@ document.addEventListener('DOMContentLoaded', () => {
             aboutSlides[currentAboutIndex].classList.add('active');
         }, 4000); // 4000 milisekund = zmiana co 4 sekundy
     }
+    
+    
 });

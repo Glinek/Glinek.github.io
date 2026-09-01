@@ -19,8 +19,8 @@ This is a documentation for my custom Pi Pico 2W made using [Raspberry Pi's Hard
 <details class="custom-table-accordion">
 <summary> Boards Pinout</summary>
 
-![alt text](/images/blog/customPicoZero/pinout.jpeg)
 ![alt text](/images/blog/customPicoZero/pinoutBoard.png)
+![alt text](/images/blog/customPicoZero/pinout.jpeg)
 _(Pinout assignment graphic generated using Google's Gemini)_
 
 </details>
@@ -36,13 +36,13 @@ _(Pinout assignment graphic generated using Google's Gemini)_
 | C3,C4 | 15p | 2 | Front | 0603 | |
 | C6,C7,C9 | 4.7u | 3 | Front | 0603 | |
 | D1 | LED | 1 | Front | 0603 | |
-| L1 | 3.3u | 1 | Front | - | NRS5040T4R7NMGK |
-| R1 | 10k | 1 | Front | 0603 | DNP |
+| L1 | 3.3u | 1 | Front | - | AOTA-B201610S3R3-1 |
+| R1 | 10k | 1 | Front | 0603 | DNP* |
 | R2,R4,R6 | 1k | 3 | Front | 0603 | |
 | R3,R14 | 33 | 2 | Front | 0603 | |
 | R5,R11 | 5.1k | 2 | Back | 0603 | |
 | R7,R8 | 27 | 2 | Front | 0603 | |
-| R9 | 0 | 1 | Front | 0603 | DNP |
+| R9 | 0 | 1 | Front | 0603 | DNP* |
 | R10 | 0 | 1 | Front | 0603 | |
 | R12 | 470 | 1 | Front | 0603 | |
 | R13 | 10k | 1 | Front | 0603 | |
@@ -54,6 +54,7 @@ _(Pinout assignment graphic generated using Google's Gemini)_
 | SW1,SW3 | | 2 | Front | - | PTS815SJM250SMTR |
 | J1 | | 1 | Front | - | 40-pin GPIO |
 | J2 | | 1 | Front | - | Receptacle USB2.0 14P |
+__*(D)o (N)ot (P)opulate__
 
 </details>
 
