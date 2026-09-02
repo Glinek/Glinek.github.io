@@ -2,7 +2,7 @@
 layout: "layouts/post.html"
 tags: ["post"]
 title: "Custom Pico 2w"
-date: "2026-08-14"
+date: "2026-08-30"
 description: "A companion article and a documentation for my custom Pi Pico 2W in a Pi Zero formfactor"
 image: "/images/blog/customPicoZero/picoPhoto.jpg"
 article_tags: ["Documentation", "Pico"]
@@ -17,7 +17,7 @@ This is a documentation for my custom Pi Pico 2W made using [Raspberry Pi's Hard
 
 ## Pinout
 <details class="custom-table-accordion">
-<summary> Boards Pinout</summary>
+<summary> Boards Pinout </summary>
 
 ![alt text](/images/blog/customPicoZero/pinoutBoard.png)
 ![alt text](/images/blog/customPicoZero/pinout.jpeg)
@@ -27,7 +27,7 @@ _(Pinout assignment graphic generated using Google's Gemini)_
 
 ## BOM
 <details class="custom-table-accordion">
-<summary> BOM</summary>
+<summary> BOM </summary>
 
 | Reference | Value | Qty | Placement | Package | Notes |
 | :--- | :--- | :--- | :--- | :--- | :--- |
