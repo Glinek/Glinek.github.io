@@ -15,6 +15,10 @@ This is a documentation for my custom Pi Pico 2W made using [Raspberry Pi's Hard
 {% set repo = "Glinek/MyPico2W" %}
 {% include "partials/github-card.njk" %}
 
+## Buttons
+- **Bootsel** button - press while plugging in to enable mass storage mode
+- **Run** button - press to reset the board
+
 ## Pinout
 <details class="custom-table-accordion">
 <summary> Boards Pinout </summary>
