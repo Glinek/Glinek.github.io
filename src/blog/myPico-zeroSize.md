@@ -1,7 +1,7 @@
 ---
 layout: "layouts/post.html"
 tags: ["post"]
-title: "Custom Pico 2w"
+title: "ANUlab Z-Blade"
 date: "2026-08-30"
 description: "A companion article and a documentation for my custom Pi Pico 2W in a Pi Zero formfactor"
 image: "/images/blog/customPicoZero/picoPhoto.jpg"
@@ -12,7 +12,7 @@ This is a documentation for my custom Pi Pico 2W made using [Raspberry Pi's Hard
 
 
 ## Git repo :)
-{% set repo = "Glinek/MyPico2W" %}
+{% set repo = "Glinek/ANUlab_Z-Blade" %}
 {% include "partials/github-card.njk" %}
 
 ## Buttons
