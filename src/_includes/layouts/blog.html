@@ -11,55 +11,57 @@
             {% set currentYear = "" %}
             
             {% for post in postsList %}
-                {% set postYear = post.date.getFullYear() %}
-                
-                {% set prevYear = "" %}
-                {% if loop.index0 > 0 %}
-                    {% set prevYear = postsList[loop.index0 - 1].date.getFullYear() %}
-                {% endif %}
-                
-                {% set nextYear = "" %}
-                {% if not loop.last %}
-                    {% set nextYear = postsList[loop.index0 + 1].date.getFullYear() %}
-                {% endif %}
-                
-                {% if postYear != currentYear %}
-                    <div class="year-divider">
-                        <h2>{{ postYear }}</h2>
-                    </div>
-                    {% set currentYear = postYear %}
-                {% endif %}
-
-                {% set cardClass = "" %}
-                {% if postYear != prevYear and postYear != nextYear %}
-                    {% set cardClass = "card-center" %} {# Jedyny post w roku = środek #}
-                {% elif loop.index0 % 2 == 0 %}
-                    {% set cardClass = "card-left" %}   {# Parzyste = lewo #}
-                {% else %}
-                    {% set cardClass = "card-right" %}  {# Nieparzyste = prawo #}
-                {% endif %}
-
-                <div class="blog-card {{ cardClass }}">
+                {% if not post.data.draft %}
+                    {% set postYear = post.date.getFullYear() %}
                     
-                    <div class="blog-image">
-                        <img src="{{ post.data.image }}" alt="{{ post.data.title }}">
-                    </div>
+                    {% set prevYear = "" %}
+                    {% if loop.index0 > 0 %}
+                        {% set prevYear = postsList[loop.index0 - 1].date.getFullYear() %}
+                    {% endif %}
                     
-                    <div class="blog-info">
-                        <span class="card-date">{{ post.date.toDateString().slice(4) }}</span>
-                        <h2 class="post-title">{{ post.data.title }}</h2>
-                        <p>{{ post.data.description }}</p>
+                    {% set nextYear = "" %}
+                    {% if not loop.last %}
+                        {% set nextYear = postsList[loop.index0 + 1].date.getFullYear() %}
+                    {% endif %}
+                    
+                    {% if postYear != currentYear %}
+                        <div class="year-divider">
+                            <h2>{{ postYear }}</h2>
+                        </div>
+                        {% set currentYear = postYear %}
+                    {% endif %}
+
+                    {% set cardClass = "" %}
+                    {% if postYear != prevYear and postYear != nextYear %}
+                        {% set cardClass = "card-center" %} {# Jedyny post w roku = środek #}
+                    {% elif loop.index0 % 2 == 0 %}
+                        {% set cardClass = "card-left" %}   {# Parzyste = lewo #}
+                    {% else %}
+                        {% set cardClass = "card-right" %}  {# Nieparzyste = prawo #}
+                    {% endif %}
+
+                    <div class="blog-card {{ cardClass }}">
                         
-                        <div class="blog-tags">
-                            {% for tag in post.data.article_tags %}
-                                <span class="tag">{{ tag }}</span>
-                            {% endfor %}
+                        <div class="blog-image">
+                            <img src="{{ post.data.image }}" alt="{{ post.data.title }}">
+                        </div>
+                        
+                        <div class="blog-info">
+                            <span class="card-date">{{ post.date.toDateString().slice(4) }}</span>
+                            <h2 class="post-title">{{ post.data.title }}</h2>
+                            <p>{{ post.data.description }}</p>
+                            
+                            <div class="blog-tags">
+                                {% for tag in post.data.article_tags %}
+                                    <span class="tag">{{ tag }}</span>
+                                {% endfor %}
+                            </div>
+
+                            <a href="{{ post.url }}" class="card-btn">Read More <span class="arrow">&rarr;</span></a>
                         </div>
 
-                        <a href="{{ post.url }}" class="card-btn">Read More <span class="arrow">&rarr;</span></a>
                     </div>
-
-                </div>
+                {% endif %}
             {% endfor %}
         </div>
     </div>

@@ -7,6 +7,7 @@ description: "I have built my own Raspberry Pi Pico. and you can to!"
 image: "/images/blog/howToPico/picoPhotoAnnoted.jpg"
 article_tags: ["tutorial", "Pico"]
 hide_image: false
+draft: true
 ---
 In this post I will try to explain how to create your own Raspberry Pi Pico (Pi Pico 2 or Pico 2W to be precise :) ) and hopefully help you with your next big project.
 
